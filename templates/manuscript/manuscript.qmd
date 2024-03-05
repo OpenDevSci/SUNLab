@@ -81,17 +81,91 @@ _Detail the statistical tests or models employed to analyze the data, including 
 
 
 ## Results
-Present the findings of the study, supported by statistical analysis, tables, and figures as necessary.
-`r lorem::ipsum(paragraphs = 3)`
+
+```{r}
+#| echo: FALSE
+#| output: FALSE
+
+# This is an example of a basic analysis code chunk
+## Load necessary libraries
+library(ggplot2)
+
+## Simple linear regression analysis with 'mtcars' dataset
+lm_model <- lm(mpg ~ wt, data = mtcars)
+
+## Summary of the linear model
+summary(lm_model)
+
+```
+
+
+```{r, broomoutput}
+#| echo: FALSE
+
+## Using broom to tidy the regression model results for presentation in-text
+library(broom)
+
+library(broom)
+
+# Tidy the regression model output for easy access to coefficients
+tidy_lm <- broom::tidy(lm_model)
+
+# Round the coefficients to 2 decimal places
+tidy_lm$estimate <- round(tidy_lm$estimate, 2)
+tidy_lm$std.error <- round(tidy_lm$std.error, 2)
+tidy_lm$statistic <- round(tidy_lm$statistic, 2)
+tidy_lm$p.value <- round(tidy_lm$p.value, 2)
+
+# Extract the rounded coefficient and p-value for 'wt'
+wt_coefficient <- tidy_lm$estimate[2] # The coefficient of 'wt', rounded to 2 decimal places
+wt_pvalue <- tidy_lm$p.value[2] # The p-value for the 'wt' coefficient, rounded to 2 decimal places
+
+# Glance at the model's summary statistics to get R-squared and round it
+model_summary <- broom::glance(lm_model)
+
+# Round the summary statistics to 2 decimal places
+model_summary$r.squared <- round(model_summary$r.squared, 2)
+model_summary$statistic <- round(model_summary$statistic, 2)
+model_summary$p.value <- round(model_summary$p.value, 2)
+
+# Assign the rounded values to variables
+r_squared <- model_summary$r.squared # R-squared value, rounded to 2 decimal places
+f_statistic <- model_summary$statistic # F-statistic, rounded to 2 decimal places
+model_pvalue <- model_summary$p.value # Model p-value, rounded to 2 decimal places
+
+
+```
+
+The regression analysis revealed that for every additional 1,000 pounds of weight, the car's miles per gallon decreases by an average of `r wt_coefficient` units (p = `r wt_pvalue`). This model explains `r r_squared`% of the variance in fuel efficiency, indicating a strong relationship between car weight and mpg. The model's F-statistic is `r f_statistic`, with a p-value of `r model_pvalue`, demonstrating the statistical significance of the regression model.
+
+The following portion of code [geom_smooth()` using formula = 'y ~ x'] still shows in the rendered text even though I have set `#| echo: FALSE`. Please advise.
+```{r, fig.width=4, fig.height=4}
+#| echo: FALSE
+
+# This is an example of a basic scatterplot of the regression analysis.
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+    geom_point() +
+    geom_smooth(method = "lm", col = "blue") +
+    labs(title = "MPG vs. Car Weight", x = "Weight (1000 lbs)", y = "Miles per Gallon") +
+    theme_minimal()
+
+```
+
+
+```{r, fig.width=4, fig.height=4}
+#| echo: FALSE
+
+# This is an example of a diagnostic plot of the regression analysis.
+
+par(mfrow = c(2, 2)) # Arrange plots in a 2x2 grid
+plot(lm_model)
+
+```
 
 
 ### [Subsection Title]
-_Present specific findings related to a particular aspect of the study, supported by data._
-`r lorem::ipsum(paragraphs = 1)`
-
-
-### [Subsection Title]
-_Discuss another set of findings, providing details on the analysis and interpretation._
+_Present additional findings related to a particular aspect of the study, supported by data._
 `r lorem::ipsum(paragraphs = 1)`
 
 
