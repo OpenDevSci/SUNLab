@@ -1,65 +1,47 @@
 ---
-title: "midFEMA Manuscript"
+title: "Manuscript Title"
 authors:
-  - name: Samuel W. Hawes
-    email: "shawes@fiu.edu"
+  - name: Jane Doe
+    email: "janedoe@mockuniversity.edu"
     affiliations:
-      - name: Florida International University
-        department: Psychology
+      - name: University of Mock 
+        department: Department of Something 
         city: Miami
         state: Florida
         country: United States
-  - name: Mohammadreza Bayat
-    email: "mbayat@fiu.edu"
+  - name: Author 2
+    email: "xxxxxx"
     affiliations:
-      - name: Florida International University
-        department: Psychology
-        city: Miami
-        state: Florida
-        country: United States
-  - name: Anthony Dick
-    email: "adick@fiu.edu"
+      - name: xxxxx
+        department: xxxxxx
+        city: xxxxx
+        state: xxxxx
+        country: xxxxxx
+  - name: Additional Co-author(s)
+    email: "xxxxxxx"
     affiliations:
-      - name: Florida International University
-        department: Psychology
-        city: Miami
-        state: Florida
-        country: United States
-  - name: Raul Gonzalez
-    email: "gonzara@fiu.edu"
-    affiliations:
-      - name: Florida International University
-        department: Psychology
-        city: Miami
-        state: Florida
-        country: United States
-  - name: Additional Co-authors
-    email: "tbd@fiu.edu"
-    affiliations:
-      - name: Florida International University
-        department: Psychology
-        city: Miami
-        state: Florida
-        country: United States
+      - name: xxxxx
+        department: xxxxxx
+        city: xxxx
+        state: xxxxx
+        country: xxxxxx
 
 abstract: |
-  The midFEMA research project is aimed at identifying and analyzing neurodevelopmental biomarkers for severe behavioral and emotional problems in youth. By leveraging Fast and Efficient Mixed‐Effects Analysis (FEMA) in conjunction with voxelwise task-based reward activation measurements, we aim to uncover insights into brain development and functioning across a large, prospectively followed sample of approximately 9,000 youth aged 9–16 years from the Adolescent Brain and Cognitive Development (ABCD) study.
+  The is the abstract section.  Ipsum leo porta – lacinia sed ac interdum nec vel ad. Elementum augue platea eleifend himenaeos nisl, viverra sem molestie. Hendrerit enim torquent litora fusce ultrices, magna, lacus id potenti! Imperdiet vulputate etiam conubia sem mi incep- tos. Quisque mollis viverra lacinia bibendum ultricies, dui est gravida tristique nascetur. Pellentesque id elementum com- modo pretium quisque purus mi taciti.
+
 index-terms: 
-  - Longitudinal
-  - fMRI
-  - DBD
-  - FEMA
-  - MID
+  - Keyword 1
+  - Keyword 2 
+  - Keyword 3
+  - Keyword 4
+  - Keyword 5
+
 format:
   ieee-typst: default
 bibliography: references.bib
 ---
-
 ```{r}
 #| echo: FALSE
-#| messages: FALSE
-#| warning: FALSE
-#| output: FALSE
 library(lorem)
 ```
 
