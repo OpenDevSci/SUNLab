@@ -164,6 +164,23 @@ digraph G {
 
 ---
 
+
+```{mermaid}
+flowchart TB
+    A["Start"] --> B{"Choose Language"}
+    B -->|R| C["Data Analysis"]
+    B -->|Python| D["Data Analysis"]
+    C --> E["Statistical Models"]
+    D --> F["Machine Learning"]
+    E --> G["Visualization"]
+    F --> H["Deep Learning"]
+    G --> I["Publish Results"]
+    H --> I
+    I --> J["End"]
+
+```
+---
+
 ![Programming Languages](https://example.com/path/to/programming_languages.png "Programming Languages"){: .custom-img }
 
 ## Different Languages for Different Tasks
