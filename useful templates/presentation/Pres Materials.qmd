@@ -1,58 +1,168 @@
 ---
 title: "Enhancing Research with Modern Data Tools"
-format: 
+format:
   revealjs:
     slide-level: 2
     theme: night
     transition: convex
     highlight-theme: monokai
-    css: 
-      - custom.css
----
-
-<style>
-/* Custom CSS for styling */
-.reveal h1, h2, h3, h4, h5, h6 {
-  color: #82CAFF; /* Sky Blue text for headers */
-}
-
-.reveal p {
-  color: #E0FFFF; /* Light Cyan for regular text */
-}
-
-.custom-button {
-  padding: 10px 20px;
-  background-color: #4CAF50; /* Green */
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 16px;
-}
-
-.custom-img {
-  border: 5px solid #555; /* Add border to images */
-}
-</style>
-
-# Introduction 🚀
-
-Today, we'll explore essential tools that can significantly enhance our research lab's productivity and data analysis capabilities, including GitHub, IDEs like VSCode and RStudio, Quarto, Apache Arrow, and Polars dataframe.
-<!-- 
-![Research Tools](https://example.com/path/to/img.png "Research Tools"){: .custom-img }
 
 ---
-# Bridging the Gap to Modern Data Tools
 
-Transitioning from traditional tools like Excel and SPSS to modern data tools involves understanding a few foundational elements of computing and programming. Let's start with the basics.
+```{mermaid}
+graph TD
+    Python --> Syntax
+    Python --> Libraries
+    Python --> Data_Types
+    Python --> Control_Flows
+    Python --> Functions
+    Python --> Object_Oriented
+    Python --> Error_Handling
+    Python --> Modules
+    Python --> File_IO
+    Python --> Standard_Library
+    Python --> Third_Party_Modules
 
-# Understanding Programming Languages 🌐
+    Data_Types --> Primitive[Primitive Data Types]
+    Data_Types --> Collections[Collections Data Types]
 
-## What is a Programming Language?
+    Primitive --> Integers
+    Primitive --> Floats
+    Primitive --> Strings
+    Primitive --> Booleans
 
-A programming language is a formal language comprising a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
+    Collections --> Lists
+    Collections --> Tuples
+    Collections --> Sets
+    Collections --> Dictionaries
+
+    Control_Flows --> If_Statement
+    Control_Flows --> For_Loop
+    Control_Flows --> While_Loop
+    Control_Flows --> Try_Except
+
+    Object_Oriented --> Classes
+    Object_Oriented --> Objects
+    Object_Oriented --> Inheritance
+    Object_Oriented --> Polymorphism
+    Object_Oriented --> Encapsulation
+
+    File_IO --> Reading_Files[Reading Files]
+    File_IO --> Writing_Files[Writing Files]
+
+    Standard_Library --> Math_Module[Math Module]
+    Standard_Library --> Datetime_Module[Datetime Module]
+    Standard_Library --> Sys_Module[Sys Module]
+    Standard_Library --> Os_Module[Os Module]
+
+    Third_Party_Modules --> Requests[Requests Module]
+    Third_Party_Modules --> Numpy[Numpy Module]
+    Third_Party_Modules --> Pandas[Pandas Module]
+    Third_Party_Modules --> Matplotlib[Matplotlib Module]
+```
+
+---
+
+```{mermaid}
+sequenceDiagram
+    participant U as User
+    participant V as VS Code
+    participant G as GitHub Codespaces
+
+    U->>V: Start VS Code with GitHub Codespaces extension
+    V->>U: Request GitHub authentication
+    U->>V: Provide GitHub authentication
+    V->>G: Fetch list of available Codespaces
+    G->>V: Return list of Codespaces
+    U->>V: Select a Codespace
+    V->>G: Initialize selected Codespace
+    G->>V: Open development environment in VS Code
+    U->>V: Interact with Codespace (code, run, debug)
+    U->>V: Commit and push changes
+    V->>G: Sync changes to GitHub repository
+    U->>V: Stop/close Codespace session
+    V->>G: Disconnect from Codespace
+
+```
+
+---
+
+```{dot}
+digraph G {
+    node [shape=box];
+
+    subgraph cluster_0 {
+        style=filled;
+        color=lightgrey;
+        label = "R Ecosystem";
+        R -> { "ggplot2" "dplyr" "shiny" "tidyr" "caret" };
+        "ggplot2" [style=filled, color="#FDBE85"];
+        "dplyr" [style=filled, color="#FDBE85"];
+        "shiny" [style=filled, color="#FDBE85"];
+        "tidyr" [style=filled, color="#FDBE85"];
+        "caret" [style=filled, color="#FDBE85"];
+    }
+
+    subgraph cluster_1 {
+        style=filled;
+        color=lightblue;
+        label = "Python Ecosystem";
+        Python -> { "Matplotlib" "Pandas" "Scikit-learn" "NumPy" "TensorFlow" };
+        "Matplotlib" [style=filled, color="#FDCDAC"];
+        "Pandas" [style=filled, color="#FDCDAC"];
+        "Scikit-learn" [style=filled, color="#FDCDAC"];
+        "NumPy" [style=filled, color="#FDCDAC"];
+        "TensorFlow" [style=filled, color="#FDCDAC"];
+    }
+
+    R -> Python [style=dashed, constraint=false, label="interoperability\nvia reticulate"];
+}
+
+```
+
+---
+
+```{dot}
+digraph G {
+    rankdir=LR;
+    node [shape=plaintext];
+    // Define nodes for R and Python
+    R [label="R Ecosystem\n\n" shape=ellipse style=filled color="#76b7b2" fontcolor=white];
+    Python [label="Python Ecosystem\n\n" shape=ellipse style=filled color="#f28e2b" fontcolor=white];
+
+    // Define subgraph for R
+    subgraph cluster_R {
+        label = "R Libraries";
+        color="#4e79a7";
+        style="rounded";
+        ggplot2 [label="ggplot2" URL="https://ggplot2.tidyverse.org/" shape=box style=filled color="#b07aa1" fontcolor=white];
+        dplyr [label="dplyr" URL="https://dplyr.tidyverse.org/" shape=box style=filled color="#9c755f" fontcolor=white];
+        shiny [label="shiny" URL="https://shiny.rstudio.com/" shape=box style=filled color="#f1ce63" fontcolor=black];
+        tidyr [label="tidyr" URL="https://tidyr.tidyverse.org/" shape=box style=filled color="#59a14f" fontcolor=white];
+        caret [label="caret" URL="http://topepo.github.io/caret/" shape=box style=filled color="#edc949" fontcolor=black];
+        R -> {ggplot2 dplyr shiny tidyr caret};
+    }
+
+    // Define subgraph for Python
+    subgraph cluster_Python {
+        label = "Python Libraries";
+        color="#59a14f";
+        style="rounded";
+        Matplotlib [label="Matplotlib" URL="https://matplotlib.org/" shape=box style=filled color="#76b7b2" fontcolor=white];
+        Pandas [label="Pandas" URL="https://pandas.pydata.org/" shape=box style=filled color="#ff9da7" fontcolor=black];
+        ScikitLearn [label="Scikit-learn" URL="https://scikit-learn.org/" shape=box style=filled color="#4e79a7" fontcolor=white];
+        NumPy [label="NumPy" URL="https://numpy.org/" shape=box style=filled color="#f28e2b" fontcolor=white];
+        TensorFlow [label="TensorFlow" URL="https://www.tensorflow.org/" shape=box style=filled color="#e15759" fontcolor=white];
+        Python -> {Matplotlib Pandas ScikitLearn NumPy TensorFlow};
+    }
+
+    // Interoperability edge
+    R -> Python [label="interoperability\nvia reticulate", style=dashed, color="#bab0ab"];
+}
+
+```
+
+---
 
 ![Programming Languages](https://example.com/path/to/programming_languages.png "Programming Languages"){: .custom-img }
 
@@ -241,4 +351,12 @@ Let's embrace these technologies to push the boundaries of our research.
 
 - 📝 [Markdown Tutorial](https://www.google.com/search?q=Markdown+tutorial)
 - 🐍 [Python for Data Science](https://www.google.com/search?q=Python+for+data+science)
-- 📊 [Data Visualization Techniques](https://www.google.com/search?q=data+visualization+techniques) -->
+- 📊 [Data Visualization Techniques](https://www.google.com/search?q=data+visualization+techniques)
+
+## Different Languages for Different Tasks
+
+- **R**: ![R](https://example.com/path/to/r_icon.png "R"){: .custom-img } Excellent for data analysis, statistics, and machine learning.
+- **Python**: ![Python](https://example.com/path/to/python_icon.png "Python"){: .custom-img } Excellent for data analysis, statistics, and machine learning.
+- **Julia**: ![Julia](https://example.com/path/to/julia_icon.png "Julia"){: .custom-img } Known for high-performance numerical analysis and computational science.
+- **JavaScript**: ![JavaScript](https://example.com/path/to/javascript_icon.png "JavaScript"){: .custom-img } Primarily used for creating interactive web pages.
+- **C**: ![C](https://example.com/path/to/c_icon.png "C"){: .custom-img } Low-level programming for system software and embedded systems.
