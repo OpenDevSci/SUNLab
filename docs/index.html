@@ -4,12 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SUNLab</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <style>
     body, html {
         height: 100%;
         margin: 0;
         font-family: Arial, sans-serif;
         color: white;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: color 0.3s ease;
+    }
+    .navbar a:hover {
+        color: #ddd;
+    }
+    .navbar .fa {
+        margin-right: 8px;
     }
     .hero {
         background-image: url('./img/sun1.jpeg');
@@ -25,7 +45,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        background-color: rgba(0, 0, 0, 0.5);
     }
     .hero-text {
         text-align: center;
@@ -42,7 +62,12 @@
 </style>
 </head>
 <body>
-s
+
+<div class="navbar">
+    <a href="/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+    <a href="https://github.com"><i class="fab fa-github"></i> GitHub</a>
+</div>
+
 <div class="hero">
   <div class="hero-overlay"></div>
   <div class="hero-text">
