@@ -138,7 +138,7 @@ model_pvalue <- model_summary$p.value # Model p-value, rounded to 2 decimal plac
 
 The regression analysis revealed that for every additional 1,000 pounds of weight, the car's miles per gallon decreases by an average of `r wt_coefficient` units (p = `r wt_pvalue`). This model explains `r r_squared`% of the variance in fuel efficiency, indicating a strong relationship between car weight and mpg. The model's F-statistic is `r f_statistic`, with a p-value of `r model_pvalue`, demonstrating the statistical significance of the regression model.
 
-The following portion of code [geom_smooth()` using formula = 'y ~ x'] still shows in the rendered text even though I have set `#| echo: FALSE`. Please advise.
+The following portion of code [geom_smooth()` using formula = 'y ~ x'] still shows in the rendered text even though I have set `#| echo: FALSE`.
 ```{r, fig.width=4, fig.height=4}
 #| echo: FALSE
 
