@@ -7,7 +7,93 @@ format:
     scrolling: true
 ---
 
----
+
+```{r setup, include=FALSE}
+library(tidyverse)
+
+# Function to read data and convert date
+prepare_data <- function() {
+    weekly_data <- read_csv("testdata.csv")
+    weekly_data$Week <- as.Date(weekly_data$Week, format = "%m/%d/%y")
+    return(weekly_data)
+}
+
+# Function to plot data for a given follow-up period
+plot_follow_up <- function(weekly_data, follow_up_column, title) {
+    ggplot(weekly_data, aes(x = Week, y = !!sym(follow_up_column))) +
+        geom_line(color = "#3498db") + # Blue for the main data line
+        geom_point(color = "#2ecc71", size = 3, shape = 18) + # Green for data points
+        geom_smooth(method = "lm", color = "#e74c3c", se = FALSE) + # Red for the trend line
+        geom_hline(yintercept = 4, color = "#f39c12", linetype = "dashed", size = 1) + # Orange for the goal line
+        labs(
+            title = title,
+            x = "Week",
+            y = "Completed"
+        ) +
+        theme_minimal() +
+        theme(
+            plot.title = element_text(face = "bold", size = 14, hjust = 0.5),
+            axis.title = element_text(size = 12),
+            axis.text.x = element_text(angle = 45, hjust = 1),
+            legend.title = element_text(size = 10)
+        ) +
+        scale_x_date(date_breaks = "2 weeks", date_labels = "%m/%d")
+}
+
+# Read and prepare the data
+weekly_data <- prepare_data()
+```
+
+## Row {height=40%}
+
+::: {.row}
+::: {.col width=4}
+# 5-Year Follow-up
+```{r}
+plot_5_year <- plot_follow_up(weekly_data, "5_Year_Follow-up", "5-Year Follow-up Assessments")
+plot_5_year
+```
+
+:::
+::: {.col width=4}
+# 66-Month Follow-up
+```{r}
+plot_66_month <- plot_follow_up(weekly_data, "66_Month_Follow-up", "66-Month Follow-up Assessments")
+plot_66_month
+```
+
+:::
+::: {.col width=4}
+# 6-Year Follow-up
+```{r}
+plot_6_year <- plot_follow_up(weekly_data, "6_Year_Follow-up", "6-Year Follow-up Assessments")
+plot_6_year
+```
+
+:::
+:::
+
+## Row {height=30%}
+::: {.row}
+::: {.col width=6}
+# 78-Month Follow-up
+```{r}
+plot_78_month <- plot_follow_up(weekly_data, "78_Month_Follow-up", "78-Month Follow-up Assessments")
+plot_78_month
+```
+
+:::
+::: {.col width=6}
+
+# 7-Year Follow-up
+```{r}
+plot_7_year <- plot_follow_up(weekly_data, "7_Year_Follow-up", "7-Year Follow-up Assessments")
+plot_7_year
+```
+
+:::
+:::
+
 ## Row {height=40%}
 
 ```{r}
