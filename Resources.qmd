@@ -1,0 +1,18 @@
+**Markdown**
+
+[Markdown Guide](https://www.markdownguide.org/)
+
+**Git/Github**
+[Happy Git with R](https://happygitwithr.com/)
+
+**R**
+
+[Advanced R](https://adv-r.hadley.nz/)
+
+**Quarto**
+
+[Quarto Website](https://quarto.org/)
+
+**VScode**
+
+[VSCode Basics](https://code.visualstudio.com/docs/introvideos/basics)
