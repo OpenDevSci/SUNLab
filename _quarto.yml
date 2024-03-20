@@ -21,6 +21,8 @@ website:
         href: index.html
       - text: "Dashboard"
         href: dashboard.html
+      - text: "Projects"
+        href: projects.html
       - text: "Resources"
         href: Resources.html
       - text: "GitHub"

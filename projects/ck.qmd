@@ -1,0 +1,35 @@
+Methods and Materials 
+
+Participants and Procedure 
+
+This study consisted of XX participants (age range XX, mean XX; XX% female; XX% White, XX% Black, XX% Asian, XX% other; XX% non-Hispanic and XX% Hispanic) enrolled in the Adolescent Brain Cognitive Development (ABCD) Study. The ABCD study consisted of annual follow-up visits (Baseline, Y1, Y2, Y3, etc.). Participants and their parents/guardians were recruited from 21 research sites across the U.S. between 2016-2018. The participants were recruited through probability sampling of U.S. schools within the 21 catchment areas. The American Community Survey (ACS) and the National Center for Education Statistics (NCES) were used to provide guidelines for a sociodemographic (age, gender, race and ethnicity, socio-economic status, and urbanicity) to represent the population of the U.S. For details see Garavan et al., (2018). All study procedures were approved by a centralized institutional review board (IRB) at the University of California, San Diego, and written informed assent/consent was provided.  
+
+Exclusion criteria for the youth participant included lack of English proficiency, the presence of severe sensory, intellectual, medial, or neurological issues that would impact the validity of the collected data or the child’s ability to comply with the study protocol, and contradictions of the MRI scanning.  Exclusion criteria for the parent participant included lack of proficiency in English or Spanish. Data from the ABCD Study are made available by the National Institute of Mental Health Data Archive (NDA), and the current study used data from the ABCD Curated Annual Release 5.0 (10.15154/8873-zj65) released June 16, 2023. 
+
+Annual visits consisted of 1-2 study sessions, which included biological, behavioral, and neuroimaging assessment modules, including substance use (Lisdahl et al., 2018), mental and physical health (Barch et al., 2018), peer, family, culture, and environment (Zucker et al., 2018), biological markers (Uban at al., 2018), genetics (Iacono et al., 2018), neurocognitive (Luciana et al., 2018), and magnetic resonance imaging (Casey et al., 2018). For the current study, neurocognitive and activity data were obtained at the 2-year follow-up timepoint, and substance use measures were obtained during the 4-year follow-up timepoint. Sociodemographic information was collected from the parent participants (family income, highest parental education, child’s ethnicity and race, and child’s sex assigned at birth) (Garavan et al., 2018). 
+
+ADD IN THE SU GROUPINGS 
+
+ 
+
+Measures 
+
+Substance Use 
+
+Confidentiality was reiterated to the youth before the substance use interview. At the baseline assessment the youth were asked about lifetime use, and each follow-up visit proceeding the youth were asked about substance use since the last follow up visit (Lisdahl et al., 2018). The substance use module consisted of each major drug category: alcohol, cannabis and cannabinoids (smoked cannabis, edible cannabis, cannabis concentrates, cannabis-infused alcohol, cannabis tinctures, synthetic cannabinoids), nicotine (tobacco cigarettes, electronic cigarettes, smokeless tobacco, cigars, hookah, tobacco pipe, nicotine replacement), caffeine, cocaine, cathinones, methamphetamine, 3,4-methylenedioxymethamphetamine (MDMA, ecstasy or molly), ketamine, gamma hydroxybutyrate, heroin, hallucinogens (including lysergic acid diethylamide, phencyclidine, peyote, mescaline, N-dimethyltryptamine, alpha-methyltryptamine, or 5-methoxy-N,N-diisopropyltryptamine), psilocybin, salvia, anabolic steroids, inhalants, prescription stimulants, prescription sedatives, prescription opioids, and OTC cough or cold medicine (Lisdahl et al., 2018).  
+
+Substance use experimentation was a measurement of less than one standard drink of alcohol and a puff or taste of cannabis or nicotine or any other occasion of other substance use (Lisdahl et al., 2018). The iSay Sipping Inventory, an 8-item instrument, was used to measure first experiences sipping alcohol (age of onset, type of alcohol, context in which the sipping occurred, who the drink belonged to, and if the drink was offered or not) (Jackson et al., 2015). Similar information was acquired for cannabis and nicotine (where they obtained the substance, when the experience occurred, and whether it led to further use); potency and subjective experience of feeling “high” were also assessed (Lisdahl et al., 2018). For youth who reported a full standard unit of a substance, the Timeline Follow-Back (TLFB) was administered (Lisdahl et al., 2018; Sobell and Sobell, 1992). The TLFB is a semi-structured interview that uses a calendar to retrospectively recall lifetime substance use and substance use between visits (Lisdahl et al., 2018; Robinson et al., 2014). The current study mimicked the characterization of substance use from a previous study, Sullivan et al., 2022, by using the following two categories: initiation: reported ≥1 standard alcohol drink, >puff/taste cannabis or nicotine or any other occasion of other substance use; experimentation: low-level substance use (i.e., alcohol sipping, nicotine or cannabis puffing or trying) (Sullivan et al., 2022). 
+
+ 
+
+Activity Measurement  – ADD IN INFORMATION ABOUT PA 
+
+Physical activity was assessed through wearable technology (Fitbit Charge Series) for 21 days (Bagot et al., 2018). Days were included with more than 599 daily minutes of waking wear time and minimum of 1000 daily steps (Nagata et al., 2023). Physical activity was separated into three categories with cutoffs based on standardizing analytic methods of metabolic equivalents (METs) (light activity 1.5-3.0 METs, moderate activity 3.0-6.0 METs, and vigorous activity >6.0 METs) (Welk et al., 2019). Using METs provides daily profiles of activity patterns, and the physical activity can be individualized relative to fitness level (Welk et al., 2019). 
+
+ 
+
+Analysis 
+
+ADD INFORMATION ABOUT ANALYSIS ORDINAL LOGISTIC REGRESSION 
+
+ 
