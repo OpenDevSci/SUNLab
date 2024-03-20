@@ -1,0 +1,28 @@
+project:
+  type: website
+
+format:
+  html:
+    css: styles.css
+    include-in-header: header-includes.html
+    theme: cosmo
+    # Add other global HTML formatting options here
+
+website:
+  title: "SUNLab"
+  # Specify the site navigation
+  navbar:
+    logo: "img/sun_favicon.jpeg"
+    pinned: true
+    collapse: true
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Dashboard"
+        href: dashboard.html
+      - text: "Resources"
+        href: Resources.html
+      - text: "GitHub"
+        href: "https://github.com/OpenDevSci/SUNLab"
+
+# Include any other global configurations here

@@ -1,19 +1,51 @@
 ---
-title: "SUNLab Analytics Dashboard"
+#title: "SUNLab Analytics Dashboard"
+#navbar: false
 format: 
   dashboard:
-    logo: img/sun1.jpeg
+    #logo: img/sun1.jpeg
     nav-buttons: [github]
     scrolling: true
 ---
 
+```{=html}
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        transition: color 0.3s ease;
+    }
+    .navbar a:hover {
+        color: #ddd;
+    }
+    .navbar .fa {
+        margin-right: 8px;
+    }
+    </style>
+
+```
 
 ```{r setup, include=FALSE}
 library(tidyverse)
 
 # Function to read data and convert date
 prepare_data <- function() {
-    weekly_data <- read_csv("testdata.csv")
+    weekly_data <- read_csv("data/testdata.csv")
     weekly_data$Week <- as.Date(weekly_data$Week, format = "%m/%d/%y")
     return(weekly_data)
 }
@@ -44,10 +76,10 @@ plot_follow_up <- function(weekly_data, follow_up_column, title) {
 weekly_data <- prepare_data()
 ```
 
-## Row {height=40%}
+## Row {height=20%}
 
 ::: {.row}
-::: {.col width=4}
+::: {.col width=3}
 # 5-Year Follow-up
 ```{r}
 plot_5_year <- plot_follow_up(weekly_data, "5_Year_Follow-up", "5-Year Follow-up Assessments")
@@ -151,7 +183,7 @@ library(tidyr) # Make sure to load the tidyr package
 library(readr)
 
 # Assuming data has already been read and prepared
-data <- read_csv("Modified2024MarBiospec_Recoded.csv")
+data <- read_csv("data/Modified2024MarBiospec_Recoded.csv")
 
 # Convert 'asnt_timestamp' to Date format
 data$asnt_timestamp <- as.Date(data$asnt_timestamp)
@@ -188,7 +220,7 @@ library(tidyr) # Make sure to load the tidyr package
 library(readr)
 
 # Assuming data has already been read and prepared
-data <- read_csv("Modified2024MarBiospec_Recoded.csv")
+data <- read_csv("data/Modified2024MarBiospec_Recoded.csv")
 
 # Convert 'asnt_timestamp' to Date format
 data$asnt_timestamp <- as.Date(data$asnt_timestamp)
