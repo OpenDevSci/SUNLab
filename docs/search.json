@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "templates/presentation/EMP.html#key-contacts",
+    "href": "templates/presentation/EMP.html#key-contacts",
+    "title": "Emergency Management Procedures for ABCD FIU",
+    "section": "Key Contacts",
+    "text": "Key Contacts\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-0456\n📧 raul.gonzalezjr@fiu.edu\n☎️ office phone: 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-1980\n📧 shawes@fiu.edu\n☎️ office phone: 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-3762\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-9664\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami information & referral, 24/7: 211 and online"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#responsible-clinician-involvement",
+    "href": "templates/presentation/EMP.html#responsible-clinician-involvement",
+    "title": "Emergency Management Procedures for ABCD FIU",
+    "section": "Responsible Clinician Involvement",
+    "text": "Responsible Clinician Involvement\n\nPrimary Contact: On-Call Clinician as per schedule.\n\n🚑 Backup: Dr. Hawes (or Dr. Gonzalez) in the absence of the On-Call Clinician.\n📝 Post-Incident: Complete and submit an Incident Report Form to Dr. Hawes (or Dr. Gonzalez).\n\n\nIncident Response Procedure\n\nAssessment: Staff assessors (Research Assistants/Associates) identify and gather details on potential imminent risk situations.\nCommunication: Information relayed to the responsible clinician for further evaluation.\nDetermination: The responsible clinician will make the final determination on the participant’s risk level and necessary actions.\nVirtual Protocols: Ensure a secondary communication method (e.g., personal phone) for uninterrupted contact during virtual assessments.\nSupport: Immediate briefing and additional support from Dr. Hawes (or Drs. Gonzalez or Laird)."
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks",
+    "href": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Different Languages for Different Tasks",
+    "text": "Different Languages for Different Tasks\n\nR, Python: Excellent for data analysis, statistics, and machine learning.\nJulia: Known for high-performance numerical analysis and computational science.\nJavaScript: Primarily used for creating interactive web pages.\nC: Low-level programming for system software and embedded systems."
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#understanding-file-formats",
+    "href": "templates/presentation/Pres Materials.html#understanding-file-formats",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Understanding File Formats",
+    "text": "Understanding File Formats\nFile formats like .qmd (Quarto Markdown), .json (JavaScript Object Notation), and .md (Markdown) define how information is stored and structured in a file.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#text-formats-ascii-vs.-unicode",
+    "href": "templates/presentation/Pres Materials.html#text-formats-ascii-vs.-unicode",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Text Formats: ASCII vs. Unicode",
+    "text": "Text Formats: ASCII vs. Unicode\n\nASCII: A character encoding standard for electronic communication, representing text in computers. Limited to 128 characters.\nUnicode: A universal character encoding standard that includes a repertoire of more than 143,000 characters covering 154 modern and historic scripts, as well as emoji and symbols.\n\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#bits-and-bytes-the-basics-of-digital-storage",
+    "href": "templates/presentation/Pres Materials.html#bits-and-bytes-the-basics-of-digital-storage",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Bits and Bytes: The Basics of Digital Storage",
+    "text": "Bits and Bytes: The Basics of Digital Storage\n\nBit: The smallest unit of data in computing, represented as either 0 or 1.\nByte: A group of 8 bits. Used to encode a single character of text in most computer systems.\n\n{: .custom-img }\nUnderstanding these basics helps in grasping how data and instructions are represented and manipulated in computing, laying the groundwork for exploring more advanced tools and languages."
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#understanding-git-and-github",
+    "href": "templates/presentation/Pres Materials.html#understanding-git-and-github",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Understanding Git and GitHub",
+    "text": "Understanding Git and GitHub\nGit is a distributed version control system that tracks changes in source code during software development. GitHub is a cloud-based hosting service that lets you manage Git repositories.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#benefits-for-research",
+    "href": "templates/presentation/Pres Materials.html#benefits-for-research",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Benefits for Research",
+    "text": "Benefits for Research\n\nCollaboration: Simplifies working on projects with multiple contributors. 🤝\nVersion Control: Keeps a history of changes, allowing you to revert to previous states. 🕒\nGitHub Projects: An excellent tool for managing research projects with Kanban boards. 📋\n\nExplore GitHub"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#why-ides",
+    "href": "templates/presentation/Pres Materials.html#why-ides",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Why IDEs?",
+    "text": "Why IDEs?\nIDEs enhance coding efficiency with features like syntax highlighting, code completion, and debugging tools."
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#vscode",
+    "href": "templates/presentation/Pres Materials.html#vscode",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "VSCode",
+    "text": "VSCode\nVisual Studio Code (VSCode) is a powerful, open-source IDE that supports multiple programming languages and extensions, making it ideal for our diverse projects.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#rstudio",
+    "href": "templates/presentation/Pres Materials.html#rstudio",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "RStudio",
+    "text": "RStudio\nFor those familiar with R, RStudio provides an excellent environment tailored for R development, including data visualization and package management.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#what-is-markdown",
+    "href": "templates/presentation/Pres Materials.html#what-is-markdown",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "What is Markdown?",
+    "text": "What is Markdown?\nMarkdown is a lightweight markup language with plain-text formatting syntax. Its main goal is to be readable and easy to write, making it ideal for documentation, note-taking, and content creation.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#benefits-for-research-labs",
+    "href": "templates/presentation/Pres Materials.html#benefits-for-research-labs",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Benefits for Research Labs",
+    "text": "Benefits for Research Labs\n\nSimplicity: Easy to learn and use, even for those without a background in web development. 🚀\nVersatility: Supports various output formats including HTML, PDF, and slides, making it suitable for reports, presentations, and web content. 📊\nCollaboration: Plain text format facilitates version control and collaboration through platforms like GitHub. 👥"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#getting-started-with-markdown",
+    "href": "templates/presentation/Pres Materials.html#getting-started-with-markdown",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Getting Started with Markdown",
+    "text": "Getting Started with Markdown\n\nUse any text editor to create a .md file.\nLearn the basic syntax: headings, lists, links, images, code blocks, etc.\nUse tools like Pandoc to convert Markdown files to other formats.\n\nLearn More About Markdown"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#what-is-quarto",
+    "href": "templates/presentation/Pres Materials.html#what-is-quarto",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\nQuarto is an open-source scientific and technical publishing system that allows you to create dynamic and reproducible research documents.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#benefits",
+    "href": "templates/presentation/Pres Materials.html#benefits",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Benefits",
+    "text": "Benefits\n\nIntegration: Works seamlessly with Jupyter, R Markdown, and Observable. 🔗\nFlexibility: Supports HTML, PDF, and Word outputs. 📄\n\nGet Started with Quarto"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#what-are-github-codespaces",
+    "href": "templates/presentation/Pres Materials.html#what-are-github-codespaces",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "What are GitHub Codespaces?",
+    "text": "What are GitHub Codespaces?\nGitHub Codespaces provides a complete, configurable dev environment within GitHub that allows you to develop entirely in the cloud. It eliminates the need to maintain local development setups, making it easier to start new projects or switch between them.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#benefits-for-research-labs-1",
+    "href": "templates/presentation/Pres Materials.html#benefits-for-research-labs-1",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Benefits for Research Labs",
+    "text": "Benefits for Research Labs\n\nAccessibility: Access your development environment from anywhere, on any device. 🌍\nConsistency: Ensure a consistent development environment for all lab members, reducing “works on my machine” problems. 🔄\nIntegration: Seamlessly integrates with GitHub repositories, pull requests, and actions. 🔗"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#getting-started-with-codespaces",
+    "href": "templates/presentation/Pres Materials.html#getting-started-with-codespaces",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Getting Started with Codespaces",
+    "text": "Getting Started with Codespaces\n\nNavigate to a GitHub repository and click the “Code” button.\nSelect “Open with Codespaces” and then “New codespace” to create your environment.\n\nExplore GitHub Codespaces"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#overview",
+    "href": "templates/presentation/Pres Materials.html#overview",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Overview",
+    "text": "Overview\nApache Arrow is a cross-language development platform for in-memory data, designed to improve the efficiency of data processing and data exchange between systems.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#why-apache-arrow",
+    "href": "templates/presentation/Pres Materials.html#why-apache-arrow",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Why Apache Arrow?",
+    "text": "Why Apache Arrow?\n\nPerformance: Optimizes data processing speed. ⚡\nInteroperability: Facilitates data exchange across different programming languages. 🔄"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#introduction-to-polars",
+    "href": "templates/presentation/Pres Materials.html#introduction-to-polars",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Introduction to Polars",
+    "text": "Introduction to Polars\nPolars is a high-performance data frame library written in Rust, offering lazy computations and efficient memory usage, making it ideal for large datasets.\n{: .custom-img }"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#why-polars",
+    "href": "templates/presentation/Pres Materials.html#why-polars",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Why Polars?",
+    "text": "Why Polars?\n\nSpeed: Designed for fast data manipulation and analysis. 💨\nCompatibility: Works well with Apache Arrow. ✔️"
+  },
+  {
+    "objectID": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks-1",
+    "href": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks-1",
+    "title": "Enhancing Research with Modern Data Tools",
+    "section": "Different Languages for Different Tasks",
+    "text": "Different Languages for Different Tasks\n\nR: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nPython: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nJulia: {: .custom-img } Known for high-performance numerical analysis and computational science.\nJavaScript: {: .custom-img } Primarily used for creating interactive web pages.\nC: {: .custom-img } Low-level programming for system software and embedded systems."
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#our-team",
+    "href": "templates/presentation/EMP_2.html#our-team",
+    "title": "Emergency Medical Plan",
+    "section": "Our Team",
+    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-xxxx\n📧 raul.gonzalezjr@fiu.edu\n☎️ 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-xxxx\n📧 shawes@fiu.edu\n☎️ 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-xxxx\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-xxxx\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663"
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#emergency-contacts",
+    "href": "templates/presentation/EMP_2.html#emergency-contacts",
+    "title": "Emergency Medical Plan",
+    "section": "Emergency Contacts",
+    "text": "Emergency Contacts\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211 or visit Switchboard Miami"
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#responsible-clinician",
+    "href": "templates/presentation/EMP_2.html#responsible-clinician",
+    "title": "Emergency Medical Plan",
+    "section": "Responsible Clinician",
+    "text": "Responsible Clinician\n\n\n\n\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*see also CCF On-Call Clinician calendar"
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Lab Resources",
+    "section": "",
+    "text": "Add DEAP link\nAdd LongDev link\nAdd xxxxx\n\nWe’ve compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nMarkdown allows you to write using an easy-to-read, easy-to-write plain text format:\n\nMarkdown Guide\n\n\n\n\nLearn how to use Git and GitHub with R for version control and collaboration:\n\nHappy Git with R\n\n\n\n\nEnhance your R programming skills with this comprehensive guide:\n\nAdvanced R\n\n\n\n\nExplore how to use Quarto to create dynamic and reproducible research documents:\n\nQuarto Website\n\n\n\n\nGet started with Visual Studio Code to enhance your coding experience:\n\nVSCode Basics"
+  },
+  {
+    "objectID": "Resources.html#welcome-to-our-labs-resource-page",
+    "href": "Resources.html#welcome-to-our-labs-resource-page",
+    "title": "Lab Resources",
+    "section": "",
+    "text": "Add DEAP link\nAdd LongDev link\nAdd xxxxx\n\nWe’ve compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nMarkdown allows you to write using an easy-to-read, easy-to-write plain text format:\n\nMarkdown Guide\n\n\n\n\nLearn how to use Git and GitHub with R for version control and collaboration:\n\nHappy Git with R\n\n\n\n\nEnhance your R programming skills with this comprehensive guide:\n\nAdvanced R\n\n\n\n\nExplore how to use Quarto to create dynamic and reproducible research documents:\n\nQuarto Website\n\n\n\n\nGet started with Visual Studio Code to enhance your coding experience:\n\nVSCode Basics"
+  }
+]
