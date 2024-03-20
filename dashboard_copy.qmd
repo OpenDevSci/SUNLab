@@ -78,6 +78,8 @@ weekly_data <- prepare_data()
 
 ## Row {height=20%}
 
+::: {.row}
+::: {.col width=3}
 # Weekly Completions
 ```{r}
 plot_5_year <- plot_follow_up(weekly_data, "5_Year_Follow-up", "5-Year Follow-up Assessments")
@@ -95,7 +97,6 @@ plot_6_year <- plot_follow_up(weekly_data, "6_Year_Follow-up", "6-Year Follow-up
 plot_6_year
 ```
 
-```{r}
 plot_78_month <- plot_follow_up(weekly_data, "78_Month_Follow-up", "78-Month Follow-up Assessments")
 plot_78_month
 ```
@@ -105,21 +106,31 @@ plot_7_year <- plot_follow_up(weekly_data, "7_Year_Follow-up", "7-Year Follow-up
 plot_7_year
 ```
 
-# Biometrics
+:::
+::: {.col width=4}
+# 66-Month Follow-up
+testing
 
-## Row {height=60%}
+:::
+::: {.col width=4}
+testing
 
-```{r}
+:::
+:::
 
-library(palmerpenguins)
-library(ggplot2)
+## Row {height=30%}
+::: {.row}
+::: {.col width=6}
+testing
 
-# Basic bar chart of weekly biospecimen count
-ggplot(data = penguins, aes(x = species)) +
-    geom_bar(fill = "steelblue") +
-    theme_minimal() +
-    labs(title = "Count of Weekly Biospecimens", x = "Species", y = "Count")
-```
+:::
+::: {.col width=6}
+
+# 7-Year Follow-up
+test
+
+:::
+:::
 
 ## Row {height=40%}
 
@@ -137,6 +148,19 @@ ggplot(data = penguins, aes(x = species)) +
 
 ```{r}
 
+library(palmerpenguins)
+library(ggplot2)
+
+# Basic bar chart of weekly biospecimen count
+ggplot(data = penguins, aes(x = species)) +
+    geom_bar(fill = "steelblue") +
+    theme_minimal() +
+    labs(title = "Count of Weekly Biospecimens", x = "Species", y = "Count")
+```
+
+## Row {height=30%}
+
+```{r}
 # Basic scatter plot of continuousXcontinuous association
 ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
     geom_point(alpha = 0.7) +
@@ -144,12 +168,6 @@ ggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, color = spec
     labs(title = "Add continuousXcontinuous Chart", x = "add x-axis label", y = "add y-axis label")
 
 ```
-
-
-
-# TestingTab1
-
-## Row {height=30%}
 
 ```{r}
 # Histogram of xxxxxx
@@ -159,6 +177,8 @@ ggplot(data = penguins, aes(x = body_mass_g)) +
     labs(title = "Histogram of xxxxxx", x = "add x-axis title", y = "add y-axis title")
 
 ```
+
+## Row {height=30%}
 
 ```{r}
 
@@ -197,18 +217,119 @@ ggplot(data_weekly, aes(x = week, y = count, color = variable)) +
 
 ```
 
-## Row {height=70%}
-
 ```{r}
 
-# Histogram of xxxxxx
-ggplot(data = penguins, aes(x = body_mass_g)) +
-    geom_histogram(fill = "darkgreen", bins = 30) +
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(tidyr) # Make sure to load the tidyr package
+library(readr)
+
+# Assuming data has already been read and prepared
+data <- read_csv("data/Modified2024MarBiospec_Recoded.csv")
+
+# Convert 'asnt_timestamp' to Date format
+data$asnt_timestamp <- as.Date(data$asnt_timestamp)
+
+# Prepare the data: Aggregate counts by week for each variable using pivot_longer
+# Filtering out rows where 'week' or 'variable' might be NA.
+# 'value == 1' already ensures 'value' is not NA for those rows.
+data_weekly <- data %>%
+    mutate(week = floor_date(asnt_timestamp, unit = "week")) %>%
+    pivot_longer(cols = c(hair_status_y, dna_blood_y, teeth_donated_1_p), names_to = "variable", values_to = "value") %>%
+    filter(value == 1) %>%
+    filter(!is.na(week) & !is.na(variable)) %>%
+    group_by(week, variable) %>%
+    summarise(count = n(), .groups = "drop")
+
+# Plotting line charts
+line_chart <- ggplot(data_weekly, aes(x = week, y = count, group = variable, color = variable)) +
+    geom_line() +
+    geom_point() +
+    labs(
+        title = "Weekly Count of 'Yes' Responses by Variable",
+        subtitle = "Line Chart",
+        x = "Week",
+        y = "Count of 'Yes' Responses",
+        color = "Variable"
+    ) +
     theme_minimal() +
-    labs(title = "Histogram of xxxxxx", x = "add x-axis title", y = "add y-axis title")
+    scale_color_manual(values = c("hair_status_y" = "blue", "dna_blood_y" = "green", "teeth_donated_1_p" = "red"))
+
+# Plotting bar charts for each variable
+bar_chart <- ggplot(data_weekly, aes(x = week, y = count, fill = variable)) +
+    geom_bar(stat = "identity", position = position_dodge()) +
+    labs(
+        title = "Weekly Count of 'Yes' Responses by Variable",
+        subtitle = "Bar Chart",
+        x = "Week",
+        y = "Count of 'Yes' Responses"
+    ) +
+    facet_wrap(~variable, scales = "free_y") +
+    theme_minimal() +
+    scale_fill_manual(values = c("hair_status_y" = "blue", "dna_blood_y" = "green", "teeth_donated_1_p" = "red"))
+
+# Optional: Combining line and bar charts using patchwork
+# library(patchwork)
+# (line_chart / bar_chart) +
+#     plot_annotation(
+#         title = "Weekly Count of 'Yes' Responses by Variable",
+#         theme = theme(plot.title = element_text(hjust = 0.5))
+#     )
 
 ```
 
+<!-- 
 
-# TestingTab2
-# TestingTab3
+```{r}
+
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(tidyr) # Make sure to load the tidyr package
+library(readr)
+
+# Assuming data has already been read and prepared
+data <- read_csv("Modified2024MarMobTech_Recoded.csv")
+
+# Convert 'asnt_timestamp' to Date format
+data$asnt_timestamp <- as.Date(data$asnt_timestamp)
+
+# Prepare the data: Aggregate counts by week for each variable using pivot_longer
+data_weekly <- data %>%
+    mutate(week = floor_date(asnt_timestamp, unit = "week")) %>%
+    pivot_longer(cols = c(fitbit_assent), names_to = "variable", values_to = "value") %>%
+    filter(value == 1) %>%
+    group_by(week, variable) %>%
+    summarise(count = n(), .groups = "drop")
+
+# Plotting the line chart
+line_chart <- ggplot(data_weekly, aes(x = week, y = count, group = variable, color = variable)) +
+    geom_line() +
+    geom_point() +
+    labs(
+        title = "Weekly Count of 'Yes' Responses by Variable",
+        x = "Week",
+        y = "Count of 'Yes' Responses"
+    ) +
+    theme_minimal() +
+    scale_color_manual(values = c("fitbit_assent" = "green"))
+
+# Plotting the bar chart for fitbit_assent variable
+bar_chart <- ggplot(data_weekly %>% filter(variable == "fitbit_assent"), aes(x = week, y = count, fill = variable)) +
+    geom_bar(stat = "identity", color = "black", fill = "lightgreen") +
+    labs(
+        title = "Weekly Count of 'Yes' Responses for Fitbit Assent",
+        x = "Week",
+        y = "Count of 'Yes' Responses"
+    ) +
+    theme_minimal()
+
+# Optional: If you want to display both charts in the same plotting window, you can use the gridExtra or patchwork package
+library(patchwork)
+line_chart + bar_chart
+
+
+
+
+``` -->

@@ -1,234 +1,17 @@
 [
   {
-    "objectID": "Resources.html",
-    "href": "Resources.html",
-    "title": "SUNLab",
-    "section": "",
-    "text": "Markdown\nMarkdown Guide\nGit/Github\nHappy Git with R\nR\nAdvanced R\nQuarto\nQuarto Website\nVScode\nVSCode Basics"
+    "objectID": "templates/presentation/EMP.html#key-contacts",
+    "href": "templates/presentation/EMP.html#key-contacts",
+    "title": "Emergency Management Procedures for ABCD FIU",
+    "section": "Key Contacts",
+    "text": "Key Contacts\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-0456\n📧 raul.gonzalezjr@fiu.edu\n☎️ office phone: 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-1980\n📧 shawes@fiu.edu\n☎️ office phone: 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-3762\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-9664\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami information & referral, 24/7: 211 and online"
   },
   {
-    "objectID": "templates/presentation/EMP_2.html#our-team",
-    "href": "templates/presentation/EMP_2.html#our-team",
-    "title": "Emergency Medical Plan",
-    "section": "Our Team",
-    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-xxxx\n📧 raul.gonzalezjr@fiu.edu\n☎️ 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-xxxx\n📧 shawes@fiu.edu\n☎️ 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-xxxx\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-xxxx\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663"
-  },
-  {
-    "objectID": "templates/presentation/EMP_2.html#emergency-contacts",
-    "href": "templates/presentation/EMP_2.html#emergency-contacts",
-    "title": "Emergency Medical Plan",
-    "section": "Emergency Contacts",
-    "text": "Emergency Contacts\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211 or visit Switchboard Miami"
-  },
-  {
-    "objectID": "templates/presentation/EMP_2.html#responsible-clinician",
-    "href": "templates/presentation/EMP_2.html#responsible-clinician",
-    "title": "Emergency Medical Plan",
-    "section": "Responsible Clinician",
-    "text": "Responsible Clinician\n\n\n\n\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*see also CCF On-Call Clinician calendar"
-  },
-  {
-    "objectID": "docs/git-onboarding.html",
-    "href": "docs/git-onboarding.html",
-    "title": "git-onboarding",
-    "section": "",
-    "text": "https://swcarpentry.github.io/git-novice/10-open.html https://guides.nyu.edu/data_management/version-control https://www.ucl.ac.uk/advanced-research-computing/expertise/research-software-development/research-software-development-tools/support-ucl-researchers https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108 https://www.ccdatalab.org/blog/git-workflows-for-scientific-projects-and-when-we-use-them https://github.blog/2022-07-20-heres-how-academic-research-is-shaping-github-discussions/ https://www.uu.nl/en/research/research-data-management/tools/software-and-computing/github-and-git https://neurathsboat.blog/post/git-intro/ https://www.knowledgehut.com/blog/data-science/github-for-data-science\nhttps://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html\nhttps://www.ben-johnston.co.uk/git-for-data-analysts-the-complete-guide/ https://www.linkedin.com/pulse/how-set-up-maintain-sop-repository-documentation-shafayetul-islam\nhttps://tilburgsciencehub.com/building-blocks/configure-your-computer/infrastructure-choice/configure-git/ https://course.ccs.neu.edu/cs3500/labs_git_lab.html\nhttps://ourcodingclub.github.io/tutorials/git-for-labs/\nhttps://happygitwithr.com/index.html\nIDEs (Rstudio vs VScode)\nzotero\nbibtex; https://retorque.re/zotero-better-bibtex/citing/\nhttps://happygitwithr.com/index.html\nhttps://youtu.be/RGOj5yH7evk\nsunlab readme (for all “folders”?)\nhttps://guides.library.upenn.edu/datamgmt/fileorg\nhttps://files.nccih.nih.gov/s3fs-public/CR-Toolbox/Version_Control_Guidelines_ver2_07-17-2015.pdf\nhttps://repository.upenn.edu/entities/publication/4716fa55-e397-4765-9aa8-12311b5acac4\nhttps://ourcodingclub.github.io/tutorials/git-for-labs/\nsteps for our lab\ncommon commands\nvscode/rstudio\nhttps://swcarpentry.github.io/git-novice/\nhttps://missing.csail.mit.edu/2020/version-control/\nhttps://lab.github.com/githubtraining/introduction-to-github\nhttps://youtu.be/U8GBXvdmHT4\nhttps://m.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR\ndirectory structure\nnaming conventions\n“A repo with a very good README and clear documentation, frequent high-quality issues/PRs, and clear concern for best practices (like, not committing secrets or large files, CI/CD if necessary, unit tests) is way more important than a specific folder structure.\nBioinformatics (and academia more broadly) suffers greatly from software that is pure dog water. I think a hiring manager would be more interested in your ability to produce maintainable, robust, high-quality software and write strong, technical documentation and result reporting that describes how you did your analysis over the nuances of how you name your folders.”\nI agree, a good readme is critical and often a good indicator of a well-tracked repo. You will thank yourself later in the future as well for having well-documented, reproducible code.\nDon’t put data or output in your repo, just scripts. Have your Readme summarize each script, and the order they should be run if applicable.\nIf you really want to show output, have an html from an rmd output.\nAs a beginner, what setup currently works for me is:\nInitialize a Git repository\nCreate folders data, results, scripts and notebooks (nowadays I also create a reports folder to store RMarkdown reports, but that may be a subject of taste). Put the contents of data and results folders into .gitignore. Thus, only the code and documentation are versioned (however, the structure inside the data folders also matters for code readability)\nI start the analysis in notebooks. Once a chunk of workflow (e.g., sample QC) is completed, I refactor the code, test it again and separate the logical parts into individual scripts. Then I test that sequence of scripts. If everything works fine, I delete the notebook (I personally do not like how notebooks interact with Git. If I want to showcase the code together with the results, I prefer RMarkdown)\nRight now I’m working on improving my documentation practices. I think going with a README with a general description of the project, outline of main steps in your scripts and their order (e.g., PROJECT.md) and DATA.md which summarizes where you got the data you use\nPrivate repos. You could also set up a Jupyter-book with collaborators.\nIf you are a student, register for a student acct.\nOthers have mentioned that if you use a private repo, you should avoid uploading actual data files to the github. This is the .gitignore file I use to ensure that:\nhttps://learngitbranching.js.org/\nhttps://git-scm.com/book/en/v2\nOther lab resources r tidyverse wickham easystats how to use"
-  },
-  {
-    "objectID": "docs/Contributing.html",
-    "href": "docs/Contributing.html",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Welcome to the midFEMA contributing guide! We’re thrilled to have you join our community of researchers, developers, and contributors. This comprehensive guide outlines how you can contribute to advancing our understanding of neurodevelopmental biomarkers in youth.\n\n\n\nGetting Started 🚀\nGitHub Projects 🗂\nGitHub Codespaces ☁️\nCommunication 📢\nContributing Code\n\nCreating a midFEMA Repository\nGetting Code into the Project Repository\nComposition of Pull Requests\nReviewing Pull Requests\n\nReproducibility\nFeedback and Support 📬\nPull Requests 💼\n\nMaking a Pull Request\nPull Request Review\n\nIssues 🐛\n\nCreating a New Issue\nWorking on an Issue\n\nDiscussions 💬\nSetting Up Your Environment 🛠\nTesting 🧪\nStyle Guide & Coding Conventions ✨\n\n\n\n\nBefore diving into contributions, please familiarize yourself with our project’s README. It provides an essential overview of midFEMA, setting the stage for meaningful contributions.\n\n\nFor those not a repository member: 1. Fork the repository. 2. Clone your fork locally. 3. Create a new branch for your changes. 4. Push changes to your fork. 5. Open a pull request against the main midFEMA repository.\n\n\n\nMembers with push access: 1. Clone the repository directly. 2. Create a new branch for changes. 3. Push the branch to the repository. 4. Open a pull request for review.\n\n\n\n\nAccessing and Using midFEMA GitHub Projects: - Access: Find our project board under the “Projects” tab in our GitHub repository or via this link. - Usage: View tasks, update statuses, and collaborate on issue and pull request links associated with each task card.\n\n\n\nAccessing and Using Codespaces: - Start a new Codespace by clicking the “Open in GitHub Codespaces” badge at the top of our README file. See the Codespaces Setup file for instructions on accessing and using the midFEMA repository Codespace.\n\n\n\nWe prioritize effective communication: - Slack: For quick questions and updates. - GitHub Issues and Discussions: For searchable, more in-depth conversations.\n\n\n\n\n\n\nClone this repository into one that your account owns.\nCommit to your repository first, then move code back to the project repository through pull requests.\n\n\n\n\nFollow the pull request process for code review: 1. Make changes and commit to your repository. 2. Create a pull request into the project repository. 3. Assign reviewers. 4. Once approved, your changes will be merged.\n\n\n\nEach pull request should focus on a single functional area to make reviews more manageable.\n\n\n\nAll project members are expected to participate in the review process, providing thoughtful and constructive feedback.\n\n\n\n\nWe expect all contributors to maintain code that performs reproducible analyses, preferably automated. Scripts for analyses and figure generation should be included in source control.\n\n\n\nEncounter an issue or have a suggestion? Please open an issue for discussion. For immediate help, reach out in our Slack channel.\nThank you for contributing to midFEMA!\nBack to top"
-  },
-  {
-    "objectID": "docs/Contributing.html#table-of-contents",
-    "href": "docs/Contributing.html#table-of-contents",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Getting Started 🚀\nGitHub Projects 🗂\nGitHub Codespaces ☁️\nCommunication 📢\nContributing Code\n\nCreating a midFEMA Repository\nGetting Code into the Project Repository\nComposition of Pull Requests\nReviewing Pull Requests\n\nReproducibility\nFeedback and Support 📬\nPull Requests 💼\n\nMaking a Pull Request\nPull Request Review\n\nIssues 🐛\n\nCreating a New Issue\nWorking on an Issue\n\nDiscussions 💬\nSetting Up Your Environment 🛠\nTesting 🧪\nStyle Guide & Coding Conventions ✨"
-  },
-  {
-    "objectID": "docs/Contributing.html#getting-started",
-    "href": "docs/Contributing.html#getting-started",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Before diving into contributions, please familiarize yourself with our project’s README. It provides an essential overview of midFEMA, setting the stage for meaningful contributions.\n\n\nFor those not a repository member: 1. Fork the repository. 2. Clone your fork locally. 3. Create a new branch for your changes. 4. Push changes to your fork. 5. Open a pull request against the main midFEMA repository.\n\n\n\nMembers with push access: 1. Clone the repository directly. 2. Create a new branch for changes. 3. Push the branch to the repository. 4. Open a pull request for review."
-  },
-  {
-    "objectID": "docs/Contributing.html#github-projects",
-    "href": "docs/Contributing.html#github-projects",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Accessing and Using midFEMA GitHub Projects: - Access: Find our project board under the “Projects” tab in our GitHub repository or via this link. - Usage: View tasks, update statuses, and collaborate on issue and pull request links associated with each task card."
-  },
-  {
-    "objectID": "docs/Contributing.html#github-codespaces",
-    "href": "docs/Contributing.html#github-codespaces",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Accessing and Using Codespaces: - Start a new Codespace by clicking the “Open in GitHub Codespaces” badge at the top of our README file. See the Codespaces Setup file for instructions on accessing and using the midFEMA repository Codespace."
-  },
-  {
-    "objectID": "docs/Contributing.html#communication",
-    "href": "docs/Contributing.html#communication",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "We prioritize effective communication: - Slack: For quick questions and updates. - GitHub Issues and Discussions: For searchable, more in-depth conversations."
-  },
-  {
-    "objectID": "docs/Contributing.html#contributing-code",
-    "href": "docs/Contributing.html#contributing-code",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Clone this repository into one that your account owns.\nCommit to your repository first, then move code back to the project repository through pull requests.\n\n\n\n\nFollow the pull request process for code review: 1. Make changes and commit to your repository. 2. Create a pull request into the project repository. 3. Assign reviewers. 4. Once approved, your changes will be merged.\n\n\n\nEach pull request should focus on a single functional area to make reviews more manageable.\n\n\n\nAll project members are expected to participate in the review process, providing thoughtful and constructive feedback."
-  },
-  {
-    "objectID": "docs/Contributing.html#reproducibility",
-    "href": "docs/Contributing.html#reproducibility",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "We expect all contributors to maintain code that performs reproducible analyses, preferably automated. Scripts for analyses and figure generation should be included in source control."
-  },
-  {
-    "objectID": "docs/Contributing.html#feedback-and-support",
-    "href": "docs/Contributing.html#feedback-and-support",
-    "title": "Contributing to midFEMA 🌟",
-    "section": "",
-    "text": "Encounter an issue or have a suggestion? Please open an issue for discussion. For immediate help, reach out in our Slack channel.\nThank you for contributing to midFEMA!\nBack to top"
-  },
-  {
-    "objectID": "docs/Codespaces-Setup.html",
-    "href": "docs/Codespaces-Setup.html",
-    "title": "MidFEMA Codespace Setup Guide 🚀",
-    "section": "",
-    "text": "Welcome to the midFEMA Codespace setup guide! This document is designed to help you navigate and effectively use GitHub Codespaces for the midFEMA project, focusing on basic R analysis and Quarto for writing-ups. It’s tailored for collaborators with minimal background in Codespaces, VS Code, IDEs, development containers, Docker environments, etc.\n\n\nBefore we jump into the setup, let’s clarify what Codespaces and Dev Containers are and how they benefit your development workflow:\n\n\nThink of Dev Containers as VS Code running inside Docker. They allow you to define a development environment with a Dockerfile or docker-compose.yml, enabling you to run your project in that environment seamlessly—both locally and in the cloud.\n\n\n\nGitHub Codespaces are Dev Containers but hosted in the cloud. Accessed through VS Code, they use Dev Containers configurations to provide a powerful, cloud-based development environment.\n\n\n\nThe combination of VS Code, Dev Containers, and GitHub Codespaces allows you to develop from almost anywhere, on any machine. It’s perfect for standardizing development setups across a team and handling multiple repo environments efficiently.\n\n\n\n\nAccessing and using the midFEMA Codespace is straightforward and doesn’t require complex setup steps.\n\n\n\nNavigate to the midFEMA repository on GitHub.\nClick on the “Code” dropdown button.\nSelect “Open with Codespaces”.\nChoose an existing Codespace to open or click “New codespace” to create a new one.\n\n\n\n\nOpen in GitHub Codespaces\n\n\nThis badge is also prominently displayed at the top of our project’s root README for quick access.\n\n\n\n\nEnvironment Ready: The Codespace comes pre-configured for R analysis and Quarto, allowing you to dive straight into your work.\nSeamless Development: Start scripting in R or drafting in Quarto without worrying about setting up dependencies—they’re all taken care of.\n\n\n\n\nLeverage Codespaces to streamline your continuous integration workflows, ensuring that your development environment closely mirrors production settings for more reliable testing.\n\n\n\n\nThis repository is equipped with a Development Container configuration suitable for both Dev Containers and GitHub Codespaces.\n\nFor Local Use: Utilize the Dev Containers: Clone Repository in Container Volume… command in VS Code for optimal performance.\nQuick Start: If you’ve got VS Code and Docker, click here to auto-setup everything. This process clones the repo, sets up the dev container, and gets you ready to code.\n\n\n\n\nEncountering setup issues or have questions? Don’t hesitate to reach out through our project’s GitHub Discussions or the project’s Slack workspace. We’re here to ensure your Codespace experience is smooth and productive."
-  },
-  {
-    "objectID": "docs/Codespaces-Setup.html#understanding-codespaces-and-dev-containers",
-    "href": "docs/Codespaces-Setup.html#understanding-codespaces-and-dev-containers",
-    "title": "MidFEMA Codespace Setup Guide 🚀",
-    "section": "",
-    "text": "Before we jump into the setup, let’s clarify what Codespaces and Dev Containers are and how they benefit your development workflow:\n\n\nThink of Dev Containers as VS Code running inside Docker. They allow you to define a development environment with a Dockerfile or docker-compose.yml, enabling you to run your project in that environment seamlessly—both locally and in the cloud.\n\n\n\nGitHub Codespaces are Dev Containers but hosted in the cloud. Accessed through VS Code, they use Dev Containers configurations to provide a powerful, cloud-based development environment.\n\n\n\nThe combination of VS Code, Dev Containers, and GitHub Codespaces allows you to develop from almost anywhere, on any machine. It’s perfect for standardizing development setups across a team and handling multiple repo environments efficiently."
-  },
-  {
-    "objectID": "docs/Codespaces-Setup.html#getting-started-with-midfema-codespace",
-    "href": "docs/Codespaces-Setup.html#getting-started-with-midfema-codespace",
-    "title": "MidFEMA Codespace Setup Guide 🚀",
-    "section": "",
-    "text": "Accessing and using the midFEMA Codespace is straightforward and doesn’t require complex setup steps.\n\n\n\nNavigate to the midFEMA repository on GitHub.\nClick on the “Code” dropdown button.\nSelect “Open with Codespaces”.\nChoose an existing Codespace to open or click “New codespace” to create a new one.\n\n\n\n\nOpen in GitHub Codespaces\n\n\nThis badge is also prominently displayed at the top of our project’s root README for quick access.\n\n\n\n\nEnvironment Ready: The Codespace comes pre-configured for R analysis and Quarto, allowing you to dive straight into your work.\nSeamless Development: Start scripting in R or drafting in Quarto without worrying about setting up dependencies—they’re all taken care of.\n\n\n\n\nLeverage Codespaces to streamline your continuous integration workflows, ensuring that your development environment closely mirrors production settings for more reliable testing."
-  },
-  {
-    "objectID": "docs/Codespaces-Setup.html#development-container-configuration",
-    "href": "docs/Codespaces-Setup.html#development-container-configuration",
-    "title": "MidFEMA Codespace Setup Guide 🚀",
-    "section": "",
-    "text": "This repository is equipped with a Development Container configuration suitable for both Dev Containers and GitHub Codespaces.\n\nFor Local Use: Utilize the Dev Containers: Clone Repository in Container Volume… command in VS Code for optimal performance.\nQuick Start: If you’ve got VS Code and Docker, click here to auto-setup everything. This process clones the repo, sets up the dev container, and gets you ready to code."
-  },
-  {
-    "objectID": "docs/Codespaces-Setup.html#seeking-help",
-    "href": "docs/Codespaces-Setup.html#seeking-help",
-    "title": "MidFEMA Codespace Setup Guide 🚀",
-    "section": "",
-    "text": "Encountering setup issues or have questions? Don’t hesitate to reach out through our project’s GitHub Discussions or the project’s Slack workspace. We’re here to ensure your Codespace experience is smooth and productive."
-  },
-  {
-    "objectID": "docs/Discussions.html",
-    "href": "docs/Discussions.html",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "Welcome to the midFEMA Discussions! 🎉 This space is designed for the midFEMA community to share ideas 💡, ask questions ❓, and collaborate 🤝 openly. Whether you’re a researcher, contributor, or just someone with an interest in neurodevelopmental biomarkers, your input is valuable. Here’s how you can get involved.\n\n\nDiscussions provide a forum for ideas, questions, and conversations about the midFEMA project. They allow for:\n\n🔍 Community Support: Get help from the midFEMA community with questions you have.\n💭 Idea Sharing: Share your ideas for new features or improvements.\n🔉 Feedback Collection: Provide feedback on the project and discuss potential changes.\n📚 Knowledge Exchange: Share insights, articles, and resources related to neurodevelopmental biomarkers and related fields.\n\n\n\n\n\n\n\nChoose the Right Category: Select the category that best fits the topic you want to discuss. Our categories include:\n\nGeneral Q&A: For general questions about the midFEMA project.\nIdeas: For suggestions and ideas on how to improve the project.\nShow and Tell: Share what you’ve built using midFEMA or related resources.\nResearch Discussions: For deeper discussions on research topics, findings, and methodologies.\n\nCreate a New Discussion: Click the “New Discussion” button within the chosen category.\nUse a Descriptive Title: Make your title concise but informative to attract the right audience.\nDetail Your Thoughts: Use the text box to provide detailed information or questions. Feel free to include links, images, or code snippets to support your discussion.\n\n\n\n\n\nBe Respectful and Constructive: Always interact with other community members respectfully. Constructive feedback and supportive interactions build a stronger community.\nUse Reactions: If you agree with a comment or find it helpful, use reactions to show support without cluttering the discussion.\nStay On Topic: Keep discussions focused on the original post’s topic. Start a new discussion for different questions or ideas.\n\n\n\n\n\n\n🔎 Do a Quick Search: Before starting a new discussion, use the search feature to see if a similar discussion already exists.\n📝 Provide Rich Context: When asking questions or providing feedback, include as much relevant context as possible.\n✅ Mark Solutions: If you asked a question and received a satisfactory answer, mark the most helpful response as the solution to help others with similar questions.\n\n\n\n\nIf you encounter any issues or have questions about using Discussions, please reach out to the project maintainers or tag them in your discussion post for assistance.\n\n\n\nParticipation in the midFEMA Discussions requires adherence to our Code of Conduct. By engaging in discussions, you agree to uphold this community’s standards.\nThank you for contributing to the midFEMA community through Discussions. Your insights, questions, and feedback help drive the project forward and foster a vibrant community."
-  },
-  {
-    "objectID": "docs/Discussions.html#why-use-discussions",
-    "href": "docs/Discussions.html#why-use-discussions",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "Discussions provide a forum for ideas, questions, and conversations about the midFEMA project. They allow for:\n\n🔍 Community Support: Get help from the midFEMA community with questions you have.\n💭 Idea Sharing: Share your ideas for new features or improvements.\n🔉 Feedback Collection: Provide feedback on the project and discuss potential changes.\n📚 Knowledge Exchange: Share insights, articles, and resources related to neurodevelopmental biomarkers and related fields."
-  },
-  {
-    "objectID": "docs/Discussions.html#how-to-participate",
-    "href": "docs/Discussions.html#how-to-participate",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "Choose the Right Category: Select the category that best fits the topic you want to discuss. Our categories include:\n\nGeneral Q&A: For general questions about the midFEMA project.\nIdeas: For suggestions and ideas on how to improve the project.\nShow and Tell: Share what you’ve built using midFEMA or related resources.\nResearch Discussions: For deeper discussions on research topics, findings, and methodologies.\n\nCreate a New Discussion: Click the “New Discussion” button within the chosen category.\nUse a Descriptive Title: Make your title concise but informative to attract the right audience.\nDetail Your Thoughts: Use the text box to provide detailed information or questions. Feel free to include links, images, or code snippets to support your discussion.\n\n\n\n\n\nBe Respectful and Constructive: Always interact with other community members respectfully. Constructive feedback and supportive interactions build a stronger community.\nUse Reactions: If you agree with a comment or find it helpful, use reactions to show support without cluttering the discussion.\nStay On Topic: Keep discussions focused on the original post’s topic. Start a new discussion for different questions or ideas."
-  },
-  {
-    "objectID": "docs/Discussions.html#best-practices",
-    "href": "docs/Discussions.html#best-practices",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "🔎 Do a Quick Search: Before starting a new discussion, use the search feature to see if a similar discussion already exists.\n📝 Provide Rich Context: When asking questions or providing feedback, include as much relevant context as possible.\n✅ Mark Solutions: If you asked a question and received a satisfactory answer, mark the most helpful response as the solution to help others with similar questions."
-  },
-  {
-    "objectID": "docs/Discussions.html#getting-help",
-    "href": "docs/Discussions.html#getting-help",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "If you encounter any issues or have questions about using Discussions, please reach out to the project maintainers or tag them in your discussion post for assistance."
-  },
-  {
-    "objectID": "docs/Discussions.html#code-of-conduct",
-    "href": "docs/Discussions.html#code-of-conduct",
-    "title": "🗨️ Engaging in midFEMA Discussions",
-    "section": "",
-    "text": "Participation in the midFEMA Discussions requires adherence to our Code of Conduct. By engaging in discussions, you agree to uphold this community’s standards.\nThank you for contributing to the midFEMA community through Discussions. Your insights, questions, and feedback help drive the project forward and foster a vibrant community."
-  },
-  {
-    "objectID": "docs/Issues.html",
-    "href": "docs/Issues.html",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "Welcome to the midFEMA project! Issues are a big part of our collaborative environment. They allow us to track tasks, enhance our project, address bugs, and discuss new features. This guide will help you understand how to effectively use issues for contributing to the project.\n\n\nBefore starting work, please browse our open issues to find something that interests you. Use labels such as 🐛 bug or good first issue to filter for issues that might be a good match for your expertise or interest level.\n\nGood First Issues: If you’re new to the project, look for issues labeled good first issue. These are typically simpler tasks designed to get you familiar with the project workflow.\nBug Fixes: If you’re interested in fixing bugs, search for issues labeled 🐛 bug.\n\n\n\n\nTo maintain consistency and ensure that all necessary information is provided, we use issue templates for different kinds of contributions:\n\nCreating a New Issue: Navigate to our Issue Templates Page and select the template that best matches the type of issue you’re reporting or suggestion you’re making.\nFilling Out the Template: Provide as much detail as possible within the template to help us understand the context and specifics of your issue or suggestion.\n\n\n\n\nIf you want to work on an open issue: - Please comment with .take on the issue. This lets others know you’re working on it. - While we don’t officially assign issues, commenting will inform the community of your intention to tackle the issue and help prevent duplicated efforts.\n\n\n\nIf you’re stuck or have questions: - Don’t hesitate to ask for help in our Slack server or through GitHub Discussions. - Engaging with the community can help resolve questions faster and provides an opportunity for collaborative problem-solving.\n\n\n\nWhen you’re ready to submit your work: - Make sure to link your pull request to the issue it addresses. You can do this by including phrases like Closes #issue_number in your pull request description. - This practice helps automate the closure of issues when pull requests are merged and keeps the project management process streamlined.\n\n\n\n\nIssues with a triage label are awaiting review by the project maintainers. Please refrain from starting work on these until they’ve been reviewed.\n\n\n\n\n\nLabel Reference: Use our Label Reference to understand the types of issues and prioritize.\nSelf-Review Checklist: Before submitting your issue or pull request, go through the Self-Review Checklist to ensure a smooth review process.\n\nThank you for contributing to the midFEMA project! Your efforts help us make strides in understanding neurodevelopmental biomarkers and improving youth mental health research."
-  },
-  {
-    "objectID": "docs/Issues.html#mag-finding-issues-to-work-on",
-    "href": "docs/Issues.html#mag-finding-issues-to-work-on",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "Before starting work, please browse our open issues to find something that interests you. Use labels such as 🐛 bug or good first issue to filter for issues that might be a good match for your expertise or interest level.\n\nGood First Issues: If you’re new to the project, look for issues labeled good first issue. These are typically simpler tasks designed to get you familiar with the project workflow.\nBug Fixes: If you’re interested in fixing bugs, search for issues labeled 🐛 bug."
-  },
-  {
-    "objectID": "docs/Issues.html#using-issue-templates",
-    "href": "docs/Issues.html#using-issue-templates",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "To maintain consistency and ensure that all necessary information is provided, we use issue templates for different kinds of contributions:\n\nCreating a New Issue: Navigate to our Issue Templates Page and select the template that best matches the type of issue you’re reporting or suggestion you’re making.\nFilling Out the Template: Provide as much detail as possible within the template to help us understand the context and specifics of your issue or suggestion."
-  },
-  {
-    "objectID": "docs/Issues.html#taking-an-issue",
-    "href": "docs/Issues.html#taking-an-issue",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "If you want to work on an open issue: - Please comment with .take on the issue. This lets others know you’re working on it. - While we don’t officially assign issues, commenting will inform the community of your intention to tackle the issue and help prevent duplicated efforts."
-  },
-  {
-    "objectID": "docs/Issues.html#asking-for-help",
-    "href": "docs/Issues.html#asking-for-help",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "If you’re stuck or have questions: - Don’t hesitate to ask for help in our Slack server or through GitHub Discussions. - Engaging with the community can help resolve questions faster and provides an opportunity for collaborative problem-solving."
-  },
-  {
-    "objectID": "docs/Issues.html#linking-pull-requests-to-issues",
-    "href": "docs/Issues.html#linking-pull-requests-to-issues",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "When you’re ready to submit your work: - Make sure to link your pull request to the issue it addresses. You can do this by including phrases like Closes #issue_number in your pull request description. - This practice helps automate the closure of issues when pull requests are merged and keeps the project management process streamlined."
-  },
-  {
-    "objectID": "docs/Issues.html#issue-triage",
-    "href": "docs/Issues.html#issue-triage",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "Issues with a triage label are awaiting review by the project maintainers. Please refrain from starting work on these until they’ve been reviewed."
-  },
-  {
-    "objectID": "docs/Issues.html#further-guidance",
-    "href": "docs/Issues.html#further-guidance",
-    "title": "Working with Issues in midFEMA",
-    "section": "",
-    "text": "Label Reference: Use our Label Reference to understand the types of issues and prioritize.\nSelf-Review Checklist: Before submitting your issue or pull request, go through the Self-Review Checklist to ensure a smooth review process.\n\nThank you for contributing to the midFEMA project! Your efforts help us make strides in understanding neurodevelopmental biomarkers and improving youth mental health research."
+    "objectID": "templates/presentation/EMP.html#responsible-clinician-involvement",
+    "href": "templates/presentation/EMP.html#responsible-clinician-involvement",
+    "title": "Emergency Management Procedures for ABCD FIU",
+    "section": "Responsible Clinician Involvement",
+    "text": "Responsible Clinician Involvement\n\nPrimary Contact: On-Call Clinician as per schedule.\n\n🚑 Backup: Dr. Hawes (or Dr. Gonzalez) in the absence of the On-Call Clinician.\n📝 Post-Incident: Complete and submit an Incident Report Form to Dr. Hawes (or Dr. Gonzalez).\n\n\nIncident Response Procedure\n\nAssessment: Staff assessors (Research Assistants/Associates) identify and gather details on potential imminent risk situations.\nCommunication: Information relayed to the responsible clinician for further evaluation.\nDetermination: The responsible clinician will make the final determination on the participant’s risk level and necessary actions.\nVirtual Protocols: Ensure a secondary communication method (e.g., personal phone) for uninterrupted contact during virtual assessments.\nSupport: Immediate briefing and additional support from Dr. Hawes (or Drs. Gonzalez or Laird)."
   },
   {
     "objectID": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks",
@@ -385,17 +168,234 @@
     "text": "Different Languages for Different Tasks\n\nR: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nPython: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nJulia: {: .custom-img } Known for high-performance numerical analysis and computational science.\nJavaScript: {: .custom-img } Primarily used for creating interactive web pages.\nC: {: .custom-img } Low-level programming for system software and embedded systems."
   },
   {
-    "objectID": "templates/presentation/EMP.html#key-contacts",
-    "href": "templates/presentation/EMP.html#key-contacts",
-    "title": "Emergency Management Procedures for ABCD FIU",
-    "section": "Key Contacts",
-    "text": "Key Contacts\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-0456\n📧 raul.gonzalezjr@fiu.edu\n☎️ office phone: 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-1980\n📧 shawes@fiu.edu\n☎️ office phone: 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-3762\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-9664\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami information & referral, 24/7: 211 and online"
+    "objectID": "docs/Issues.html",
+    "href": "docs/Issues.html",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "Welcome to the midFEMA project! Issues are a big part of our collaborative environment. They allow us to track tasks, enhance our project, address bugs, and discuss new features. This guide will help you understand how to effectively use issues for contributing to the project.\n\n\nBefore starting work, please browse our open issues to find something that interests you. Use labels such as 🐛 bug or good first issue to filter for issues that might be a good match for your expertise or interest level.\n\nGood First Issues: If you’re new to the project, look for issues labeled good first issue. These are typically simpler tasks designed to get you familiar with the project workflow.\nBug Fixes: If you’re interested in fixing bugs, search for issues labeled 🐛 bug.\n\n\n\n\nTo maintain consistency and ensure that all necessary information is provided, we use issue templates for different kinds of contributions:\n\nCreating a New Issue: Navigate to our Issue Templates Page and select the template that best matches the type of issue you’re reporting or suggestion you’re making.\nFilling Out the Template: Provide as much detail as possible within the template to help us understand the context and specifics of your issue or suggestion.\n\n\n\n\nIf you want to work on an open issue: - Please comment with .take on the issue. This lets others know you’re working on it. - While we don’t officially assign issues, commenting will inform the community of your intention to tackle the issue and help prevent duplicated efforts.\n\n\n\nIf you’re stuck or have questions: - Don’t hesitate to ask for help in our Slack server or through GitHub Discussions. - Engaging with the community can help resolve questions faster and provides an opportunity for collaborative problem-solving.\n\n\n\nWhen you’re ready to submit your work: - Make sure to link your pull request to the issue it addresses. You can do this by including phrases like Closes #issue_number in your pull request description. - This practice helps automate the closure of issues when pull requests are merged and keeps the project management process streamlined.\n\n\n\n\nIssues with a triage label are awaiting review by the project maintainers. Please refrain from starting work on these until they’ve been reviewed.\n\n\n\n\n\nLabel Reference: Use our Label Reference to understand the types of issues and prioritize.\nSelf-Review Checklist: Before submitting your issue or pull request, go through the Self-Review Checklist to ensure a smooth review process.\n\nThank you for contributing to the midFEMA project! Your efforts help us make strides in understanding neurodevelopmental biomarkers and improving youth mental health research."
   },
   {
-    "objectID": "templates/presentation/EMP.html#responsible-clinician-involvement",
-    "href": "templates/presentation/EMP.html#responsible-clinician-involvement",
-    "title": "Emergency Management Procedures for ABCD FIU",
-    "section": "Responsible Clinician Involvement",
-    "text": "Responsible Clinician Involvement\n\nPrimary Contact: On-Call Clinician as per schedule.\n\n🚑 Backup: Dr. Hawes (or Dr. Gonzalez) in the absence of the On-Call Clinician.\n📝 Post-Incident: Complete and submit an Incident Report Form to Dr. Hawes (or Dr. Gonzalez).\n\n\nIncident Response Procedure\n\nAssessment: Staff assessors (Research Assistants/Associates) identify and gather details on potential imminent risk situations.\nCommunication: Information relayed to the responsible clinician for further evaluation.\nDetermination: The responsible clinician will make the final determination on the participant’s risk level and necessary actions.\nVirtual Protocols: Ensure a secondary communication method (e.g., personal phone) for uninterrupted contact during virtual assessments.\nSupport: Immediate briefing and additional support from Dr. Hawes (or Drs. Gonzalez or Laird)."
+    "objectID": "docs/Issues.html#mag-finding-issues-to-work-on",
+    "href": "docs/Issues.html#mag-finding-issues-to-work-on",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "Before starting work, please browse our open issues to find something that interests you. Use labels such as 🐛 bug or good first issue to filter for issues that might be a good match for your expertise or interest level.\n\nGood First Issues: If you’re new to the project, look for issues labeled good first issue. These are typically simpler tasks designed to get you familiar with the project workflow.\nBug Fixes: If you’re interested in fixing bugs, search for issues labeled 🐛 bug."
+  },
+  {
+    "objectID": "docs/Issues.html#using-issue-templates",
+    "href": "docs/Issues.html#using-issue-templates",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "To maintain consistency and ensure that all necessary information is provided, we use issue templates for different kinds of contributions:\n\nCreating a New Issue: Navigate to our Issue Templates Page and select the template that best matches the type of issue you’re reporting or suggestion you’re making.\nFilling Out the Template: Provide as much detail as possible within the template to help us understand the context and specifics of your issue or suggestion."
+  },
+  {
+    "objectID": "docs/Issues.html#taking-an-issue",
+    "href": "docs/Issues.html#taking-an-issue",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "If you want to work on an open issue: - Please comment with .take on the issue. This lets others know you’re working on it. - While we don’t officially assign issues, commenting will inform the community of your intention to tackle the issue and help prevent duplicated efforts."
+  },
+  {
+    "objectID": "docs/Issues.html#asking-for-help",
+    "href": "docs/Issues.html#asking-for-help",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "If you’re stuck or have questions: - Don’t hesitate to ask for help in our Slack server or through GitHub Discussions. - Engaging with the community can help resolve questions faster and provides an opportunity for collaborative problem-solving."
+  },
+  {
+    "objectID": "docs/Issues.html#linking-pull-requests-to-issues",
+    "href": "docs/Issues.html#linking-pull-requests-to-issues",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "When you’re ready to submit your work: - Make sure to link your pull request to the issue it addresses. You can do this by including phrases like Closes #issue_number in your pull request description. - This practice helps automate the closure of issues when pull requests are merged and keeps the project management process streamlined."
+  },
+  {
+    "objectID": "docs/Issues.html#issue-triage",
+    "href": "docs/Issues.html#issue-triage",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "Issues with a triage label are awaiting review by the project maintainers. Please refrain from starting work on these until they’ve been reviewed."
+  },
+  {
+    "objectID": "docs/Issues.html#further-guidance",
+    "href": "docs/Issues.html#further-guidance",
+    "title": "Working with Issues in midFEMA",
+    "section": "",
+    "text": "Label Reference: Use our Label Reference to understand the types of issues and prioritize.\nSelf-Review Checklist: Before submitting your issue or pull request, go through the Self-Review Checklist to ensure a smooth review process.\n\nThank you for contributing to the midFEMA project! Your efforts help us make strides in understanding neurodevelopmental biomarkers and improving youth mental health research."
+  },
+  {
+    "objectID": "docs/Discussions.html",
+    "href": "docs/Discussions.html",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "Welcome to the midFEMA Discussions! 🎉 This space is designed for the midFEMA community to share ideas 💡, ask questions ❓, and collaborate 🤝 openly. Whether you’re a researcher, contributor, or just someone with an interest in neurodevelopmental biomarkers, your input is valuable. Here’s how you can get involved.\n\n\nDiscussions provide a forum for ideas, questions, and conversations about the midFEMA project. They allow for:\n\n🔍 Community Support: Get help from the midFEMA community with questions you have.\n💭 Idea Sharing: Share your ideas for new features or improvements.\n🔉 Feedback Collection: Provide feedback on the project and discuss potential changes.\n📚 Knowledge Exchange: Share insights, articles, and resources related to neurodevelopmental biomarkers and related fields.\n\n\n\n\n\n\n\nChoose the Right Category: Select the category that best fits the topic you want to discuss. Our categories include:\n\nGeneral Q&A: For general questions about the midFEMA project.\nIdeas: For suggestions and ideas on how to improve the project.\nShow and Tell: Share what you’ve built using midFEMA or related resources.\nResearch Discussions: For deeper discussions on research topics, findings, and methodologies.\n\nCreate a New Discussion: Click the “New Discussion” button within the chosen category.\nUse a Descriptive Title: Make your title concise but informative to attract the right audience.\nDetail Your Thoughts: Use the text box to provide detailed information or questions. Feel free to include links, images, or code snippets to support your discussion.\n\n\n\n\n\nBe Respectful and Constructive: Always interact with other community members respectfully. Constructive feedback and supportive interactions build a stronger community.\nUse Reactions: If you agree with a comment or find it helpful, use reactions to show support without cluttering the discussion.\nStay On Topic: Keep discussions focused on the original post’s topic. Start a new discussion for different questions or ideas.\n\n\n\n\n\n\n🔎 Do a Quick Search: Before starting a new discussion, use the search feature to see if a similar discussion already exists.\n📝 Provide Rich Context: When asking questions or providing feedback, include as much relevant context as possible.\n✅ Mark Solutions: If you asked a question and received a satisfactory answer, mark the most helpful response as the solution to help others with similar questions.\n\n\n\n\nIf you encounter any issues or have questions about using Discussions, please reach out to the project maintainers or tag them in your discussion post for assistance.\n\n\n\nParticipation in the midFEMA Discussions requires adherence to our Code of Conduct. By engaging in discussions, you agree to uphold this community’s standards.\nThank you for contributing to the midFEMA community through Discussions. Your insights, questions, and feedback help drive the project forward and foster a vibrant community."
+  },
+  {
+    "objectID": "docs/Discussions.html#why-use-discussions",
+    "href": "docs/Discussions.html#why-use-discussions",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "Discussions provide a forum for ideas, questions, and conversations about the midFEMA project. They allow for:\n\n🔍 Community Support: Get help from the midFEMA community with questions you have.\n💭 Idea Sharing: Share your ideas for new features or improvements.\n🔉 Feedback Collection: Provide feedback on the project and discuss potential changes.\n📚 Knowledge Exchange: Share insights, articles, and resources related to neurodevelopmental biomarkers and related fields."
+  },
+  {
+    "objectID": "docs/Discussions.html#how-to-participate",
+    "href": "docs/Discussions.html#how-to-participate",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "Choose the Right Category: Select the category that best fits the topic you want to discuss. Our categories include:\n\nGeneral Q&A: For general questions about the midFEMA project.\nIdeas: For suggestions and ideas on how to improve the project.\nShow and Tell: Share what you’ve built using midFEMA or related resources.\nResearch Discussions: For deeper discussions on research topics, findings, and methodologies.\n\nCreate a New Discussion: Click the “New Discussion” button within the chosen category.\nUse a Descriptive Title: Make your title concise but informative to attract the right audience.\nDetail Your Thoughts: Use the text box to provide detailed information or questions. Feel free to include links, images, or code snippets to support your discussion.\n\n\n\n\n\nBe Respectful and Constructive: Always interact with other community members respectfully. Constructive feedback and supportive interactions build a stronger community.\nUse Reactions: If you agree with a comment or find it helpful, use reactions to show support without cluttering the discussion.\nStay On Topic: Keep discussions focused on the original post’s topic. Start a new discussion for different questions or ideas."
+  },
+  {
+    "objectID": "docs/Discussions.html#best-practices",
+    "href": "docs/Discussions.html#best-practices",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "🔎 Do a Quick Search: Before starting a new discussion, use the search feature to see if a similar discussion already exists.\n📝 Provide Rich Context: When asking questions or providing feedback, include as much relevant context as possible.\n✅ Mark Solutions: If you asked a question and received a satisfactory answer, mark the most helpful response as the solution to help others with similar questions."
+  },
+  {
+    "objectID": "docs/Discussions.html#getting-help",
+    "href": "docs/Discussions.html#getting-help",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "If you encounter any issues or have questions about using Discussions, please reach out to the project maintainers or tag them in your discussion post for assistance."
+  },
+  {
+    "objectID": "docs/Discussions.html#code-of-conduct",
+    "href": "docs/Discussions.html#code-of-conduct",
+    "title": "🗨️ Engaging in midFEMA Discussions",
+    "section": "",
+    "text": "Participation in the midFEMA Discussions requires adherence to our Code of Conduct. By engaging in discussions, you agree to uphold this community’s standards.\nThank you for contributing to the midFEMA community through Discussions. Your insights, questions, and feedback help drive the project forward and foster a vibrant community."
+  },
+  {
+    "objectID": "docs/Codespaces-Setup.html",
+    "href": "docs/Codespaces-Setup.html",
+    "title": "MidFEMA Codespace Setup Guide 🚀",
+    "section": "",
+    "text": "Welcome to the midFEMA Codespace setup guide! This document is designed to help you navigate and effectively use GitHub Codespaces for the midFEMA project, focusing on basic R analysis and Quarto for writing-ups. It’s tailored for collaborators with minimal background in Codespaces, VS Code, IDEs, development containers, Docker environments, etc.\n\n\nBefore we jump into the setup, let’s clarify what Codespaces and Dev Containers are and how they benefit your development workflow:\n\n\nThink of Dev Containers as VS Code running inside Docker. They allow you to define a development environment with a Dockerfile or docker-compose.yml, enabling you to run your project in that environment seamlessly—both locally and in the cloud.\n\n\n\nGitHub Codespaces are Dev Containers but hosted in the cloud. Accessed through VS Code, they use Dev Containers configurations to provide a powerful, cloud-based development environment.\n\n\n\nThe combination of VS Code, Dev Containers, and GitHub Codespaces allows you to develop from almost anywhere, on any machine. It’s perfect for standardizing development setups across a team and handling multiple repo environments efficiently.\n\n\n\n\nAccessing and using the midFEMA Codespace is straightforward and doesn’t require complex setup steps.\n\n\n\nNavigate to the midFEMA repository on GitHub.\nClick on the “Code” dropdown button.\nSelect “Open with Codespaces”.\nChoose an existing Codespace to open or click “New codespace” to create a new one.\n\n\n\n\nOpen in GitHub Codespaces\n\n\nThis badge is also prominently displayed at the top of our project’s root README for quick access.\n\n\n\n\nEnvironment Ready: The Codespace comes pre-configured for R analysis and Quarto, allowing you to dive straight into your work.\nSeamless Development: Start scripting in R or drafting in Quarto without worrying about setting up dependencies—they’re all taken care of.\n\n\n\n\nLeverage Codespaces to streamline your continuous integration workflows, ensuring that your development environment closely mirrors production settings for more reliable testing.\n\n\n\n\nThis repository is equipped with a Development Container configuration suitable for both Dev Containers and GitHub Codespaces.\n\nFor Local Use: Utilize the Dev Containers: Clone Repository in Container Volume… command in VS Code for optimal performance.\nQuick Start: If you’ve got VS Code and Docker, click here to auto-setup everything. This process clones the repo, sets up the dev container, and gets you ready to code.\n\n\n\n\nEncountering setup issues or have questions? Don’t hesitate to reach out through our project’s GitHub Discussions or the project’s Slack workspace. We’re here to ensure your Codespace experience is smooth and productive."
+  },
+  {
+    "objectID": "docs/Codespaces-Setup.html#understanding-codespaces-and-dev-containers",
+    "href": "docs/Codespaces-Setup.html#understanding-codespaces-and-dev-containers",
+    "title": "MidFEMA Codespace Setup Guide 🚀",
+    "section": "",
+    "text": "Before we jump into the setup, let’s clarify what Codespaces and Dev Containers are and how they benefit your development workflow:\n\n\nThink of Dev Containers as VS Code running inside Docker. They allow you to define a development environment with a Dockerfile or docker-compose.yml, enabling you to run your project in that environment seamlessly—both locally and in the cloud.\n\n\n\nGitHub Codespaces are Dev Containers but hosted in the cloud. Accessed through VS Code, they use Dev Containers configurations to provide a powerful, cloud-based development environment.\n\n\n\nThe combination of VS Code, Dev Containers, and GitHub Codespaces allows you to develop from almost anywhere, on any machine. It’s perfect for standardizing development setups across a team and handling multiple repo environments efficiently."
+  },
+  {
+    "objectID": "docs/Codespaces-Setup.html#getting-started-with-midfema-codespace",
+    "href": "docs/Codespaces-Setup.html#getting-started-with-midfema-codespace",
+    "title": "MidFEMA Codespace Setup Guide 🚀",
+    "section": "",
+    "text": "Accessing and using the midFEMA Codespace is straightforward and doesn’t require complex setup steps.\n\n\n\nNavigate to the midFEMA repository on GitHub.\nClick on the “Code” dropdown button.\nSelect “Open with Codespaces”.\nChoose an existing Codespace to open or click “New codespace” to create a new one.\n\n\n\n\nOpen in GitHub Codespaces\n\n\nThis badge is also prominently displayed at the top of our project’s root README for quick access.\n\n\n\n\nEnvironment Ready: The Codespace comes pre-configured for R analysis and Quarto, allowing you to dive straight into your work.\nSeamless Development: Start scripting in R or drafting in Quarto without worrying about setting up dependencies—they’re all taken care of.\n\n\n\n\nLeverage Codespaces to streamline your continuous integration workflows, ensuring that your development environment closely mirrors production settings for more reliable testing."
+  },
+  {
+    "objectID": "docs/Codespaces-Setup.html#development-container-configuration",
+    "href": "docs/Codespaces-Setup.html#development-container-configuration",
+    "title": "MidFEMA Codespace Setup Guide 🚀",
+    "section": "",
+    "text": "This repository is equipped with a Development Container configuration suitable for both Dev Containers and GitHub Codespaces.\n\nFor Local Use: Utilize the Dev Containers: Clone Repository in Container Volume… command in VS Code for optimal performance.\nQuick Start: If you’ve got VS Code and Docker, click here to auto-setup everything. This process clones the repo, sets up the dev container, and gets you ready to code."
+  },
+  {
+    "objectID": "docs/Codespaces-Setup.html#seeking-help",
+    "href": "docs/Codespaces-Setup.html#seeking-help",
+    "title": "MidFEMA Codespace Setup Guide 🚀",
+    "section": "",
+    "text": "Encountering setup issues or have questions? Don’t hesitate to reach out through our project’s GitHub Discussions or the project’s Slack workspace. We’re here to ensure your Codespace experience is smooth and productive."
+  },
+  {
+    "objectID": "docs/Contributing.html",
+    "href": "docs/Contributing.html",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Welcome to the midFEMA contributing guide! We’re thrilled to have you join our community of researchers, developers, and contributors. This comprehensive guide outlines how you can contribute to advancing our understanding of neurodevelopmental biomarkers in youth.\n\n\n\nGetting Started 🚀\nGitHub Projects 🗂\nGitHub Codespaces ☁️\nCommunication 📢\nContributing Code\n\nCreating a midFEMA Repository\nGetting Code into the Project Repository\nComposition of Pull Requests\nReviewing Pull Requests\n\nReproducibility\nFeedback and Support 📬\nPull Requests 💼\n\nMaking a Pull Request\nPull Request Review\n\nIssues 🐛\n\nCreating a New Issue\nWorking on an Issue\n\nDiscussions 💬\nSetting Up Your Environment 🛠\nTesting 🧪\nStyle Guide & Coding Conventions ✨\n\n\n\n\nBefore diving into contributions, please familiarize yourself with our project’s README. It provides an essential overview of midFEMA, setting the stage for meaningful contributions.\n\n\nFor those not a repository member: 1. Fork the repository. 2. Clone your fork locally. 3. Create a new branch for your changes. 4. Push changes to your fork. 5. Open a pull request against the main midFEMA repository.\n\n\n\nMembers with push access: 1. Clone the repository directly. 2. Create a new branch for changes. 3. Push the branch to the repository. 4. Open a pull request for review.\n\n\n\n\nAccessing and Using midFEMA GitHub Projects: - Access: Find our project board under the “Projects” tab in our GitHub repository or via this link. - Usage: View tasks, update statuses, and collaborate on issue and pull request links associated with each task card.\n\n\n\nAccessing and Using Codespaces: - Start a new Codespace by clicking the “Open in GitHub Codespaces” badge at the top of our README file. See the Codespaces Setup file for instructions on accessing and using the midFEMA repository Codespace.\n\n\n\nWe prioritize effective communication: - Slack: For quick questions and updates. - GitHub Issues and Discussions: For searchable, more in-depth conversations.\n\n\n\n\n\n\nClone this repository into one that your account owns.\nCommit to your repository first, then move code back to the project repository through pull requests.\n\n\n\n\nFollow the pull request process for code review: 1. Make changes and commit to your repository. 2. Create a pull request into the project repository. 3. Assign reviewers. 4. Once approved, your changes will be merged.\n\n\n\nEach pull request should focus on a single functional area to make reviews more manageable.\n\n\n\nAll project members are expected to participate in the review process, providing thoughtful and constructive feedback.\n\n\n\n\nWe expect all contributors to maintain code that performs reproducible analyses, preferably automated. Scripts for analyses and figure generation should be included in source control.\n\n\n\nEncounter an issue or have a suggestion? Please open an issue for discussion. For immediate help, reach out in our Slack channel.\nThank you for contributing to midFEMA!\nBack to top"
+  },
+  {
+    "objectID": "docs/Contributing.html#table-of-contents",
+    "href": "docs/Contributing.html#table-of-contents",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Getting Started 🚀\nGitHub Projects 🗂\nGitHub Codespaces ☁️\nCommunication 📢\nContributing Code\n\nCreating a midFEMA Repository\nGetting Code into the Project Repository\nComposition of Pull Requests\nReviewing Pull Requests\n\nReproducibility\nFeedback and Support 📬\nPull Requests 💼\n\nMaking a Pull Request\nPull Request Review\n\nIssues 🐛\n\nCreating a New Issue\nWorking on an Issue\n\nDiscussions 💬\nSetting Up Your Environment 🛠\nTesting 🧪\nStyle Guide & Coding Conventions ✨"
+  },
+  {
+    "objectID": "docs/Contributing.html#getting-started",
+    "href": "docs/Contributing.html#getting-started",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Before diving into contributions, please familiarize yourself with our project’s README. It provides an essential overview of midFEMA, setting the stage for meaningful contributions.\n\n\nFor those not a repository member: 1. Fork the repository. 2. Clone your fork locally. 3. Create a new branch for your changes. 4. Push changes to your fork. 5. Open a pull request against the main midFEMA repository.\n\n\n\nMembers with push access: 1. Clone the repository directly. 2. Create a new branch for changes. 3. Push the branch to the repository. 4. Open a pull request for review."
+  },
+  {
+    "objectID": "docs/Contributing.html#github-projects",
+    "href": "docs/Contributing.html#github-projects",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Accessing and Using midFEMA GitHub Projects: - Access: Find our project board under the “Projects” tab in our GitHub repository or via this link. - Usage: View tasks, update statuses, and collaborate on issue and pull request links associated with each task card."
+  },
+  {
+    "objectID": "docs/Contributing.html#github-codespaces",
+    "href": "docs/Contributing.html#github-codespaces",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Accessing and Using Codespaces: - Start a new Codespace by clicking the “Open in GitHub Codespaces” badge at the top of our README file. See the Codespaces Setup file for instructions on accessing and using the midFEMA repository Codespace."
+  },
+  {
+    "objectID": "docs/Contributing.html#communication",
+    "href": "docs/Contributing.html#communication",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "We prioritize effective communication: - Slack: For quick questions and updates. - GitHub Issues and Discussions: For searchable, more in-depth conversations."
+  },
+  {
+    "objectID": "docs/Contributing.html#contributing-code",
+    "href": "docs/Contributing.html#contributing-code",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Clone this repository into one that your account owns.\nCommit to your repository first, then move code back to the project repository through pull requests.\n\n\n\n\nFollow the pull request process for code review: 1. Make changes and commit to your repository. 2. Create a pull request into the project repository. 3. Assign reviewers. 4. Once approved, your changes will be merged.\n\n\n\nEach pull request should focus on a single functional area to make reviews more manageable.\n\n\n\nAll project members are expected to participate in the review process, providing thoughtful and constructive feedback."
+  },
+  {
+    "objectID": "docs/Contributing.html#reproducibility",
+    "href": "docs/Contributing.html#reproducibility",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "We expect all contributors to maintain code that performs reproducible analyses, preferably automated. Scripts for analyses and figure generation should be included in source control."
+  },
+  {
+    "objectID": "docs/Contributing.html#feedback-and-support",
+    "href": "docs/Contributing.html#feedback-and-support",
+    "title": "Contributing to midFEMA 🌟",
+    "section": "",
+    "text": "Encounter an issue or have a suggestion? Please open an issue for discussion. For immediate help, reach out in our Slack channel.\nThank you for contributing to midFEMA!\nBack to top"
+  },
+  {
+    "objectID": "docs/git-onboarding.html",
+    "href": "docs/git-onboarding.html",
+    "title": "git-onboarding",
+    "section": "",
+    "text": "https://swcarpentry.github.io/git-novice/10-open.html https://guides.nyu.edu/data_management/version-control https://www.ucl.ac.uk/advanced-research-computing/expertise/research-software-development/research-software-development-tools/support-ucl-researchers https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108 https://www.ccdatalab.org/blog/git-workflows-for-scientific-projects-and-when-we-use-them https://github.blog/2022-07-20-heres-how-academic-research-is-shaping-github-discussions/ https://www.uu.nl/en/research/research-data-management/tools/software-and-computing/github-and-git https://neurathsboat.blog/post/git-intro/ https://www.knowledgehut.com/blog/data-science/github-for-data-science\nhttps://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html\nhttps://www.ben-johnston.co.uk/git-for-data-analysts-the-complete-guide/ https://www.linkedin.com/pulse/how-set-up-maintain-sop-repository-documentation-shafayetul-islam\nhttps://tilburgsciencehub.com/building-blocks/configure-your-computer/infrastructure-choice/configure-git/ https://course.ccs.neu.edu/cs3500/labs_git_lab.html\nhttps://ourcodingclub.github.io/tutorials/git-for-labs/\nhttps://happygitwithr.com/index.html\nIDEs (Rstudio vs VScode)\nzotero\nbibtex; https://retorque.re/zotero-better-bibtex/citing/\nhttps://happygitwithr.com/index.html\nhttps://youtu.be/RGOj5yH7evk\nsunlab readme (for all “folders”?)\nhttps://guides.library.upenn.edu/datamgmt/fileorg\nhttps://files.nccih.nih.gov/s3fs-public/CR-Toolbox/Version_Control_Guidelines_ver2_07-17-2015.pdf\nhttps://repository.upenn.edu/entities/publication/4716fa55-e397-4765-9aa8-12311b5acac4\nhttps://ourcodingclub.github.io/tutorials/git-for-labs/\nsteps for our lab\ncommon commands\nvscode/rstudio\nhttps://swcarpentry.github.io/git-novice/\nhttps://missing.csail.mit.edu/2020/version-control/\nhttps://lab.github.com/githubtraining/introduction-to-github\nhttps://youtu.be/U8GBXvdmHT4\nhttps://m.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR\ndirectory structure\nnaming conventions\n“A repo with a very good README and clear documentation, frequent high-quality issues/PRs, and clear concern for best practices (like, not committing secrets or large files, CI/CD if necessary, unit tests) is way more important than a specific folder structure.\nBioinformatics (and academia more broadly) suffers greatly from software that is pure dog water. I think a hiring manager would be more interested in your ability to produce maintainable, robust, high-quality software and write strong, technical documentation and result reporting that describes how you did your analysis over the nuances of how you name your folders.”\nI agree, a good readme is critical and often a good indicator of a well-tracked repo. You will thank yourself later in the future as well for having well-documented, reproducible code.\nDon’t put data or output in your repo, just scripts. Have your Readme summarize each script, and the order they should be run if applicable.\nIf you really want to show output, have an html from an rmd output.\nAs a beginner, what setup currently works for me is:\nInitialize a Git repository\nCreate folders data, results, scripts and notebooks (nowadays I also create a reports folder to store RMarkdown reports, but that may be a subject of taste). Put the contents of data and results folders into .gitignore. Thus, only the code and documentation are versioned (however, the structure inside the data folders also matters for code readability)\nI start the analysis in notebooks. Once a chunk of workflow (e.g., sample QC) is completed, I refactor the code, test it again and separate the logical parts into individual scripts. Then I test that sequence of scripts. If everything works fine, I delete the notebook (I personally do not like how notebooks interact with Git. If I want to showcase the code together with the results, I prefer RMarkdown)\nRight now I’m working on improving my documentation practices. I think going with a README with a general description of the project, outline of main steps in your scripts and their order (e.g., PROJECT.md) and DATA.md which summarizes where you got the data you use\nPrivate repos. You could also set up a Jupyter-book with collaborators.\nIf you are a student, register for a student acct.\nOthers have mentioned that if you use a private repo, you should avoid uploading actual data files to the github. This is the .gitignore file I use to ensure that:\nhttps://learngitbranching.js.org/\nhttps://git-scm.com/book/en/v2\nOther lab resources r tidyverse wickham easystats how to use"
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#our-team",
+    "href": "templates/presentation/EMP_2.html#our-team",
+    "title": "Emergency Medical Plan",
+    "section": "Our Team",
+    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-xxxx\n📧 raul.gonzalezjr@fiu.edu\n☎️ 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-xxxx\n📧 shawes@fiu.edu\n☎️ 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-xxxx\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-xxxx\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663"
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#emergency-contacts",
+    "href": "templates/presentation/EMP_2.html#emergency-contacts",
+    "title": "Emergency Medical Plan",
+    "section": "Emergency Contacts",
+    "text": "Emergency Contacts\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211 or visit Switchboard Miami"
+  },
+  {
+    "objectID": "templates/presentation/EMP_2.html#responsible-clinician",
+    "href": "templates/presentation/EMP_2.html#responsible-clinician",
+    "title": "Emergency Medical Plan",
+    "section": "Responsible Clinician",
+    "text": "Responsible Clinician\n\n\n\n\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*see also CCF On-Call Clinician calendar"
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "SUNLab",
+    "section": "",
+    "text": "Markdown\nMarkdown Guide\nGit/Github\nHappy Git with R\nR\nAdvanced R\nQuarto\nQuarto Website\nVScode\nVSCode Basics"
   }
 ]
