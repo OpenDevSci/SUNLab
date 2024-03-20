@@ -394,8 +394,15 @@
   {
     "objectID": "Resources.html",
     "href": "Resources.html",
-    "title": "SUNLab",
+    "title": "Lab Resources",
     "section": "",
-    "text": "Markdown\nMarkdown Guide\nGit/Github\nHappy Git with R\nR\nAdvanced R\nQuarto\nQuarto Website\nVScode\nVSCode Basics"
+    "text": "Add DEAP link\nAdd LongDev link\nAdd xxxxx\n\nWe’ve compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nMarkdown allows you to write using an easy-to-read, easy-to-write plain text format:\n\nMarkdown Guide\n\n\n\n\nLearn how to use Git and GitHub with R for version control and collaboration:\n\nHappy Git with R\n\n\n\n\nEnhance your R programming skills with this comprehensive guide:\n\nAdvanced R\n\n\n\n\nExplore how to use Quarto to create dynamic and reproducible research documents:\n\nQuarto Website\n\n\n\n\nGet started with Visual Studio Code to enhance your coding experience:\n\nVSCode Basics"
+  },
+  {
+    "objectID": "Resources.html#welcome-to-our-labs-resource-page",
+    "href": "Resources.html#welcome-to-our-labs-resource-page",
+    "title": "Lab Resources",
+    "section": "",
+    "text": "Add DEAP link\nAdd LongDev link\nAdd xxxxx\n\nWe’ve compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nMarkdown allows you to write using an easy-to-read, easy-to-write plain text format:\n\nMarkdown Guide\n\n\n\n\nLearn how to use Git and GitHub with R for version control and collaboration:\n\nHappy Git with R\n\n\n\n\nEnhance your R programming skills with this comprehensive guide:\n\nAdvanced R\n\n\n\n\nExplore how to use Quarto to create dynamic and reproducible research documents:\n\nQuarto Website\n\n\n\n\nGet started with Visual Studio Code to enhance your coding experience:\n\nVSCode Basics"
   }
 ]

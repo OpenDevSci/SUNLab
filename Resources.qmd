@@ -1,19 +1,75 @@
-**Markdown**
+---
+title: "Lab Resources"
+format: html
+---
 
-[Markdown Guide](https://www.markdownguide.org/)
+<style>
+.resources-section {
+  margin-bottom: 2em;
+}
 
-**Git/Github**
+.resources-section h2 {
+  margin-bottom: 0.5em;
+  color: #333; /* Ensures the headers are dark for contrast */
+}
 
-[Happy Git with R](https://happygitwithr.com/)
+.resources-section a {
+  text-decoration: none;
+  color: #007bff; /* Blue for links provides contrast and is a common convention */
+}
 
-**R**
+.resources-section a:hover {
+  text-decoration: underline;
+}
 
-[Advanced R](https://adv-r.hadley.nz/)
+.resources-section p {
+  margin-top: 0.25em;
+  color: #333; /* Dark text for paragraphs to ensure readability */
+}
 
-**Quarto**
+.icon {
+  margin-right: 5px;
+  color: #007bff; /* Icons match the link color for consistency */
+}
+</style>
 
-[Quarto Website](https://quarto.org/)
+## Welcome to Our Lab's Resource Page!
 
-**VScode**
+- Add DEAP link
+- Add LongDev link 
+- Add xxxxx
 
-[VSCode Basics](https://code.visualstudio.com/docs/introvideos/basics)
+We've compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!
+
+```{=html}
+<div class="resources-section">
+  <h2><i class="fas fa-markdown icon"></i>Markdown</h2>
+  <p>Markdown allows you to write using an easy-to-read, easy-to-write plain text format:</p>
+  <a href="https://www.markdownguide.org/" target="_blank">Markdown Guide</a>
+</div>
+
+<div class="resources-section">
+  <h2><i class="fab fa-git-alt icon"></i>Git/Github</h2>
+  <p>Learn how to use Git and GitHub with R for version control and collaboration:</p>
+  <a href="https://happygitwithr.com/" target="_blank">Happy Git with R</a>
+</div>
+
+<div class="resources-section">
+  <h2><img src="" alt="R logo" class="icon">R</h2>
+  <p>Enhance your R programming skills with this comprehensive guide:</p>
+  <a href="https://adv-r.hadley.nz/" target="_blank">Advanced R</a>
+</div>
+
+<div class="resources-section">
+  <h2><i class="fas fa-square-root-alt icon"></i>Quarto</h2>
+  <p>Explore how to use Quarto to create dynamic and reproducible research documents:</p>
+  <a href="https://quarto.org/" target="_blank">Quarto Website</a>
+</div>
+
+<div class="resources-section">
+  <h2><i class="fas fa-code icon"></i>VScode</h2>
+  <p>Get started with Visual Studio Code to enhance your coding experience:</p>
+  <a href="https://code.visualstudio.com/docs/introvideos/basics" target="_blank">VSCode Basics</a>
+</div>
+
+
