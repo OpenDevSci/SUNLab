@@ -3,14 +3,6 @@ title: "Lab Resources"
 format: html
 ---
 
-###############
-
-https://opensource.guide/
-
----
-
-###############
-
  <style>
 body {
   color: #333; /* Default text color for the body, ensures readability */
@@ -68,6 +60,7 @@ p, li {
 
 - Add [DEAP](https://abcd-deap.ucsd.edu/applications/User/user_auth.php) 
 - Add [LongDev-ABCD](https://opendevsci.github.io/LongDev-ABCD/)
+- Add [Open-Source Guide](https://opensource.guide/)
 
 Here is a compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in! 
 
