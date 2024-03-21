@@ -1,0 +1,24 @@
+---
+title: Page Not Found
+---
+
+```{=html}
+<style>
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text color */
+}
+
+/* Adjusting link colors for better visibility */
+a, a:visited {
+  color: #007bff; /* Blue color for links */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+</style>
+```
+
+The page you requested cannot be found (perhaps it was moved, renamed or just hasn't been created yet).
+
