@@ -1,7 +1,7 @@
 ---
-# format:
-#   html:
-#     page-layout: custom
+format:
+  html:
+    page-layout: custom
 
 ---
 
