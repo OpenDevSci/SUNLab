@@ -108,7 +108,7 @@ body {
       <td>Column content</td>
     </tr>
     <tr class="table-success">
-      <th scope="row"><a href="404.html">Example_001</a></th>
+      <th scope="row"><a href="404.html">Tables</a></th>
       <td>Column content</td>
       <td>Column content</td>
       <td>Column content</td>

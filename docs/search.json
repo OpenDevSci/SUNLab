@@ -2,16 +2,107 @@
   {
     "objectID": "templates/presentation/EMP.html#key-contacts",
     "href": "templates/presentation/EMP.html#key-contacts",
-    "title": "Emergency Management Procedures for ABCD FIU",
+    "title": "Emergency Medical Plan",
     "section": "Key Contacts",
-    "text": "Key Contacts\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-0456\n📧 raul.gonzalezjr@fiu.edu\n☎️ office phone: 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-1980\n📧 shawes@fiu.edu\n☎️ office phone: 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-3762\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-9664\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami information & referral, 24/7: 211 and online"
+    "text": "Key Contacts\nRefer to our On-Call Clinician Schedule in Outlook for immediate assistance."
   },
   {
-    "objectID": "templates/presentation/EMP.html#responsible-clinician-involvement",
-    "href": "templates/presentation/EMP.html#responsible-clinician-involvement",
-    "title": "Emergency Management Procedures for ABCD FIU",
-    "section": "Responsible Clinician Involvement",
-    "text": "Responsible Clinician Involvement\n\nPrimary Contact: On-Call Clinician as per schedule.\n\n🚑 Backup: Dr. Hawes (or Dr. Gonzalez) in the absence of the On-Call Clinician.\n📝 Post-Incident: Complete and submit an Incident Report Form to Dr. Hawes (or Dr. Gonzalez).\n\n\nIncident Response Procedure\n\nAssessment: Staff assessors (Research Assistants/Associates) identify and gather details on potential imminent risk situations.\nCommunication: Information relayed to the responsible clinician for further evaluation.\nDetermination: The responsible clinician will make the final determination on the participant’s risk level and necessary actions.\nVirtual Protocols: Ensure a secondary communication method (e.g., personal phone) for uninterrupted contact during virtual assessments.\nSupport: Immediate briefing and additional support from Dr. Hawes (or Drs. Gonzalez or Laird)."
+    "objectID": "templates/presentation/EMP.html#our-team",
+    "href": "templates/presentation/EMP.html#our-team",
+    "title": "Emergency Medical Plan",
+    "section": "Our Team",
+    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor\n\n📧 raul.gonzalezjr@fiu.edu\n📱 305-501-xxxx\n\nSamuel Hawes, PhD, Associate Research Professor\n\n📧 shawes@fiu.edu\n📱 786-717-xxxx\n\nDr. Angela Laird, PhD, Professor\n\n📧 alaird@fiu.edu\n📱 210-355-xxxx\n\nNicole Schatz, PhD, Associate Research Professor\n\n📧 nschatz@fiu.edu\n📱 573-201-xxxx"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#emergency-contacts",
+    "href": "templates/presentation/EMP.html#emergency-contacts",
+    "title": "Emergency Medical Plan",
+    "section": "Emergency Contacts",
+    "text": "Emergency Contacts\n\nFlorida DCF Abuse Hotline & Adult Protective Services: 1-800-962-2873\nFIU Police: 305-348-5911\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#responsible-clinician",
+    "href": "templates/presentation/EMP.html#responsible-clinician",
+    "title": "Emergency Medical Plan",
+    "section": "Responsible Clinician",
+    "text": "Responsible Clinician\n\n\n\nClinician\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*Refer to the CCF On-Call Clinician calendar for more information."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#confidentiality-limitations",
+    "href": "templates/presentation/EMP.html#confidentiality-limitations",
+    "title": "Emergency Medical Plan",
+    "section": "Confidentiality Limitations",
+    "text": "Confidentiality Limitations\n“Most of what you say here is confidential. However, there are exceptions: - If a child, elder, or dependent adult is being abused. - If you have plans to harm yourself or others. - If there is another kind of immediate danger.”"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#incident-response-procedure",
+    "href": "templates/presentation/EMP.html#incident-response-procedure",
+    "title": "Emergency Medical Plan",
+    "section": "Incident Response Procedure",
+    "text": "Incident Response Procedure\n\nAssessment: Identify and gather details on potential imminent risk situations.\nCommunication: Relay information to the responsible clinician for further evaluation.\nDetermination: The responsible clinician makes the final decision on the participant’s risk level and necessary actions.\nSupport: Provide immediate support and briefing."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
+    "href": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
+    "title": "Emergency Medical Plan",
+    "section": "Abuse of Child, Elder, or Dependent",
+    "text": "Abuse of Child, Elder, or Dependent\n\nTypes of Abuse: Physical, emotional, financial exploitation, sexual, or neglect.\nInitial Assessment & Reporting: Follow EMP and Site SOP.\nInformation to Collect: Details about the victim and the abuse.\nConsultation & Decision Making: Ensure safety in notifying others.\nReporting Process: Contact the Florida Abuse Hotline."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#suicidality-response-protocol",
+    "href": "templates/presentation/EMP.html#suicidality-response-protocol",
+    "title": "Emergency Medical Plan",
+    "section": "Suicidality Response Protocol",
+    "text": "Suicidality Response Protocol\n\nAlerts: Immediate action on alerts indicating suicidal ideation.\nIn-Person Disclosure: Assess plan, intent, means, and location.\nRemote Disclosure: Maintain contact and call 911 for immediate threats."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
+    "href": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
+    "title": "Emergency Medical Plan",
+    "section": "Intent to Harm Others and Homicidal Ideation",
+    "text": "Intent to Harm Others and Homicidal Ideation\n\nAlerts: Act on alerts suggesting harm to others.\nIn-Person Disclosure: Verify plan, intent, means, and gather information on potential victims.\nRemote Disclosure: Do not disconnect; use another device to contact emergency services for imminent threats."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#documentation-and-confidentiality",
+    "href": "templates/presentation/EMP.html#documentation-and-confidentiality",
+    "title": "Emergency Medical Plan",
+    "section": "Documentation and Confidentiality",
+    "text": "Documentation and Confidentiality\n\nDuty to Warn: Notify authorities and intended victims as required.\nIncident Reporting: Complete detailed documentation of the threat, response, and any advisories given."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
+    "href": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
+    "title": "Emergency Medical Plan",
+    "section": "ABCD Neuroradiology Report and MRI Findings",
+    "text": "ABCD Neuroradiology Report and MRI Findings\n\nRecipient: Dr. Raul Gonzalez\nConsultant: Dr. Leo Sugrue\nProcedure: Notify Dr. Gonzalez through ABCD DAIC for incidental findings.\nFollow-Up: Assess clinical significance and communicate with families."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
+    "href": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
+    "title": "Emergency Medical Plan",
+    "section": "Blood Pressure and Laboratory Incidental Findings",
+    "text": "Blood Pressure and Laboratory Incidental Findings\n\nAlert Recipient: Dr. Raul Gonzalez\nConsultation: Significant findings discussed with Dr. Suzie Noronha.\nFamily Communication: Discuss findings with families and recommend follow-up."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#medical-emergency-protocol",
+    "href": "templates/presentation/EMP.html#medical-emergency-protocol",
+    "title": "Emergency Medical Plan",
+    "section": "Medical Emergency Protocol",
+    "text": "Medical Emergency Protocol\n\nInitial Response: Evaluate the situation and contact the responsible clinician.\nParent/Guardian Notification: Inform immediately, depending on the severity.\nEmergency Services: Call 911 for serious injuries."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#other-imminent-risks",
+    "href": "templates/presentation/EMP.html#other-imminent-risks",
+    "title": "Emergency Medical Plan",
+    "section": "Other Imminent Risks",
+    "text": "Other Imminent Risks\n\nAssessment: Staff assessors gather detailed information on the risk.\nClinician Notification: Evaluate risk with Dr. Gonzalez or Dr. Hawes.\nConfidentiality: May be broken if necessary to prevent harm."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#remote-or-virtual-visits",
+    "href": "templates/presentation/EMP.html#remote-or-virtual-visits",
+    "title": "Emergency Medical Plan",
+    "section": "Remote or Virtual Visits",
+    "text": "Remote or Virtual Visits\n\nPreparation: Verify participant’s location and contact numbers.\nEmergency Protocol: Follow in-person visit procedures for any emergencies."
   },
   {
     "objectID": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks",
@@ -179,7 +270,7 @@
     "href": "sunippets.html",
     "title": "SUNLab",
     "section": "",
-    "text": "Bootstrap Table Colors\n\n\n\n\n\nSUNippets\n\n\n\n\n\nTitle\nSUNippet Number\nType\nLanguage\n\n\n\n\nSUNLab ABCD Variables \nColumn content\nColumn content\nColumn content\n\n\nData Wrangling \nColumn content\nColumn content\nColumn content\n\n\nCross-sectional Analysis \nColumn content\nColumn content\nColumn content\n\n\nLongitudinal Analysis\nColumn content\nColumn content\nColumn content\n\n\nExample_001\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content"
+    "text": "Bootstrap Table Colors\n\n\n\n\n\nSUNippets\n\n\n\n\n\nTitle\nSUNippet Number\nType\nLanguage\n\n\n\n\nSUNLab ABCD Variables \nColumn content\nColumn content\nColumn content\n\n\nData Wrangling \nColumn content\nColumn content\nColumn content\n\n\nCross-sectional Analysis \nColumn content\nColumn content\nColumn content\n\n\nLongitudinal Analysis\nColumn content\nColumn content\nColumn content\n\n\nTables\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content"
   },
   {
     "objectID": "projects.html",
@@ -187,27 +278,6 @@
     "title": "Projects Overview",
     "section": "",
     "text": "Projects Overview\nWelcome to our projects page! Here you can find links to various project resources and presentations.\n\nEMP 2 Presentation"
-  },
-  {
-    "objectID": "templates/presentation/EMP_2.html#our-team",
-    "href": "templates/presentation/EMP_2.html#our-team",
-    "title": "Emergency Medical Plan",
-    "section": "Our Team",
-    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor, NPI #1356417596\n\n📱 305-501-xxxx\n📧 raul.gonzalezjr@fiu.edu\n☎️ 305-348-4921\n\nSamuel Hawes, PhD, Associate Research Professor, License #PY 10774 [Florida]\n\n📱 786-717-xxxx\n📧 shawes@fiu.edu\n☎️ 305-348-5439\n\nDr. Angela Laird, PhD, Professor\n\n📱 210-355-xxxx\n📧 alaird@fiu.edu\n☎ ️office phone: 305 348-6737\n\nNicole Schat, PhD, Associate Research Professor, License #PY 9541 [Florida]\n\n📱 573-201-xxxx\n📧 nschatz@fiu.edu\n☎️ office phone: 305-348-0663"
-  },
-  {
-    "objectID": "templates/presentation/EMP_2.html#emergency-contacts",
-    "href": "templates/presentation/EMP_2.html#emergency-contacts",
-    "title": "Emergency Medical Plan",
-    "section": "Emergency Contacts",
-    "text": "Emergency Contacts\n\nFlorida Department of Children and Families Abuse Hotline & Adult Protective Services: 1-800-962-2873 or fax 1-800-914-0004\nFIU Police: (305) 348-5911 (or 7-5911 from an FIU phone)\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211 or visit Switchboard Miami"
-  },
-  {
-    "objectID": "templates/presentation/EMP_2.html#responsible-clinician",
-    "href": "templates/presentation/EMP_2.html#responsible-clinician",
-    "title": "Emergency Medical Plan",
-    "section": "Responsible Clinician",
-    "text": "Responsible Clinician\n\n\n\n\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*see also CCF On-Call Clinician calendar"
   },
   {
     "objectID": "Resources.html",

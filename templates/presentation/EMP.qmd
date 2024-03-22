@@ -1,351 +1,150 @@
 ---
-title: "Emergency Management Procedures for ABCD FIU"
-author: "ABCD BMO Review: completed 03/08/2024"
+title: "Emergency Medical Plan"
 format: 
   revealjs:
     theme: "moon"
-    transition: "slide"
+    transition: "slide" # Try different transitions: fade, convex, concave
+    #custom-css: "custom-style.css"
 ---
 
+```{=html}
 <style>
 
-    /* Custom CSS for top-aligned slides */
-.top-aligned-slide .reveal .slides section {
+/* Example CSS adjustment for better content layout */
+.reveal .slides section {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align content to the top */
+  justify-content: flex-start; /* Adjust as needed */
+  align-items: center; /* Center content horizontally */
   height: 100%;
 }
 
-    /* Center all headings in the presentation */
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  text-align: center;
+.scrollable {
+  max-height: none; /* Remove fixed heights if not necessary */
+  overflow-y: auto; /* Only make scrollable as needed */
 }
 
-    /* Global adjustments for spacing and font sizes */
-.reveal h1, .reveal h2, .reveal h3 {
-  font-size: 28px; /* Reduce size for headers */
-  margin-top: 20px; /* Add space above headers */
-  margin-bottom: 10px; /* Add space below headers */
+.scrollable {
+  max-height: 75vh; /* Example: 75% of the viewport height */
+  overflow-y: auto; /* Keep scrollable as needed */
 }
 
-.reveal p, .reveal li {
-  font-size: 18px; /* Adjust text size for readability */
-  margin-bottom: 10px; /* Add space between paragraphs/list items */
+.scrollable {
+  max-height: 75vh; /* Example: 75% of the viewport height */
+  overflow-y: auto; /* Keep scrollable as needed */
 }
 
-/* Custom class for slides with dense content */
-.dense-content p, .dense-content li {
-  font-size: 16px; /* Smaller text for dense content slides */
+/* Resetting or overriding global styles if necessary */
+.reveal p, .reveal li, .reveal dt, .reveal dd {
+  margin: 0;
+  padding: 0.5em 0; /* Provide uniform spacing */
 }
 
-/* Ensure links are clearly visible */
-.reveal a {
-  color: #FFC72C; /* FIU Gold for links */
-  text-decoration: underline; /* Underline links for clarity */
-}
 
-/* Custom CSS for FIU color theme adjustments */
-body.reveal {
-    background-color: #2C3E50; /* Slate/Navy Blue */
-    color: #FFC72C; /* FIU Gold */
-}
+  </style>
+```
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: #FFC72C; /* FIU Gold */
-}
+## Key Contacts
 
-.reveal a {
-    color: #FFC72C; /* FIU Gold for links */
-}
+Refer to our **[On-Call Clinician Schedule](#)** in Outlook for immediate assistance.
 
-/* Style for the important box */
-.important {
-    border: 2px solid #FFC72C; /* FIU Gold */
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #34495E; /* A darker shade of Slate/Navy Blue for contrast */
-    color: #ffffff; /* White text for readability */
-}
+## Our Team {.scrollable .smaller}
 
-/* Adjust font size for content */
-.reveal section p, .reveal section li {
-  font-size: 18px; /* Adjusted font size for better readability */
-}
-
-/* Ensure content fits on slides */
-.reveal section {
-  overflow-y: auto; /* Enables scrolling if content overflows */
-}
-
-/* Adjusting global font sizes for better fit */
-.reveal section p, .reveal section li, .reveal section a {
-  font-size: 16px; /* Adjust this value as needed */
-}
-
-/* Specific adjustment for the Important Contacts slide */
-.reveal section.important-contacts p, 
-.reveal section.important-contacts li, 
-.reveal section.important-contacts a {
-  font-size: 26px; /* Larger font size for better visibility */
-}
-
-/* Ensuring links are visible */
-.reveal section a {
-  color: #FFC72C; /* FIU Gold for links */
-  text-decoration: underline; /* Makes it clear they are clickable */
-}
-</style>
-
-# Contact Information 📔
-
-- **CCF On-Call Clinician**: 
-    - See Center for Children and Families (CCF) On-Call Clinical Schedule and contact the appropriate number 
-        - (this list is found in the Outlook calendar after you have been given access to it).
-
-## Key Contacts 
-
-- **Raul Gonzalez**, PhD, Professor, NPI #1356417596
-    - 📱 305-501-0456
+- **Raul Gonzalez**, PhD, Professor
     - 📧 raul.gonzalezjr@fiu.edu
-    - ☎️ office phone: 305-348-4921
-
-- **Samuel Hawes**, PhD, Associate Research Professor, License #PY 10774 [Florida]
-    - 📱 786-717-1980
+    - 📱 305-501-xxxx
+- **Samuel Hawes**, PhD, Associate Research Professor
     - 📧 shawes@fiu.edu
-    - ☎️ office phone: 305-348-5439
-
+    - 📱 786-717-xxxx
 - **Dr. Angela Laird**, PhD, Professor
-    - 📱 210-355-3762
     - 📧 alaird@fiu.edu
-    - ☎ ️office phone: 305 348-6737
-
-- **Nicole Schat**, PhD, Associate Research Professor, License #PY 9541 [Florida]
-    - 📱 573-201-9664
+    - 📱 210-355-xxxx
+- **Nicole Schatz**, PhD, Associate Research Professor
     - 📧 nschatz@fiu.edu
-    - ☎️ office phone: 305-348-0663
+    - 📱 573-201-xxxx
 
-- **Florida Department of Children and Families Abuse Hotline & Adult Protective Services**: 
-  [1-800-962-2873 or fax 1-800-914-0004](https://reportabuse.dcf.state.fl.us/)
-- **FIU Police**: (305) 348-5911 (or 7-5911 from an FIU phone)
+## Emergency Contacts {.scrollable .smaller}
+
+- **Florida DCF Abuse Hotline & Adult Protective Services**: 1-800-962-2873
+- **FIU Police**: 305-348-5911
 - **Emergency**: 911
-- **Miami information & referral, 24/7**: 
-  [211 and online](http://switchboardmiami.org/)
+- **Miami Information & Referral, 24/7**: Dial 211
 
-</div>
+## Responsible Clinician {.scrollable .smaller}
 
----
+| Clinician       | Psychiatric | Neurological | BP/Blood alerts |
+|-----------------|-------------|--------------|-----------------|
+| Raul Gonzalez   | X           | X            | X               |
+| Samuel Hawes    | X           |              |                 |
+| Nicole Schatz   |             |              | X               |
 
-# Responsible Clinician
+*Refer to the CCF On-Call Clinician calendar for more information.
 
-|                | Psychiatric | Neurological | BP/Blood alerts |
-|----------------|:-----------:|:------------:|:---------------:|
-| Raul Gonzalez  |      X      |      X       |        X        |
-| Samuel Hawes   |      X      |              |                 |
-| Nicole Schatz  |             |              |        X        |
+## Confidentiality Limitations {.scrollable .smaller}
 
-*see also CCF On-Call Clinician calendar
+"Most of what you say here is confidential. However, there are exceptions:
+- If a child, elder, or dependent adult is being abused.
+- If you have plans to harm yourself or others.
+- If there is another kind of immediate danger."
 
----
+## Incident Response Procedure {.scrollable .smaller}
 
-# Alert Recipient
+1. **Assessment**: Identify and gather details on potential imminent risk situations.
+2. **Communication**: Relay information to the responsible clinician for further evaluation.
+3. **Determination**: The responsible clinician makes the final decision on the participant's risk level and necessary actions.
+4. **Support**: Provide immediate support and briefing.
 
-|               | KSADS | ASR/CBCL | fMRI | BP/Blood Alerts |
-|---------------|:-----:|:-------:|:------------:|:---------------:|
-| Samuel Hawes  |   1   |    1    |              |                 |
-| Raul Gonzalez |       |         |       1      |        1        |
-| Angela Laird  |       |         |       1      |        2        |
+## Abuse of Child, Elder, or Dependent {.scrollable .smaller}
 
----
+- **Types of Abuse**: Physical, emotional, financial exploitation, sexual, or neglect.
+- **Initial Assessment & Reporting**: Follow EMP and Site SOP.
+- **Information to Collect**: Details about the victim and the abuse.
+- **Consultation & Decision Making**: Ensure safety in notifying others.
+- **Reporting Process**: Contact the Florida Abuse Hotline.
 
-<div class="important-contacts">
+## Suicidality Response Protocol {.scrollable .smaller}
 
+- **Alerts**: Immediate action on alerts indicating suicidal ideation.
+- **In-Person Disclosure**: Assess plan, intent, means, and location.
+- **Remote Disclosure**: Maintain contact and call 911 for immediate threats.
 
+## Intent to Harm Others and Homicidal Ideation {.scrollable .smaller}
 
-
----
-
-# Confidentiality Limitations 🔐
-
-<div class="important">
- 
-"Most of what you say is confidential. The few exceptions include..."
-
-- A child has been abused
-- An elder adult or dependent adult has been abused
-- You have plans to seriously harm yourself
-- You intend to seriously harm someone else
-- You are in immediate danger for another reason
-
-"In those cases, I may need to break this confidentiality and inform the right people, so we can make sure everyone is safe."
-
-</div>
-
----
-
-<div class="important">
-
-## Responsible Clinician Involvement
-
-- **Primary Contact**: On-Call Clinician as per schedule.
-  - 🚑 **Backup**: Dr. Hawes (or Dr. Gonzalez) in the absence of the On-Call Clinician.
-  - 📝 **Post-Incident**: Complete and submit an Incident Report Form to Dr. Hawes (or Dr. Gonzalez).
-
-### Incident Response Procedure
-
-1. **Assessment**: Staff assessors (Research Assistants/Associates) identify and gather details on potential imminent risk situations.
-2. **Communication**: Information relayed to the responsible clinician for further evaluation.
-3. **Determination**: The responsible clinician will make the final determination on the participant's risk level and necessary actions.
-4. **Virtual Protocols**: Ensure a secondary communication method (e.g., personal phone) for uninterrupted contact during virtual assessments.
-5. **Support**: Immediate briefing and additional support from Dr. Hawes (or Drs. Gonzalez or Laird).
-
-</div>
-
-<!-- <div class="important">
-
-# 🛑 Abuse of Child, Elder, or Dependent Adult
-
-### Types of Abuse
-- Physical, emotional, financial, sexual exploitation, or neglect.
-
-### Initial Assessment & Reporting
-- **Alert Protocol**: Follow site’s EMP and ABCD Site SOP for Youth KSADS PTSD upon a KSADS PTSD alert.
-- **Staff Assessor Role**: Immediate contact with the responsible clinician for abuse concerns.
-- **Unavailable Clinician**: Dr. Gonzalez or Dr. Hawes to be contacted.
-
-### Information to Collect
-- **Victim & Perpetrator Details**: Names, relationships, locations, descriptions, and contact information.
-- **Abuse Description**: Nature, duration, and previous reports.
-- **Immediate Danger?**: Call 911 if there's current danger.
-
-### Consultation & Decision Making
-- **Consultation**: Determine with the responsible clinician if notifying individuals of the report could increase risk.
-- **Mandated Reporting**: Not required to inform the subject if it increases risk to the victim.
-
-### Reporting Process
-- **Contact**: Call (800-962-2873) or visit [Florida Abuse Hotline](https://reportabuse.dcf.state.fl.us/) with the clinician's or PI's assistance.
-- **Documentation**: Note the social service staff's advice, their name, and the time of the report.
-- **DCF Reporter Information Form**: Complete and fax to 1-800-914-0004 if requested.
-
-### Incident Reporting
-- **Complete an Incident Report Form**: Detail the interaction, advice received, participant and parent awareness, and follow-up actions.
-- **Submission**: Form to be signed by Dr. Gonzalez or Dr. Hawes and included in the consent file.
-
-</div> -->
-
----
-
-<div class="dense-content">
-
-# 🛑 Abuse of Child, Elder, or Dependent Adult
-
-- **Types of Abuse**: Physical, emotional, financial, sexual exploitation, or neglect.
-- **Initial Assessment & Reporting**: Follow site’s EMP and ABCD Site SOP for Youth KSADS PTSD upon a KSADS PTSD alert.
-- **Information to Collect**: Victim & Perpetrator Details, Abuse Description, Immediate Danger assessment.
-- **Consultation & Decision Making**: Determine with the responsible clinician if notifying individuals of the report could increase risk.
-- **Reporting Process**: Contact (800-962-2873) or visit [Florida Abuse Hotline](https://reportabuse.dcf.state.fl.us/).
-
-</div>
-
----
-
-<section class="top-aligned-slide">
-  <h1>🛑 Suicidality Response Protocol</h1>
-
-### Alert and Disclosure Response
-- **Alerts**: Immediate action on KSADS, ASR, CBCL alerts indicating suicidal ideation.
-- **In-Person Disclosure**: Assess PLAN, INTENT, MEANS, and LOCATION upon disclosure of intent to self-harm.
-- **Remote Disclosure**: Maintain contact and use a secondary device to call 911 for immediate suicide threats.
-
-### Communication Guidelines
-- **Inform Participant**: Necessary disclosure to ABCD supervisors for follow-up.
-- **Confidentiality**: Break confidentiality if needed to ensure safety, informing the participant of the action.
-
-### Documentation
-- **Incident Report**: Document all disclosures, actions taken, and follow-up in an Incident Report Form.
-</section>
-
----
-
-<section class="top-aligned-slide">
-  <h1>🛑 Intent to Harm Others and Homicidal Ideation</h1>
-  ### Alert and Disclosure Response
-- **Alerts**: Act on any KSADS, ASR, CBCL alerts suggesting harm to others.
-- **In-Person Disclosure**: Verify PLAN, INTENT, MEANS, and gather Potential Victim and Perpetrator Information.
+- **Alerts**: Act on alerts suggesting harm to others.
+- **In-Person Disclosure**: Verify plan, intent, means, and gather information on potential victims.
 - **Remote Disclosure**: Do not disconnect; use another device to contact emergency services for imminent threats.
 
-### Protective Actions
-- **Immediate Notification**: Inform potential victims and law enforcement if there's a credible threat.
-- **Clinician Consultation**: If unavailable, contact Dr. Gonzalez or Dr. Hawes for guidance.
+## Documentation and Confidentiality {.scrollable .smaller}
 
-### Documentation and Confidentiality
-- **Duty to Warn**: Notify authorities and intended victims as required, considering the need to break confidentiality.
+- **Duty to Warn**: Notify authorities and intended victims as required.
 - **Incident Reporting**: Complete detailed documentation of the threat, response, and any advisories given.
-</section>
 
----
-
-<section class="top-aligned-slide">
-  <h1>🧠 ABCD Neuroradiology Report and MRI Findings</h1>
+## ABCD Neuroradiology Report and MRI Findings {.scrollable .smaller}
 
 - **Recipient**: Dr. Raul Gonzalez
-- **Consultant**: Dr. Leo Sugrue (leo.sugrue@ucsf.edu)
-- **Procedure**: Immediate notification of Dr. Gonzalez through ABCD DAIC for incidental findings.
-- **Follow-Up**: Dr. Gonzalez assesses clinical significance and communicates with families.
-- **Documentation**: Findings and actions documented in ABCD REDCap and FIU notes.
+- **Consultant**: Dr. Leo Sugrue
+- **Procedure**: Notify Dr. Gonzalez through ABCD DAIC for incidental findings.
+- **Follow-Up**: Assess clinical significance and communicate with families.
 
-</section>
-
----
-
-<section class="top-aligned-slide">
-  <h1>🛑 Blood Pressure and Laboratory Incidental Findings </h1>
+## Blood Pressure and Laboratory Incidental Findings {.scrollable .smaller}
 
 - **Alert Recipient**: Dr. Raul Gonzalez
-- **Consultation**: With Dr. Suzie Noronha for significant findings.
+- **Consultation**: Significant findings discussed with Dr. Suzie Noronha.
 - **Family Communication**: Discuss findings with families and recommend follow-up.
-- **Documentation**: Record in ABCD REDCap and include in FIU notes.
 
-</section>
+## Medical Emergency Protocol {.scrollable .smaller}
 
----
-
-<section class="top-aligned-slide">
-  <h1>🚑 Medical Emergency Protocol</h1>
-
-- **Initial Response**: Contact the responsible clinician for evaluation.
+- **Initial Response**: Evaluate the situation and contact the responsible clinician.
 - **Parent/Guardian Notification**: Inform immediately, depending on the severity.
 - **Emergency Services**: Call 911 for serious injuries.
-- **Documentation**: Complete a report detailing the emergency and response.
 
-</section>
+## Other Imminent Risks {.scrollable .smaller}
 
----
-
-<section class="top-aligned-slide">
-  <h1>⚠️ Other Imminent Risks</h1>
-
-- **Assessment**: Staff assessors to gather detailed information on the risk.
-- **Clinician Notification**: Contact Dr. Gonzalez or Dr. Hawes for risk evaluation.
+- **Assessment**: Staff assessors gather detailed information on the risk.
+- **Clinician Notification**: Evaluate risk with Dr. Gonzalez or Dr. Hawes.
 - **Confidentiality**: May be broken if necessary to prevent harm.
-- **Documentation**: Incident report to be filled and included in the consent file.
 
-</section>
-
----
-
-<section class="top-aligned-slide">
-  <h1>🖥️ Remote or Virtual Visits</h1>
+## Remote or Virtual Visits {.scrollable .smaller}
 
 - **Preparation**: Verify participant's location and contact numbers.
 - **Emergency Protocol**: Follow in-person visit procedures for any emergencies.
-- **Clinician Contact**: Ensure availability of two phone lines for immediate communication.
-
-</section>
-
-
-
-
-
-

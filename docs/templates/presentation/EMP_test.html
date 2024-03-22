@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/sun1.jpeg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/sun1.jpeg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -80,10 +80,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/sun_favicon.jpeg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/sun_favicon.jpeg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">SUNLab</span>
     </a>
   </div>
@@ -94,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dashboard.html"> 
+    <a class="nav-link" href="../../dashboard.html"> 
 <span class="menu-text">Dashboard</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Resources.html"> 
+    <a class="nav-link" href="../../Resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -131,148 +131,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>
-Bootstrap Table Colors
-</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<style>
-body {
-  background-color: #222; /* Dark background */
-  color: #f5f5f5; /* Light text color */
-}
-
-/* Styles for the fire class with flicker animation */
-.fire {
-  color: #f5f5f5; /* Light text color */
-  text-align: center; /* Center alignment of text */
-  font-family: 'Courier New', Courier, monospace; /* Monospace font for sharp edges */
-  font-size: 80px; /* Text size */
-  /* Multi-layered text-shadow for fire effect */
-  text-shadow: 
-    0px -1px 3px #fff, /* Innermost layer - intense heat (white) */
-    0px -2px 6px #FF3, /* Second layer - core of flame (yellow) */
-    0px -6px 12px #F90, /* Middle layer - body of flame (orange) */
-    0px -10px 20px #C33; /* Outermost layer - edges of flame (red) */
-  animation: flicker 2s infinite;
-}
-
-/* Define the animation named "flicker" */
-@keyframes flicker {
-  0%, 100% { 
-    text-shadow: 
-      0 -1px 3px #fff,
-      0 -2px 6px #FF3,
-      0 -6px 12px #F90,
-      0 -10px 20px #C33;
-  }
-  50% { 
-    text-shadow: 
-      0 -2px 6px #fff,
-      0 -4px 12px #FF3,
-      0 -8px 16px #F90,
-      0 -12px 24px #C33;
-  }
-}
-
-/* Table styles adjusted to not affect the .fire class */
-.table {
-  background-color: #ffffff; /* Light background for the table */
-  color: #333; /* Dark text for readability */
-}
-.table th, .table td {
-  border: 1px solid #ddd; /* Light grey border for cells */
-}
-.table thead th {
-  background-color: #666; /* Darker background for the header */
-  color: #ffffff; /* White text for the header */
-}
-.table-hover tbody tr:hover {
-  background-color: #f5f5f5; /* Light grey background on hover */
-}
-
-/* Ensure .fire class effects are preserved and not overridden by other styles */
-</style>
-<div class="fire">
-SUNippets
-</div>
-<div>
-<table class="table table-hover" data-quarto-postprocess="true">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th" scope="col">Title</th>
-<th data-quarto-table-cell-role="th" scope="col">SUNippet Number</th>
-<th data-quarto-table-cell-role="th" scope="col">Type</th>
-<th data-quarto-table-cell-role="th" scope="col">Language</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd table-active">
-<td data-quarto-table-cell-role="th" scope="row"><a href="404.html">SUNLab ABCD Variables <img src="https://community.wacom.com/en-de/wp-content/uploads/sites/20/2023/10/Flame_GIF_2.gif" class="img-fluid" style="width: 20px; vertical-align: middle;" alt="Fire"></a></td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th" scope="row"><a href="404.html">Data Wrangling <img src="https://community.wacom.com/en-de/wp-content/uploads/sites/20/2023/10/Flame_GIF_2.gif" class="img-fluid" style="width: 20px; vertical-align: middle;" alt="Fire"></a></td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="odd table-primary">
-<td data-quarto-table-cell-role="th" scope="row"><a href="404.html">Cross-sectional Analysis <img src="https://community.wacom.com/en-de/wp-content/uploads/sites/20/2023/10/Flame_GIF_2.gif" class="img-fluid" style="width: 20px; vertical-align: middle;" alt="Fire"></a></td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="even table-secondary">
-<td data-quarto-table-cell-role="th" scope="row"><a href="404.html">Longitudinal Analysis</a></td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="odd table-success">
-<td data-quarto-table-cell-role="th" scope="row"><a href="404.html">Tables</a></td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="even table-danger">
-<td data-quarto-table-cell-role="th" scope="row">Example_00</td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="odd table-warning">
-<td data-quarto-table-cell-role="th" scope="row">Example_00</td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="even table-info">
-<td data-quarto-table-cell-role="th" scope="row">Example_00</td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="odd table-light">
-<td data-quarto-table-cell-role="th" scope="row">Example_00</td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-<tr class="even table-dark">
-<td data-quarto-table-cell-role="th" scope="row">Example_00</td>
-<td>Column content</td>
-<td>Column content</td>
-<td>Column content</td>
-</tr>
-</tbody>
-</table>
-</div>
 
 
 

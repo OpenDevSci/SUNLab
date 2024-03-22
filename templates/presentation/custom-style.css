@@ -1,0 +1,72 @@
+/* Custom Style for Emergency Medical Plan Presentation */
+
+body.reveal {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #2a3f5f;
+}
+
+.scrollable {
+  border-left: 4px solid #2a3f5f;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+/* Enhance table appearance */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #2a3f5f;
+  color: white;
+}
+
+/* Add subtle animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.reveal section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom bullet points */
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "\2022";
+  color: #2a3f5f; /* change the color of the bullet points */
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Link styling */
+a {
+  color: #2a3f5f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
