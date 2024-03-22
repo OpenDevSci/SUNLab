@@ -32,7 +32,7 @@
     "href": "templates/presentation/EMP.html#confidentiality-limitations",
     "title": "Emergency Medical Plan",
     "section": "Confidentiality Limitations",
-    "text": "Confidentiality Limitations\n“Most of what you say here is confidential. However, there are exceptions: - If a child, elder, or dependent adult is being abused. - If you have plans to harm yourself or others. - If there is another kind of immediate danger.”"
+    "text": "Confidentiality Limitations\n“Most of what you say here is confidential. However, there are exceptions…”\n\nIf a child, elder, or dependent adult is being abused.\nIf you have plans to harm yourself or others.\nIf there is another kind of immediate danger."
   },
   {
     "objectID": "templates/presentation/EMP.html#incident-response-procedure",
@@ -103,6 +103,13 @@
     "title": "Emergency Medical Plan",
     "section": "Remote or Virtual Visits",
     "text": "Remote or Virtual Visits\n\nPreparation: Verify participant’s location and contact numbers.\nEmergency Protocol: Follow in-person visit procedures for any emergencies."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#additional-resources",
+    "href": "templates/presentation/EMP.html#additional-resources",
+    "title": "Emergency Medical Plan",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nManaging Difficult Situations Webinar\nQUICK REFERENCE GUIDE: INDICATORS OF ABUSE AND NEGLECT\nChild Abuse Prevention Sourcebook"
   },
   {
     "objectID": "projects.html",

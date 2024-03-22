@@ -82,10 +82,11 @@ Refer to our **[On-Call Clinician Schedule](#)** in Outlook for immediate assist
 
 ## Confidentiality Limitations {.scrollable .smaller}
 
-"Most of what you say here is confidential. However, there are exceptions:
-- If a child, elder, or dependent adult is being abused.
-- If you have plans to harm yourself or others.
-- If there is another kind of immediate danger."
+"Most of what you say here is confidential. *However, there are exceptions*..."
+
+- **If a child, elder, or dependent adult is being abused.**
+- **If you have plans to harm yourself or others.**
+- **If there is another kind of immediate danger.**
 
 ## Incident Response Procedure {.scrollable .smaller}
 
@@ -148,3 +149,21 @@ Refer to our **[On-Call Clinician Schedule](#)** in Outlook for immediate assist
 
 - **Preparation**: Verify participant's location and contact numbers.
 - **Emergency Protocol**: Follow in-person visit procedures for any emergencies.
+
+## Additional Resources {.scrollable .smaller}
+
+- [Managing Difficult Situations Webinar](https://abcd-internal.ucsd.edu/confluence/pages/viewpage.action?spaceKey=SOPD&title=Managing+Difficult+Situations+Webinar)
+
+- [QUICK REFERENCE GUIDE: INDICATORS OF ABUSE AND NEGLECT](abuse-indicators.pdf)
+
+- [Child Abuse Prevention Sourcebook](child-abuse-prevention.pdf)
+
+
+{{< video https://www.youtube.com/embed/JG6wK_Ef45Y?si=2lzQSW1Pu1fXTmEJ >}}
+
+{{< video https://www.youtube.com/embed/P4_-SF9lQuc?si=wL4fSDgRc7xJPILQ >}}
+
+
+
+
+
