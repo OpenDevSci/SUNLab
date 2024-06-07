@@ -1,0 +1,275 @@
+---
+title: "CU Motivation Project"
+
+---
+
+## Preliminary Setup
+
+::: panel-tabset
+
+### Config Options
+
+::: blue
+> **This code configures knitr code chunk options**
+
+```{r}
+#| echo: true
+#| messages: FALSE
+#| warning: FALSE
+#| output: FALSE
+
+knitr::opts_chunk$set(
+    echo = T, message = F, warning = F, error = F,
+    comment = NA, cache = T, code_folding = T,
+    R.options = list(width = 220, digits = 3),
+    fig.align = "center",
+    out.width = "75%", fig.asp = .75
+)
+```
+
+:::
+
+### Install Packages {.tabset .tabset-fade .tabset-pills}
+
+::: blue
+> **This code loads the necessary r packages**
+
+```{r}
+#| echo: true
+#| warning: false
+#| output: false
+
+library(tidyverse) # Collection of R packages for data science
+library(gtsummary) # Publication-ready tables
+library(rstatix) # Statistical Tests in tidy format
+library(lavaan) # Structural Equation Modeling in R
+library(DT)
+library(patchwork)
+library(dlookr)
+library(kableExtra)
+library(knitr)
+library(openxlsx)
+library(psych)
+library(janitor)
+library(stringr)
+
+
+
+```
+
+:::
+
+### Load Data
+> **This code loads the dataframe**
+
+```{r}
+#| echo: TRUE # The content of this code block will not be shown when rendered
+#| output: FALSE # Output from this code block will not be shown when rendered
+#| warning: false
+#| cache: FALSE
+
+library(tidyverse)
+
+# This code loads the data to be used for the example
+
+# Set the data path
+data_path <- "/Users/shawes/ABCD/data/rds/abcd_5.0_rds/core-rds-5.0/non-imaging_excluding_nt_5.0.rds"
+
+# Read the data
+df <- readRDS(data_path)
+
+# Create and mutate the dataframe
+df_long <- df %>%
+    select(src_subject_id, eventname, bis_y_ss_bas_drive, bird_scr_score, bird_scr_meandotlatency, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %>%
+    filter(eventname %in% c("baseline_year_1_arm_1", "2_year_follow_up_y_arm_1", "4_year_follow_up_y_arm_1")) %>%
+    arrange(src_subject_id, eventname) %>%
+    mutate(
+        src_subject_id = factor(src_subject_id),
+        eventname = factor(eventname, levels = c("baseline_year_1_arm_1", "2_year_follow_up_y_arm_1", "4_year_follow_up_y_arm_1"), labels = c("Baseline", "Year_2", "Year_4")),
+        bis_y_ss_bas_drive = round(as.numeric(bis_y_ss_bas_drive), 2),
+        bird_scr_score = round(as.numeric(bird_scr_score), 2),
+        bird_scr_meandotlatency = round(as.numeric(bird_scr_meandotlatency), 2),
+        upps_y_ss_lack_of_perseverance = round(as.numeric(upps_y_ss_lack_of_perseverance), 2),
+        cbcl_scr_dsm5_depress_t = round(as.numeric(cbcl_scr_dsm5_depress_t), 2),
+    ) %>%
+    rename(
+        id = src_subject_id,
+        event = eventname,
+        bis_y_ss_bas_drive = bis_y_ss_bas_drive,
+        bird_scr_score = bird_scr_score,
+        bird_scr_meandotlatency = bird_scr_meandotlatency,
+        upps_y_ss_lack_of_perseverance = upps_y_ss_lack_of_perseverance,
+        cbcl_scr_dsm5_depress_t = cbcl_scr_dsm5_depress_t
+    )
+
+df_long <- df_long %>%
+    group_by(id) %>%
+    filter(all(c("Baseline", "Year_2", "Year_4") %in% event)) %>%
+    ungroup()
+
+```
+
+:::
+
+## Sample Descriptives
+
+::: panel-tabset
+
+### Descriptives Table {.tabset .tabset-fade .tabset-pills}
+
+::: blue
+
+> **This table shows xxxxxxx**
+
+```{r}
+#| echo: true
+#| warning: false
+
+library(gtsummary)
+
+# Create the descriptive statistics table with updated labels
+descriptive_table <- df_long %>%
+  select(bis_y_ss_bas_drive, bird_scr_score, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %>%
+  tbl_summary(
+    missing = "no",  # Include or exclude missing data as needed
+    label = list(
+      bis_y_ss_bas_drive = "BB_Drive",  # Updated label
+      bird_scr_score = "BIRD",  # Updated label
+      upps_y_ss_lack_of_perseverance = "UP_Perseverance",  # Updated label
+      cbcl_scr_dsm5_depress_t = "CB_Depression"  # Updated label
+    ),
+    statistic = list(
+      all_continuous() ~ "{mean} ({sd})",  # Formatting stats for continuous variables
+      all_categorical() ~ "{p}%"  # Formatting stats for categorical variables
+    )
+  ) %>%
+  modify_header(all_stat_cols() ~ "**{level}**<br>N = {n}") %>%
+  bold_labels() %>%
+  modify_spanning_header(stat_0 ~ "**Descriptive Statistics**")
+
+# Print the table to view results
+descriptive_table
+
+```
+:::
+
+### xxxxxxx {.tabset .tabset-fade .tabset-pills}
+
+::: blue
+
+> **This table shows xxxxxx**
+
+```{r}
+#| echo: true
+#| warning: false
+
+v <- 10
+print(v)
+
+
+```
+
+:::
+:::
+
+## Analyses
+
+```{r}
+#| echo: false
+#| warning: false
+#| output: false
+
+z<-5
+print(z)
+
+```
+
+
+::: panel-tabset
+
+### Initial Output {.tabset .tabset-fade .tabset-pills}
+
+::: blue
+
+> **This table shows xxxxxxx**
+
+```{r}
+
+# Rename variables for clarity before performing correlation analysis
+df_renamed <- df_long %>%
+  rename(
+    Bird = bird_scr_score,
+    Drive = bis_y_ss_bas_drive,
+    Persev = upps_y_ss_lack_of_perseverance,
+    Depress = cbcl_scr_dsm5_depress_t
+  )
+
+# Ensure there are no missing values for these variables
+df_renamed <- na.omit(df_renamed)
+
+# Calculate the correlation matrix using complete observations
+cor_matrix <- cor(df_renamed[, c("Bird", "Drive", "Persev", "Depress")], use = "complete.obs")
+
+# Optionally, round the correlation matrix for better readability
+cor_matrix <- round(cor_matrix, 2)
+
+# Print the correlation matrix
+print(cor_matrix)
+
+library(knitr)
+
+# Create a more formatted output for the correlation matrix
+kable(cor_matrix, caption = "Correlation Matrix of Psychological Measures")
+
+cat("Variables in the Correlation Matrix:\n")
+cat("Bird: BIRD Score.\n")
+cat("Drive: BIS/BAS Drive.\n")
+cat("Persev: UPPS Perseverance\n")
+cat("Depress: CBCL Depression\n\n")
+
+```
+
+:::
+
+### xxxxxxxx
+
+::: blue
+
+> **This table shows xxxxxxxx**
+
+```{r}
+#| echo: true
+#| warning: false
+
+x<-5
+print(x)
+
+```
+
+:::
+:::
+
+
+
+:::{.callout-note}
+These are some basic scratch/notes:
+
+`Motivation` & `Cannabis Use`
+4-year:
+BIS/BAS (Drive Subscale [4 items]) [bis_y_ss_bas_drive]
+Bird Task (Distress Tolerance Task/Behavioral indicator of distress tolerance) [bird_scr_score, bird_scr_meandotlatency]
+UPPS (Perserverance Subscale [4 items]) [upps_y_ss_lack_of_perseverance]
+
+Does performance at 4yrs predict cannabis use at 6yrs?
+
+6-year:
+Cannabis Use (initiation, escalation, and disorder)
+
+Covariates:
+Demographics
+Depression (full & anhedonia) [cbcl_scr_dsm5_depress_t]
+:::
+
+
+
+

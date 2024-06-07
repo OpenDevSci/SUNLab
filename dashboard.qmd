@@ -124,7 +124,7 @@ ggplot(data = penguins, aes(x = species)) +
 ## Row {height=40%}
 
 ```{r}
-
+# install.packages("palmerpenguins")
 library(palmerpenguins)
 library(ggplot2)
 

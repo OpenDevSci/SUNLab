@@ -1,136 +1,10 @@
 [
   {
-    "objectID": "templates/presentation/EMP.html#key-contacts",
-    "href": "templates/presentation/EMP.html#key-contacts",
-    "title": "Emergency Medical Plan",
-    "section": "Key Contacts",
-    "text": "Key Contacts\nRefer to our On-Call Clinician Schedule in Outlook for immediate assistance."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#our-team",
-    "href": "templates/presentation/EMP.html#our-team",
-    "title": "Emergency Medical Plan",
-    "section": "Our Team",
-    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor\n\n📧 raul.gonzalezjr@fiu.edu\n📱 305-501-xxxx\n\nSamuel Hawes, PhD, Associate Research Professor\n\n📧 shawes@fiu.edu\n📱 786-717-xxxx\n\nDr. Angela Laird, PhD, Professor\n\n📧 alaird@fiu.edu\n📱 210-355-xxxx\n\nNicole Schatz, PhD, Associate Research Professor\n\n📧 nschatz@fiu.edu\n📱 573-201-xxxx"
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#emergency-contacts",
-    "href": "templates/presentation/EMP.html#emergency-contacts",
-    "title": "Emergency Medical Plan",
-    "section": "Emergency Contacts",
-    "text": "Emergency Contacts\n\nFlorida DCF Abuse Hotline & Adult Protective Services: 1-800-962-2873\nFIU Police: 305-348-5911\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211"
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#responsible-clinician",
-    "href": "templates/presentation/EMP.html#responsible-clinician",
-    "title": "Emergency Medical Plan",
-    "section": "Responsible Clinician",
-    "text": "Responsible Clinician\n\n\n\nClinician\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*Refer to the CCF On-Call Clinician calendar for more information."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#confidentiality-limitations",
-    "href": "templates/presentation/EMP.html#confidentiality-limitations",
-    "title": "Emergency Medical Plan",
-    "section": "Confidentiality Limitations",
-    "text": "Confidentiality Limitations\n“Most of what you say here is confidential. However, there are exceptions…”\n\nIf a child, elder, or dependent adult is being abused.\nIf you have plans to harm yourself or others.\nIf there is another kind of immediate danger."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#incident-response-procedure",
-    "href": "templates/presentation/EMP.html#incident-response-procedure",
-    "title": "Emergency Medical Plan",
-    "section": "Incident Response Procedure",
-    "text": "Incident Response Procedure\n\nAssessment: Identify and gather details on potential imminent risk situations.\nCommunication: Relay information to the responsible clinician for further evaluation.\nDetermination: The responsible clinician makes the final decision on the participant’s risk level and necessary actions.\nSupport: Provide immediate support and briefing."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
-    "href": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
-    "title": "Emergency Medical Plan",
-    "section": "Abuse of Child, Elder, or Dependent",
-    "text": "Abuse of Child, Elder, or Dependent\n\nTypes of Abuse: Physical, emotional, financial exploitation, sexual, or neglect.\nInitial Assessment & Reporting: Follow EMP and Site SOP.\nInformation to Collect: Details about the victim and the abuse.\nConsultation & Decision Making: Ensure safety in notifying others.\nReporting Process: Contact the Florida Abuse Hotline."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#suicidality-response-protocol",
-    "href": "templates/presentation/EMP.html#suicidality-response-protocol",
-    "title": "Emergency Medical Plan",
-    "section": "Suicidality Response Protocol",
-    "text": "Suicidality Response Protocol\n\nAlerts: Immediate action on alerts indicating suicidal ideation.\nIn-Person Disclosure: Assess plan, intent, means, and location.\nRemote Disclosure: Maintain contact and call 911 for immediate threats."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
-    "href": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
-    "title": "Emergency Medical Plan",
-    "section": "Intent to Harm Others and Homicidal Ideation",
-    "text": "Intent to Harm Others and Homicidal Ideation\n\nAlerts: Act on alerts suggesting harm to others.\nIn-Person Disclosure: Verify plan, intent, means, and gather information on potential victims.\nRemote Disclosure: Do not disconnect; use another device to contact emergency services for imminent threats."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#documentation-and-confidentiality",
-    "href": "templates/presentation/EMP.html#documentation-and-confidentiality",
-    "title": "Emergency Medical Plan",
-    "section": "Documentation and Confidentiality",
-    "text": "Documentation and Confidentiality\n\nDuty to Warn: Notify authorities and intended victims as required.\nIncident Reporting: Complete detailed documentation of the threat, response, and any advisories given."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
-    "href": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
-    "title": "Emergency Medical Plan",
-    "section": "ABCD Neuroradiology Report and MRI Findings",
-    "text": "ABCD Neuroradiology Report and MRI Findings\n\nRecipient: Dr. Raul Gonzalez\nConsultant: Dr. Leo Sugrue\nProcedure: Notify Dr. Gonzalez through ABCD DAIC for incidental findings.\nFollow-Up: Assess clinical significance and communicate with families."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
-    "href": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
-    "title": "Emergency Medical Plan",
-    "section": "Blood Pressure and Laboratory Incidental Findings",
-    "text": "Blood Pressure and Laboratory Incidental Findings\n\nAlert Recipient: Dr. Raul Gonzalez\nConsultation: Significant findings discussed with Dr. Suzie Noronha.\nFamily Communication: Discuss findings with families and recommend follow-up."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#medical-emergency-protocol",
-    "href": "templates/presentation/EMP.html#medical-emergency-protocol",
-    "title": "Emergency Medical Plan",
-    "section": "Medical Emergency Protocol",
-    "text": "Medical Emergency Protocol\n\nInitial Response: Evaluate the situation and contact the responsible clinician.\nParent/Guardian Notification: Inform immediately, depending on the severity.\nEmergency Services: Call 911 for serious injuries."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#other-imminent-risks",
-    "href": "templates/presentation/EMP.html#other-imminent-risks",
-    "title": "Emergency Medical Plan",
-    "section": "Other Imminent Risks",
-    "text": "Other Imminent Risks\n\nAssessment: Staff assessors gather detailed information on the risk.\nClinician Notification: Evaluate risk with Dr. Gonzalez or Dr. Hawes.\nConfidentiality: May be broken if necessary to prevent harm."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#remote-or-virtual-visits",
-    "href": "templates/presentation/EMP.html#remote-or-virtual-visits",
-    "title": "Emergency Medical Plan",
-    "section": "Remote or Virtual Visits",
-    "text": "Remote or Virtual Visits\n\nPreparation: Verify participant’s location and contact numbers.\nEmergency Protocol: Follow in-person visit procedures for any emergencies."
-  },
-  {
-    "objectID": "templates/presentation/EMP.html#additional-resources",
-    "href": "templates/presentation/EMP.html#additional-resources",
-    "title": "Emergency Medical Plan",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nManaging Difficult Situations Webinar\nQUICK REFERENCE GUIDE: INDICATORS OF ABUSE AND NEGLECT\nChild Abuse Prevention Sourcebook"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects Overview",
-    "section": "",
-    "text": "Projects Overview\nWelcome to our projects page! Here you can find links to various project resources and presentations.\n\nEMP Presentation"
-  },
-  {
-    "objectID": "sunippets.html",
-    "href": "sunippets.html",
+    "objectID": "t32_presentation.html",
+    "href": "t32_presentation.html",
     "title": "SUNLab",
     "section": "",
-    "text": "Bootstrap Table Colors\n\n\n\n\n\nSUNippets\n\n\n\n\n\nTitle\nSUNippet Number\nType\nLanguage\n\n\n\n\nSUNLab ABCD Variables \nColumn content\nColumn content\nColumn content\n\n\nData Wrangling \nColumn content\nColumn content\nColumn content\n\n\nCross-sectional Analysis \nColumn content\nColumn content\nColumn content\n\n\nLongitudinal Analysis\nColumn content\nColumn content\nColumn content\n\n\nTables\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content"
-  },
-  {
-    "objectID": "projects/ck.html",
-    "href": "projects/ck.html",
-    "title": "SUNLab",
-    "section": "",
-    "text": "Methods and Materials\nParticipants and Procedure\nThis study consisted of XX participants (age range XX, mean XX; XX% female; XX% White, XX% Black, XX% Asian, XX% other; XX% non-Hispanic and XX% Hispanic) enrolled in the Adolescent Brain Cognitive Development (ABCD) Study. The ABCD study consisted of annual follow-up visits (Baseline, Y1, Y2, Y3, etc.). Participants and their parents/guardians were recruited from 21 research sites across the U.S. between 2016-2018. The participants were recruited through probability sampling of U.S. schools within the 21 catchment areas. The American Community Survey (ACS) and the National Center for Education Statistics (NCES) were used to provide guidelines for a sociodemographic (age, gender, race and ethnicity, socio-economic status, and urbanicity) to represent the population of the U.S. For details see Garavan et al., (2018). All study procedures were approved by a centralized institutional review board (IRB) at the University of California, San Diego, and written informed assent/consent was provided.\nExclusion criteria for the youth participant included lack of English proficiency, the presence of severe sensory, intellectual, medial, or neurological issues that would impact the validity of the collected data or the child’s ability to comply with the study protocol, and contradictions of the MRI scanning. Exclusion criteria for the parent participant included lack of proficiency in English or Spanish. Data from the ABCD Study are made available by the National Institute of Mental Health Data Archive (NDA), and the current study used data from the ABCD Curated Annual Release 5.0 (10.15154/8873-zj65) released June 16, 2023.\nAnnual visits consisted of 1-2 study sessions, which included biological, behavioral, and neuroimaging assessment modules, including substance use (Lisdahl et al., 2018), mental and physical health (Barch et al., 2018), peer, family, culture, and environment (Zucker et al., 2018), biological markers (Uban at al., 2018), genetics (Iacono et al., 2018), neurocognitive (Luciana et al., 2018), and magnetic resonance imaging (Casey et al., 2018). For the current study, neurocognitive and activity data were obtained at the 2-year follow-up timepoint, and substance use measures were obtained during the 4-year follow-up timepoint. Sociodemographic information was collected from the parent participants (family income, highest parental education, child’s ethnicity and race, and child’s sex assigned at birth) (Garavan et al., 2018).\nADD IN THE SU GROUPINGS\nMeasures\nSubstance Use\nConfidentiality was reiterated to the youth before the substance use interview. At the baseline assessment the youth were asked about lifetime use, and each follow-up visit proceeding the youth were asked about substance use since the last follow up visit (Lisdahl et al., 2018). The substance use module consisted of each major drug category: alcohol, cannabis and cannabinoids (smoked cannabis, edible cannabis, cannabis concentrates, cannabis-infused alcohol, cannabis tinctures, synthetic cannabinoids), nicotine (tobacco cigarettes, electronic cigarettes, smokeless tobacco, cigars, hookah, tobacco pipe, nicotine replacement), caffeine, cocaine, cathinones, methamphetamine, 3,4-methylenedioxymethamphetamine (MDMA, ecstasy or molly), ketamine, gamma hydroxybutyrate, heroin, hallucinogens (including lysergic acid diethylamide, phencyclidine, peyote, mescaline, N-dimethyltryptamine, alpha-methyltryptamine, or 5-methoxy-N,N-diisopropyltryptamine), psilocybin, salvia, anabolic steroids, inhalants, prescription stimulants, prescription sedatives, prescription opioids, and OTC cough or cold medicine (Lisdahl et al., 2018).\nSubstance use experimentation was a measurement of less than one standard drink of alcohol and a puff or taste of cannabis or nicotine or any other occasion of other substance use (Lisdahl et al., 2018). The iSay Sipping Inventory, an 8-item instrument, was used to measure first experiences sipping alcohol (age of onset, type of alcohol, context in which the sipping occurred, who the drink belonged to, and if the drink was offered or not) (Jackson et al., 2015). Similar information was acquired for cannabis and nicotine (where they obtained the substance, when the experience occurred, and whether it led to further use); potency and subjective experience of feeling “high” were also assessed (Lisdahl et al., 2018). For youth who reported a full standard unit of a substance, the Timeline Follow-Back (TLFB) was administered (Lisdahl et al., 2018; Sobell and Sobell, 1992). The TLFB is a semi-structured interview that uses a calendar to retrospectively recall lifetime substance use and substance use between visits (Lisdahl et al., 2018; Robinson et al., 2014). The current study mimicked the characterization of substance use from a previous study, Sullivan et al., 2022, by using the following two categories: initiation: reported ≥1 standard alcohol drink, &gt;puff/taste cannabis or nicotine or any other occasion of other substance use; experimentation: low-level substance use (i.e., alcohol sipping, nicotine or cannabis puffing or trying) (Sullivan et al., 2022).\nActivity Measurement – ADD IN INFORMATION ABOUT PA\nPhysical activity was assessed through wearable technology (Fitbit Charge Series) for 21 days (Bagot et al., 2018). Days were included with more than 599 daily minutes of waking wear time and minimum of 1000 daily steps (Nagata et al., 2023). Physical activity was separated into three categories with cutoffs based on standardizing analytic methods of metabolic equivalents (METs) (light activity 1.5-3.0 METs, moderate activity 3.0-6.0 METs, and vigorous activity &gt;6.0 METs) (Welk et al., 2019). Using METs provides daily profiles of activity patterns, and the physical activity can be individualized relative to fitness level (Welk et al., 2019).\nAnalysis\nADD INFORMATION ABOUT ANALYSIS ORDINAL LOGISTIC REGRESSION"
+    "text": "CS50 lectures\nWhat is it you want to accomplish with R?\nVisuals? Focus on learning how to use the ggplot2 package.\nData wrangling? Tidyverse\nData Exploration? DataExplorer and Correlationfunnel\nQuerying DBs? DBplyr, DBI, or SQLdf packages\nAutomating reports? The above plus a package for whatever medium you want to deliver the report.\nExcel and/or Outlook email? Readxl, RDCOMclient\nPDF, HTML, PP? RMarkdown\nDashboard? Shiny\nIDE"
   },
   {
     "objectID": "templates/presentation/Pres Materials.html#different-languages-for-different-tasks",
@@ -287,20 +161,6 @@
     "text": "Different Languages for Different Tasks\n\nR: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nPython: {: .custom-img } Excellent for data analysis, statistics, and machine learning.\nJulia: {: .custom-img } Known for high-performance numerical analysis and computational science.\nJavaScript: {: .custom-img } Primarily used for creating interactive web pages.\nC: {: .custom-img } Low-level programming for system software and embedded systems."
   },
   {
-    "objectID": "Resources.html",
-    "href": "Resources.html",
-    "title": "Lab Resources",
-    "section": "",
-    "text": "Add DEAP\nAdd LongDev-ABCD\nAdd SUNippets\nAdd Open-Source Guide\n\nHere is a compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nExplore these comprehensive guides and tutorials to master Markdown, a simple formatting syntax for authoring web content:\n\n\n\nCommonMark Help\n\n\nMarkdown Guide Cheat Sheet\n\n\nCommonMark Spec 0.30 Introduction\n\n\nToward a Better Markdown Tutorial\n\n\nCommonMark Tutorial\n\n\nInteractive Markdown Tutorial\n\n\nAGEA Markdown Tutorial\n\n\nLearn Markdown in Y Minutes\n\n\nCommonMark Help and Support\n\n\n\n\n\n\nExplore the essentials of Git and GitHub for version control and collaboration with these curated resources:\n\n\n\nHappy Git with R\n\n\nVisual Git Guide\n\n\nLearn Git Branching\n\n\nGitHub Skills\n\n\nOh Shit, Git!?\n\n\nGitHub Training\n\n\nGit & GitHub Learning Resources\n\n\n\n\n\n\nWhether you’re just getting started or looking to deepen your R programming knowledge, these resources cover everything from basic concepts to advanced techniques:\n\n\n\nAbout R - Learn about R and its history.\n\n\nAdvanced R - A guide to developing your R programming skills by Hadley Wickham.\n\n\nR for Data Science - Learn how to use R to turn raw data into understanding, insight, and knowledge.\n\n\nSwirl - Learn R in R with interactive lessons.\n\n\nDataCamp’s Introduction to R - Start your journey in R with an introductory course.\n\n\nR Manuals - Official manuals for learning R.\n\n\nHands-On Programming with R - Write your own functions and simulations.\n\n\n\n\n\n\nQuarto enables the creation of dynamic, reproducible research documents. Explore the following resources to master Quarto:\n\n\n\nQuarto Official Website - Start here to learn everything about Quarto.\n\n\nGetting Started with Quarto - A beginner’s guide to writing with Quarto.\n\n\nPublishing with Quarto - Learn how to publish your Quarto documents.\n\n\nQuarto Authoring Basics - Dive deeper into Quarto’s authoring capabilities.\n\n\nQuarto Visual Editor - Explore the visual editing features in Quarto.\n\n\n\n\n\n\nVisual Studio Code is a powerful and versatile code editor. Enhance your coding experience with these VSCode resources:\n\n\n\nVSCode Basics - Introduction to the basics of VSCode.\n\n\nTips and Tricks - Improve your efficiency with these VSCode tips and tricks.\n\n\nDebugging in VSCode - Master debugging to find and fix errors faster.\n\n\nVersion Control in VSCode - Utilize version control systems directly within VSCode.\n\n\nExtension Marketplace - Explore extensions to customize and enhance VSCode."
-  },
-  {
-    "objectID": "Resources.html#welcome-to-our-labs-resource-page",
-    "href": "Resources.html#welcome-to-our-labs-resource-page",
-    "title": "Lab Resources",
-    "section": "",
-    "text": "Add DEAP\nAdd LongDev-ABCD\nAdd SUNippets\nAdd Open-Source Guide\n\nHere is a compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nExplore these comprehensive guides and tutorials to master Markdown, a simple formatting syntax for authoring web content:\n\n\n\nCommonMark Help\n\n\nMarkdown Guide Cheat Sheet\n\n\nCommonMark Spec 0.30 Introduction\n\n\nToward a Better Markdown Tutorial\n\n\nCommonMark Tutorial\n\n\nInteractive Markdown Tutorial\n\n\nAGEA Markdown Tutorial\n\n\nLearn Markdown in Y Minutes\n\n\nCommonMark Help and Support\n\n\n\n\n\n\nExplore the essentials of Git and GitHub for version control and collaboration with these curated resources:\n\n\n\nHappy Git with R\n\n\nVisual Git Guide\n\n\nLearn Git Branching\n\n\nGitHub Skills\n\n\nOh Shit, Git!?\n\n\nGitHub Training\n\n\nGit & GitHub Learning Resources\n\n\n\n\n\n\nWhether you’re just getting started or looking to deepen your R programming knowledge, these resources cover everything from basic concepts to advanced techniques:\n\n\n\nAbout R - Learn about R and its history.\n\n\nAdvanced R - A guide to developing your R programming skills by Hadley Wickham.\n\n\nR for Data Science - Learn how to use R to turn raw data into understanding, insight, and knowledge.\n\n\nSwirl - Learn R in R with interactive lessons.\n\n\nDataCamp’s Introduction to R - Start your journey in R with an introductory course.\n\n\nR Manuals - Official manuals for learning R.\n\n\nHands-On Programming with R - Write your own functions and simulations.\n\n\n\n\n\n\nQuarto enables the creation of dynamic, reproducible research documents. Explore the following resources to master Quarto:\n\n\n\nQuarto Official Website - Start here to learn everything about Quarto.\n\n\nGetting Started with Quarto - A beginner’s guide to writing with Quarto.\n\n\nPublishing with Quarto - Learn how to publish your Quarto documents.\n\n\nQuarto Authoring Basics - Dive deeper into Quarto’s authoring capabilities.\n\n\nQuarto Visual Editor - Explore the visual editing features in Quarto.\n\n\n\n\n\n\nVisual Studio Code is a powerful and versatile code editor. Enhance your coding experience with these VSCode resources:\n\n\n\nVSCode Basics - Introduction to the basics of VSCode.\n\n\nTips and Tricks - Improve your efficiency with these VSCode tips and tricks.\n\n\nDebugging in VSCode - Master debugging to find and fix errors faster.\n\n\nVersion Control in VSCode - Utilize version control systems directly within VSCode.\n\n\nExtension Marketplace - Explore extensions to customize and enhance VSCode."
-  },
-  {
     "objectID": "projects/sarleh/scratch.html",
     "href": "projects/sarleh/scratch.html",
     "title": "Depression Trajectories in the ABCD Study",
@@ -350,80 +210,178 @@
     "text": "3.1 Add additional analyses section"
   },
   {
-    "objectID": "projects/sarleh/main.html",
-    "href": "projects/sarleh/main.html",
-    "title": "Depression Trajectories in the ABCD Study",
+    "objectID": "projects/cuMotivation/cuMotivation_index.html",
+    "href": "projects/cuMotivation/cuMotivation_index.html",
+    "title": "CU Motivation Project",
     "section": "",
-    "text": "The Adolescent Brain Cognitive Development (ABCD) Study® is the largest longitudinal investigation of neurodevelopment and child health in the United States. Conceived and initiated by the National Institutes of Health (NIH), this landmark prospective longitudinal study aims to transform our understanding of the genetic and environmental factors impacting neurodevelopment and their roles in behavioral and health outcomes across ten years of adolescence Volkow et al. (2018).\n“Studies investigating trajectories of depressive symptoms Gao et al. (2021), Kaup et al. (2016), Lin et al. (2023), Zhang et al. (2022). Musliner et al. (2016) Musliner et al. (2016) conducted a systematic review on the heterogeneity in long-term patterns of depressive symptoms and found that most of these studies identified three or four different symptom trajectories and sampled the general population.”\n“A valuable tool for investigating heterogeneity in symptom patterns is Latent Growth Curve Modelling (GCM), a statistical method that analyses inter-individual variability in intra-individual patterns over time Curran, Obeidat, and Losardo (2010). One specific type of GCM is Latent Class Growth Analysis (LCGA), which considers unobserved heterogeneity (different groups) over time within a larger population Jung and Wickrama (2008), Nguena Nguefack et al. (2020), Ram and Grimm (2009). In other words, LCGA can examine the growth and shape of the course of depressive symptoms over time and assess how individuals in the population group together based on their symptom patterns.”\n“The aim of the present study is to investigate the course of depressive symptoms over a period of xx years …. and to …. . To achieve this goal, LGCM will be performed on data from the xxxx ABCD cohort (add citation). The ABCD study was initiated in xxxxx. Based on previous literature Musliner et al. (2016), we hypothesize that three or four trajectories of depression can be identified. Given that xxxxx, we additionally hypothesize that individuals following more xxxx trajectories will be more/less likely to experience xxxx and exhibit reduced levels of xxxxx”"
+    "text": "Config OptionsInstall PackagesLoad Data\n\n\n\n\nThis code configures knitr code chunk options\n\n\nknitr::opts_chunk$set(\n    echo = T, message = F, warning = F, error = F,\n    comment = NA, cache = T, code_folding = T,\n    R.options = list(width = 220, digits = 3),\n    fig.align = \"center\",\n    out.width = \"75%\", fig.asp = .75\n)\n\n\n\n\n\n\nThis code loads the necessary r packages\n\n\nlibrary(tidyverse) # Collection of R packages for data science\nlibrary(gtsummary) # Publication-ready tables\nlibrary(rstatix) # Statistical Tests in tidy format\nlibrary(lavaan) # Structural Equation Modeling in R\nlibrary(DT)\nlibrary(patchwork)\nlibrary(dlookr)\nlibrary(kableExtra)\nlibrary(knitr)\nlibrary(openxlsx)\nlibrary(psych)\nlibrary(janitor)\nlibrary(stringr)\n\n\n\n\n\nThis code loads the dataframe\n\n\nlibrary(tidyverse)\n\n# This code loads the data to be used for the example\n\n# Set the data path\ndata_path &lt;- \"/Users/shawes/ABCD/data/rds/abcd_5.0_rds/core-rds-5.0/non-imaging_excluding_nt_5.0.rds\"\n\n# Read the data\ndf &lt;- readRDS(data_path)\n\n# Create and mutate the dataframe\ndf_long &lt;- df %&gt;%\n    select(src_subject_id, eventname, bis_y_ss_bas_drive, bird_scr_score, bird_scr_meandotlatency, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %&gt;%\n    filter(eventname %in% c(\"baseline_year_1_arm_1\", \"2_year_follow_up_y_arm_1\", \"4_year_follow_up_y_arm_1\")) %&gt;%\n    arrange(src_subject_id, eventname) %&gt;%\n    mutate(\n        src_subject_id = factor(src_subject_id),\n        eventname = factor(eventname, levels = c(\"baseline_year_1_arm_1\", \"2_year_follow_up_y_arm_1\", \"4_year_follow_up_y_arm_1\"), labels = c(\"Baseline\", \"Year_2\", \"Year_4\")),\n        bis_y_ss_bas_drive = round(as.numeric(bis_y_ss_bas_drive), 2),\n        bird_scr_score = round(as.numeric(bird_scr_score), 2),\n        bird_scr_meandotlatency = round(as.numeric(bird_scr_meandotlatency), 2),\n        upps_y_ss_lack_of_perseverance = round(as.numeric(upps_y_ss_lack_of_perseverance), 2),\n        cbcl_scr_dsm5_depress_t = round(as.numeric(cbcl_scr_dsm5_depress_t), 2),\n    ) %&gt;%\n    rename(\n        id = src_subject_id,\n        event = eventname,\n        bis_y_ss_bas_drive = bis_y_ss_bas_drive,\n        bird_scr_score = bird_scr_score,\n        bird_scr_meandotlatency = bird_scr_meandotlatency,\n        upps_y_ss_lack_of_perseverance = upps_y_ss_lack_of_perseverance,\n        cbcl_scr_dsm5_depress_t = cbcl_scr_dsm5_depress_t\n    )\n\ndf_long &lt;- df_long %&gt;%\n    group_by(id) %&gt;%\n    filter(all(c(\"Baseline\", \"Year_2\", \"Year_4\") %in% event)) %&gt;%\n    ungroup()"
   },
   {
-    "objectID": "projects/sarleh/main.html#design-and-participants",
-    "href": "projects/sarleh/main.html#design-and-participants",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "2.1 Design and participants",
-    "text": "2.1 Design and participants\nParticipants were enrolled in the ongoing, longitudinal ABCD Study. The ABCD Study recruited a cohort of n=11,880 participants born between 2006-2008 and aged approximately 9-10 years at baseline, each with a parent/guardian. The study sample was recruited from households in defined catchment areas for each of the 21 (originally 22) study sites across the United States. The present study examines data from the fifth public release of ABCD Study data (version 5.1, released xxxx 202x https://data-archive.nimh.nih.gov/abcd). Institutional review boards at participating universities approved all study procedures. Participants provided written assent, and their legal guardians written consent, for participation. Information regarding funding agencies, recruitment sites, investigators, and project organizations can be obtained at https://abcdstudy.org. The ABCD Study design is described in more detail in Garavan et al. (2018) and Dick et al. (2021).\n[baseline (T0) measurement; follow-up measurements (T1) (T2)(T3)(T4)]"
-  },
-  {
-    "objectID": "projects/sarleh/main.html#measures",
-    "href": "projects/sarleh/main.html#measures",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "2.2 Measures",
-    "text": "2.2 Measures\n\n2.2.1 Depression\nDepression was assessed using the Child Behavior Checklist (CBCL), a widely used parent-report questionnaire designed to identify problem behavior in children and adolescents aged 6 to 18 years Achenbach, Ruffle, et al. (2000). The CBCL is comprised of various scales that measure different aspects of emotional and behavioral problems. Specifically, the Depressive Problems scale, which is part of the broader Internalizing Problems domain, was utilized to measure symptoms of depression. This scale includes items that assess a range of depressive symptoms such as persistent sadness, lack of interest in activities, and excessive guilt or feelings of worthlessness. Respondents (parents or primary caregivers) were asked to rate how true each item was for their child over the past six months on a 3-point Likert scale ranging from 0 (not true) to 2 (very true or often true). The scores from the relevant items were summed to create a composite score for depressive symptoms, with higher scores indicating greater severity of depressive symptoms Goldstone et al. (2020). CBCL symptom scores below the 93rd percentile (T = 65) are considered normal, scores between the 93-97th percentile (T = 65–69) are borderline clinical, and any score above the 97th percentile (T = 69) are in the clinical range Maruish (2004). Scores in the borderline range are high enough to be of concern Maruish (2004). The CBCL has demonstrated strong psychometric properties Achenbach, Ruffle, et al. (2000) and its use in assessing depressive symptoms is supported by numerous studies, including those using ABCD Study data Barch et al. (2018), Goldstone et al. (2020), Gorham et al. (2019), Hoffman et al. (2019)\n\n\n2.2.2 Add other measures\n\n\n2.2.3 Potential confounders\nTo account for the potentially confounding effects of attentional, cognitive, or emotional difficulties that are often comorbid with depression, all analyses included CBCL DSM-oriented xxx problems and xxx problems subscale scores as covariates. We also covaried for sex, age, race/ethnicity, and parental education."
-  },
-  {
-    "objectID": "projects/sarleh/main.html#analytic-plan",
-    "href": "projects/sarleh/main.html#analytic-plan",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "2.3 Analytic Plan",
-    "text": "2.3 Analytic Plan\n\n2.3.1 Descriptive Statistics\nParticipants with CBCL depression scores at one or more time point(s) were included in the trajectory analysis. Groups with and without any missing scores on the depression outcome at each time point were compared.\n\n\n2.3.2 Trajectory Models\nVariability in depressive symptom trajectories was examined using latent class growth analysis (LCGA; Jung and Wickrama (2008), Andruff et al. (2009), Berlin, Williams, and Parra (2014), Wardenaar (2020)). LCGA is a person-centered method that identifies latent classes of individuals sharing similar developmental patterns, thereby facilitating an examination of individual patterns of stability and change across time Jung and Wickrama (2008), Nguena Nguefack et al. (2020), Ram and Grimm (2009). Prior research (Musliner et al. (2016)) suggests three to six distinct depressive trajectory subgroups, prompting the estimation of models ranging from one to seven classes. To capture changes in depressive symptomatology over time, both linear and quadratic terms were considered. Differentiation among trajectories regarding intercept, slope, and step was evaluated using Wald tests. An examination of the data revealed a skewed distribution, notably inflated at the scale’s lower end. Initial analyses resulted in LCGA model convergence issues due to this skewness. As such, a Box-Cox transformation was implemented (See Fig. xx) to improve the ability to examine patterns of heterogeneity in more detail. To evaluate the effect of covariates, we adhered to a commonly applied, three-step approach which accounts for classification errors of the model Vermunt (2010). This method estimates an auxiliary model based on latent classification, assigning group-specific BCH weights to cases (Bolck, Croon, and Hagenaars (2004)).\nNext, an omnibus likelihood ratio test was examined to test for significant differences in trajectory patterns. For all omnibus likelihood ratio tests the p-values were corrected for multiple comparisons using the false discovery rate. If the omnibus test was still significant after correction, post hoc test results were obtained and likewise subjected to correction for multiple comparisons using the false discovery rate.ll analyses were performed using the programming language R (version 4.2.2, package for trajectory analysis: tidySEM, Van Lissa, Garnier-Villarreal, and Anadria (2023)) (with significance level set at p &lt; .05 (two-tailed)). All R code is made publicly available on GitHub at https://github.com/OpenDevSci/SUNLab.\nIdentification of the best fitting model was based on a combination of interpretability, parsimony, and theoretical justification Nagin and Odgers (2010), Nguena Nguefack et al. (2020), Ram and Grimm (2009). Key metrics for assessing model fit include Information Criteria (IC) such as the Bayesian Information Criteria (BIC), the sample-size-adjusted BIC (saBIC), and the Akaike Information Criteria (AIC), with a preference for models that register the lowest IC values Nylund, Asparouhov, and Muthén (2007), Nest et al. (2020), Van Lissa, Garnier-Villarreal, and Anadria (2023). In cases of ambiguous and contradictory ICs, evaluation of a scree plot’s inflection point may assist in determining the point beyond which additional classes offer negligible improvement to IC reduction Nylund-Gibson and Choi (2018). Model performance was appraised through a range of indicators including entropy, posterior classification probability (the likelihood of an individual’s correct class assignment), and class size. Solutions yielding distinct classes were prioritized to facilitate clear interpretation. High entropy values signify well-differentiated classes Van Lissa, Garnier-Villarreal, and Anadria (2023), Weller, Bowen, and Faubert (2020); thus, configurations with entropy below .90 were excluded. Moreover, when an individual’s posterior classification probability is distinctly high for one class compared to others, it denotes effective class differentiation by the model Andruff et al. (2009). Criteria set for acceptable solutions included an average posterior classification probability exceeding .90 Weller, Bowen, and Faubert (2020). Additionally, drawing on prior studies, a minimum class size of 50 individuals or 5% of the overall sample was deemed necessary to ensure representativeness Muthén and Muthén (2000), Weller, Bowen, and Faubert (2020), leading to the exclusion of classes not meeting this threshold.\nData processing and analysis were executed using the tidySEM package in R Van Lissa, Garnier-Villarreal, and Anadria (2023), employing [full information maximum likelihood estimation to accommodate standard errors and provide a chi-square statistic robust to non-normality(?)]. Complex sampling and recruitment procedures for the ABCD Study were accounted for using cluster correction (i.e., for sibling pairs) and stratification sampling (i.e. study site) procedures."
-  },
-  {
-    "objectID": "projects/sarleh/main.html#depression-symptoms-associations-with-the-gdt-substance-use",
-    "href": "projects/sarleh/main.html#depression-symptoms-associations-with-the-gdt-substance-use",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "2.4 Depression symptoms associations with the GDT & substance use",
-    "text": "2.4 Depression symptoms associations with the GDT & substance use\nTo get more insights in the trajectories and associated outcomes (e.g., GDT, substance use), we assessed xxxxx between the different classes. We used the same three-step approach with the omnibus likelihood test used for the covariates and the results were also corrected for multiple comparisons. All participants reported xxxx during xxxx."
-  },
-  {
-    "objectID": "projects/sarleh/main.html#add-additional-analyses-section",
-    "href": "projects/sarleh/main.html#add-additional-analyses-section",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "2.5 Add additional analyses section",
-    "text": "2.5 Add additional analyses section"
-  },
-  {
-    "objectID": "projects/sarleh/main.html#add-additional-analyses-section-1",
-    "href": "projects/sarleh/main.html#add-additional-analyses-section-1",
-    "title": "Depression Trajectories in the ABCD Study",
-    "section": "3.1 Add additional analyses section",
-    "text": "3.1 Add additional analyses section"
-  },
-  {
-    "objectID": "projects/cuMotivation/motivationCu.html",
-    "href": "projects/cuMotivation/motivationCu.html",
-    "title": "SPEP Revalidation",
+    "objectID": "projects/cuMotivation/cuMotivation_index.html#preliminary-setup",
+    "href": "projects/cuMotivation/cuMotivation_index.html#preliminary-setup",
+    "title": "CU Motivation Project",
     "section": "",
-    "text": "Config OptionsInstall PackagesLoad DataPrep data\n\n\n\n\nThis code configures knitr code chunk options\n\n\nknitr::opts_chunk$set(\n    echo = T, message = F, warning = F, error = F,\n    comment = NA, cache = T, code_folding = T,\n    R.options = list(width = 220, digits = 3),\n    fig.align = \"center\",\n    out.width = \"75%\", fig.asp = .75\n)\n\n\n\n\n\n\nThis code loads the necessary r packages\n\n\nlibrary(tidyverse) # Collection of R packages for data science\nlibrary(gtsummary) # Publication-ready tables\nlibrary(rstatix) # Statistical Tests in tidy format\nlibrary(lavaan) # Structural Equation Modeling in R\nlibrary(DT)\nlibrary(patchwork)\nlibrary(dlookr)\nlibrary(kableExtra)\nlibrary(knitr)\nlibrary(openxlsx)\nlibrary(psych)\nlibrary(janitor)\nlibrary(stringr)\n\n\n\n\n\nThis code loads the dataframe\n\n\n\n\n\nThis code prepares the dataset for analysis\n\n\nP &lt;-11\nprint(P)\n\n[1] 11"
+    "text": "Config OptionsInstall PackagesLoad Data\n\n\n\n\nThis code configures knitr code chunk options\n\n\nknitr::opts_chunk$set(\n    echo = T, message = F, warning = F, error = F,\n    comment = NA, cache = T, code_folding = T,\n    R.options = list(width = 220, digits = 3),\n    fig.align = \"center\",\n    out.width = \"75%\", fig.asp = .75\n)\n\n\n\n\n\n\nThis code loads the necessary r packages\n\n\nlibrary(tidyverse) # Collection of R packages for data science\nlibrary(gtsummary) # Publication-ready tables\nlibrary(rstatix) # Statistical Tests in tidy format\nlibrary(lavaan) # Structural Equation Modeling in R\nlibrary(DT)\nlibrary(patchwork)\nlibrary(dlookr)\nlibrary(kableExtra)\nlibrary(knitr)\nlibrary(openxlsx)\nlibrary(psych)\nlibrary(janitor)\nlibrary(stringr)\n\n\n\n\n\nThis code loads the dataframe\n\n\nlibrary(tidyverse)\n\n# This code loads the data to be used for the example\n\n# Set the data path\ndata_path &lt;- \"/Users/shawes/ABCD/data/rds/abcd_5.0_rds/core-rds-5.0/non-imaging_excluding_nt_5.0.rds\"\n\n# Read the data\ndf &lt;- readRDS(data_path)\n\n# Create and mutate the dataframe\ndf_long &lt;- df %&gt;%\n    select(src_subject_id, eventname, bis_y_ss_bas_drive, bird_scr_score, bird_scr_meandotlatency, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %&gt;%\n    filter(eventname %in% c(\"baseline_year_1_arm_1\", \"2_year_follow_up_y_arm_1\", \"4_year_follow_up_y_arm_1\")) %&gt;%\n    arrange(src_subject_id, eventname) %&gt;%\n    mutate(\n        src_subject_id = factor(src_subject_id),\n        eventname = factor(eventname, levels = c(\"baseline_year_1_arm_1\", \"2_year_follow_up_y_arm_1\", \"4_year_follow_up_y_arm_1\"), labels = c(\"Baseline\", \"Year_2\", \"Year_4\")),\n        bis_y_ss_bas_drive = round(as.numeric(bis_y_ss_bas_drive), 2),\n        bird_scr_score = round(as.numeric(bird_scr_score), 2),\n        bird_scr_meandotlatency = round(as.numeric(bird_scr_meandotlatency), 2),\n        upps_y_ss_lack_of_perseverance = round(as.numeric(upps_y_ss_lack_of_perseverance), 2),\n        cbcl_scr_dsm5_depress_t = round(as.numeric(cbcl_scr_dsm5_depress_t), 2),\n    ) %&gt;%\n    rename(\n        id = src_subject_id,\n        event = eventname,\n        bis_y_ss_bas_drive = bis_y_ss_bas_drive,\n        bird_scr_score = bird_scr_score,\n        bird_scr_meandotlatency = bird_scr_meandotlatency,\n        upps_y_ss_lack_of_perseverance = upps_y_ss_lack_of_perseverance,\n        cbcl_scr_dsm5_depress_t = cbcl_scr_dsm5_depress_t\n    )\n\ndf_long &lt;- df_long %&gt;%\n    group_by(id) %&gt;%\n    filter(all(c(\"Baseline\", \"Year_2\", \"Year_4\") %in% event)) %&gt;%\n    ungroup()"
   },
   {
-    "objectID": "projects/cuMotivation/motivationCu.html#preliminary-setup",
-    "href": "projects/cuMotivation/motivationCu.html#preliminary-setup",
-    "title": "SPEP Revalidation",
-    "section": "",
-    "text": "Config OptionsInstall PackagesLoad DataPrep data\n\n\n\n\nThis code configures knitr code chunk options\n\n\nknitr::opts_chunk$set(\n    echo = T, message = F, warning = F, error = F,\n    comment = NA, cache = T, code_folding = T,\n    R.options = list(width = 220, digits = 3),\n    fig.align = \"center\",\n    out.width = \"75%\", fig.asp = .75\n)\n\n\n\n\n\n\nThis code loads the necessary r packages\n\n\nlibrary(tidyverse) # Collection of R packages for data science\nlibrary(gtsummary) # Publication-ready tables\nlibrary(rstatix) # Statistical Tests in tidy format\nlibrary(lavaan) # Structural Equation Modeling in R\nlibrary(DT)\nlibrary(patchwork)\nlibrary(dlookr)\nlibrary(kableExtra)\nlibrary(knitr)\nlibrary(openxlsx)\nlibrary(psych)\nlibrary(janitor)\nlibrary(stringr)\n\n\n\n\n\nThis code loads the dataframe\n\n\n\n\n\nThis code prepares the dataset for analysis\n\n\nP &lt;-11\nprint(P)\n\n[1] 11"
-  },
-  {
-    "objectID": "projects/cuMotivation/motivationCu.html#sample-descriptives",
-    "href": "projects/cuMotivation/motivationCu.html#sample-descriptives",
-    "title": "SPEP Revalidation",
+    "objectID": "projects/cuMotivation/cuMotivation_index.html#sample-descriptives",
+    "href": "projects/cuMotivation/cuMotivation_index.html#sample-descriptives",
+    "title": "CU Motivation Project",
     "section": "Sample Descriptives",
-    "text": "Sample Descriptives\n\nGeneral Data Viewxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\n\n\n\nThis table shows xxxxxxx\n\n\nlibrary(gtsummary)\n\n# Create the descriptive statistics table with updated labels\ndescriptive_table &lt;- df_long %&gt;%\n  select(bis_y_ss_bas_drive, bird_scr_score, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %&gt;%\n  tbl_summary(\n    missing = \"no\",  # Include or exclude missing data as needed\n    label = list(\n      bis_y_ss_bas_drive = \"BB_Drive\",  # Updated label\n      bird_scr_score = \"BIRD\",  # Updated label\n      upps_y_ss_lack_of_perseverance = \"UP_Perseverance\",  # Updated label\n      cbcl_scr_dsm5_depress_t = \"CB_Depression\"  # Updated label\n    ),\n    statistic = list(\n      all_continuous() ~ \"{mean} ({sd})\",  # Formatting stats for continuous variables\n      all_categorical() ~ \"{p}%\"  # Formatting stats for categorical variables\n    )\n  ) %&gt;%\n  modify_header(all_stat_cols() ~ \"**{level}**&lt;br&gt;N = {n}\") %&gt;%\n  bold_labels() %&gt;%\n  modify_spanning_header(stat_0 ~ \"**Descriptive Statistics**\")\n\n# Print the table to view results\ndescriptive_table\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nDescriptive Statistics\n\n\nOverall\nN = 140731\n\n\n\n\nBB_Drive\n4.0 (2.9)\n\n\nBIRD\n408 (141)\n\n\nUP_Perseverance\n7.10 (2.29)\n\n\nCB_Depression\n53.7 (5.9)\n\n\n\n1 Mean (SD)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis code creates xxxxxxx\n\n\nm &lt;- 10\nprint(m)\n\n[1] 10\n\n\n\n\n\n\n\nThis code creates xxxxxxx\n\n\nk &lt;- 10\nprint(k)\n\n[1] 10\n\n\n\nThis code creates xxxxxxx\n\n\nc &lt;- 10\nprint(c)\n\n[1] 10\n\n\n\n\n\n\n\nThis table shows xxxxxx\n\n\nv &lt;- 10\nprint(v)\n\n[1] 10\n\n\n\n\n\n\n\nThis code creates xxxxxx"
+    "text": "Sample Descriptives\n\nDescriptives Tablexxxxxxx\n\n\n\n\nThis table shows xxxxxxx\n\n\nlibrary(gtsummary)\n\n# Create the descriptive statistics table with updated labels\ndescriptive_table &lt;- df_long %&gt;%\n  select(bis_y_ss_bas_drive, bird_scr_score, upps_y_ss_lack_of_perseverance, cbcl_scr_dsm5_depress_t) %&gt;%\n  tbl_summary(\n    missing = \"no\",  # Include or exclude missing data as needed\n    label = list(\n      bis_y_ss_bas_drive = \"BB_Drive\",  # Updated label\n      bird_scr_score = \"BIRD\",  # Updated label\n      upps_y_ss_lack_of_perseverance = \"UP_Perseverance\",  # Updated label\n      cbcl_scr_dsm5_depress_t = \"CB_Depression\"  # Updated label\n    ),\n    statistic = list(\n      all_continuous() ~ \"{mean} ({sd})\",  # Formatting stats for continuous variables\n      all_categorical() ~ \"{p}%\"  # Formatting stats for categorical variables\n    )\n  ) %&gt;%\n  modify_header(all_stat_cols() ~ \"**{level}**&lt;br&gt;N = {n}\") %&gt;%\n  bold_labels() %&gt;%\n  modify_spanning_header(stat_0 ~ \"**Descriptive Statistics**\")\n\n# Print the table to view results\ndescriptive_table\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nDescriptive Statistics\n\n\nOverall\nN = 140731\n\n\n\n\nBB_Drive\n4.0 (2.9)\n\n\nBIRD\n408 (141)\n\n\nUP_Perseverance\n7.10 (2.29)\n\n\nCB_Depression\n53.7 (5.9)\n\n\n\n1 Mean (SD)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis table shows xxxxxx\n\n\nv &lt;- 10\nprint(v)\n\n[1] 10"
   },
   {
-    "objectID": "projects/cuMotivation/motivationCu.html#xxxxxxx-2",
-    "href": "projects/cuMotivation/motivationCu.html#xxxxxxx-2",
-    "title": "SPEP Revalidation",
-    "section": "xxxxxxx",
-    "text": "xxxxxxx\n\nxxxxxxxxxxxxxx\n\n\n\n\nThis table shows xxxxxxx\n\n\n# Rename variables for clarity before performing correlation analysis\ndf_renamed &lt;- df_long %&gt;%\n  rename(\n    Bird = bird_scr_score,\n    Drive = bis_y_ss_bas_drive,\n    Persev = upps_y_ss_lack_of_perseverance,\n    Depress = cbcl_scr_dsm5_depress_t\n  )\n\n# Ensure there are no missing values for these variables\ndf_renamed &lt;- na.omit(df_renamed)\n\n# Calculate the correlation matrix using complete observations\ncor_matrix &lt;- cor(df_renamed[, c(\"Bird\", \"Drive\", \"Persev\", \"Depress\")], use = \"complete.obs\")\n\n# Optionally, round the correlation matrix for better readability\ncor_matrix &lt;- round(cor_matrix, 2)\n\n# Print the correlation matrix\nprint(cor_matrix)\n\n         Bird Drive Persev Depress\nBird     1.00 -0.03  -0.03   -0.01\nDrive   -0.03  1.00  -0.15   -0.03\nPersev  -0.03 -0.15   1.00    0.25\nDepress -0.01 -0.03   0.25    1.00\n\nlibrary(knitr)\n\n# Create a more formatted output for the correlation matrix\nkable(cor_matrix, caption = \"Correlation Matrix of Psychological Measures\")\n\n\nCorrelation Matrix of Psychological Measures\n\n\n\nBird\nDrive\nPersev\nDepress\n\n\n\n\nBird\n1.00\n-0.03\n-0.03\n-0.01\n\n\nDrive\n-0.03\n1.00\n-0.15\n-0.03\n\n\nPersev\n-0.03\n-0.15\n1.00\n0.25\n\n\nDepress\n-0.01\n-0.03\n0.25\n1.00\n\n\n\n\ncat(\"Variables in the Correlation Matrix:\\n\")\n\nVariables in the Correlation Matrix:\n\ncat(\"Bird: BIRD Score.\\n\")\n\nBird: BIRD Score.\n\ncat(\"Drive: BIS/BAS Drive.\\n\")\n\nDrive: BIS/BAS Drive.\n\ncat(\"Persev: UPPS Perseverance\\n\")\n\nPersev: UPPS Perseverance\n\ncat(\"Depress: CBCL Depression\\n\\n\")\n\nDepress: CBCL Depression\n\n\n\n\n\n\n\nThis table shows xxxxxxxx\n\n\nx&lt;-5\nprint(x)\n\n[1] 5\n\n\n\n\n\n\n\n\n\nDoes performance at 4yrs predict cannabis use at 6yrs?\n\nMotivation & Cannabis Use 4-year: BIS/BAS (Drive Subscale [4 items]) [bis_y_ss_bas_drive] Bird Task (Distress Tolerance Task/Behavioral indicator of distress tolerance) [bird_scr_score, bird_scr_meandotlatency] UPPS (Perserverance Subscale [4 items]) [upps_y_ss_lack_of_perseverance]\nPredicting….\n6-year: Cannabis Use (initiation, escalation, and disorder)\nCovariates: Demographics Depression (full & anhedonia) [cbcl_scr_dsm5_depress_t]"
+    "objectID": "projects/cuMotivation/cuMotivation_index.html#analyses",
+    "href": "projects/cuMotivation/cuMotivation_index.html#analyses",
+    "title": "CU Motivation Project",
+    "section": "Analyses",
+    "text": "Analyses\n\nInitial Outputxxxxxxxx\n\n\n\n\nThis table shows xxxxxxx\n\n\n# Rename variables for clarity before performing correlation analysis\ndf_renamed &lt;- df_long %&gt;%\n  rename(\n    Bird = bird_scr_score,\n    Drive = bis_y_ss_bas_drive,\n    Persev = upps_y_ss_lack_of_perseverance,\n    Depress = cbcl_scr_dsm5_depress_t\n  )\n\n# Ensure there are no missing values for these variables\ndf_renamed &lt;- na.omit(df_renamed)\n\n# Calculate the correlation matrix using complete observations\ncor_matrix &lt;- cor(df_renamed[, c(\"Bird\", \"Drive\", \"Persev\", \"Depress\")], use = \"complete.obs\")\n\n# Optionally, round the correlation matrix for better readability\ncor_matrix &lt;- round(cor_matrix, 2)\n\n# Print the correlation matrix\nprint(cor_matrix)\n\n         Bird Drive Persev Depress\nBird     1.00 -0.03  -0.03   -0.01\nDrive   -0.03  1.00  -0.15   -0.03\nPersev  -0.03 -0.15   1.00    0.25\nDepress -0.01 -0.03   0.25    1.00\n\nlibrary(knitr)\n\n# Create a more formatted output for the correlation matrix\nkable(cor_matrix, caption = \"Correlation Matrix of Psychological Measures\")\n\n\nCorrelation Matrix of Psychological Measures\n\n\n\nBird\nDrive\nPersev\nDepress\n\n\n\n\nBird\n1.00\n-0.03\n-0.03\n-0.01\n\n\nDrive\n-0.03\n1.00\n-0.15\n-0.03\n\n\nPersev\n-0.03\n-0.15\n1.00\n0.25\n\n\nDepress\n-0.01\n-0.03\n0.25\n1.00\n\n\n\n\ncat(\"Variables in the Correlation Matrix:\\n\")\n\nVariables in the Correlation Matrix:\n\ncat(\"Bird: BIRD Score.\\n\")\n\nBird: BIRD Score.\n\ncat(\"Drive: BIS/BAS Drive.\\n\")\n\nDrive: BIS/BAS Drive.\n\ncat(\"Persev: UPPS Perseverance\\n\")\n\nPersev: UPPS Perseverance\n\ncat(\"Depress: CBCL Depression\\n\\n\")\n\nDepress: CBCL Depression\n\n\n\n\n\n\n\nThis table shows xxxxxxxx\n\n\nx&lt;-5\nprint(x)\n\n[1] 5\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThese are some basic scratch/notes:\nMotivation & Cannabis Use 4-year: BIS/BAS (Drive Subscale [4 items]) [bis_y_ss_bas_drive] Bird Task (Distress Tolerance Task/Behavioral indicator of distress tolerance) [bird_scr_score, bird_scr_meandotlatency] UPPS (Perserverance Subscale [4 items]) [upps_y_ss_lack_of_perseverance]\nDoes performance at 4yrs predict cannabis use at 6yrs?\n6-year: Cannabis Use (initiation, escalation, and disorder)\nCovariates: Demographics Depression (full & anhedonia) [cbcl_scr_dsm5_depress_t]"
+  },
+  {
+    "objectID": "sunippets.html",
+    "href": "sunippets.html",
+    "title": "SUNLab",
+    "section": "",
+    "text": "Bootstrap Table Colors\n\n\n\n\n\nSUNippets\n\n\n\n\n\nTitle\nSUNippet Number\nType\nLanguage\n\n\n\n\nSUNLab ABCD Variables \nColumn content\nColumn content\nColumn content\n\n\nData Wrangling \nColumn content\nColumn content\nColumn content\n\n\nCross-sectional Analysis \nColumn content\nColumn content\nColumn content\n\n\nLongitudinal Analysis\nColumn content\nColumn content\nColumn content\n\n\nTables\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content\n\n\nExample_00\nColumn content\nColumn content\nColumn content"
+  },
+  {
+    "objectID": "projects/ck.html",
+    "href": "projects/ck.html",
+    "title": "SUNLab",
+    "section": "",
+    "text": "Methods and Materials\nParticipants and Procedure\nThis study consisted of XX participants (age range XX, mean XX; XX% female; XX% White, XX% Black, XX% Asian, XX% other; XX% non-Hispanic and XX% Hispanic) enrolled in the Adolescent Brain Cognitive Development (ABCD) Study. The ABCD study consisted of annual follow-up visits (Baseline, Y1, Y2, Y3, etc.). Participants and their parents/guardians were recruited from 21 research sites across the U.S. between 2016-2018. The participants were recruited through probability sampling of U.S. schools within the 21 catchment areas. The American Community Survey (ACS) and the National Center for Education Statistics (NCES) were used to provide guidelines for a sociodemographic (age, gender, race and ethnicity, socio-economic status, and urbanicity) to represent the population of the U.S. For details see Garavan et al., (2018). All study procedures were approved by a centralized institutional review board (IRB) at the University of California, San Diego, and written informed assent/consent was provided.\nExclusion criteria for the youth participant included lack of English proficiency, the presence of severe sensory, intellectual, medial, or neurological issues that would impact the validity of the collected data or the child’s ability to comply with the study protocol, and contradictions of the MRI scanning. Exclusion criteria for the parent participant included lack of proficiency in English or Spanish. Data from the ABCD Study are made available by the National Institute of Mental Health Data Archive (NDA), and the current study used data from the ABCD Curated Annual Release 5.0 (10.15154/8873-zj65) released June 16, 2023.\nAnnual visits consisted of 1-2 study sessions, which included biological, behavioral, and neuroimaging assessment modules, including substance use (Lisdahl et al., 2018), mental and physical health (Barch et al., 2018), peer, family, culture, and environment (Zucker et al., 2018), biological markers (Uban at al., 2018), genetics (Iacono et al., 2018), neurocognitive (Luciana et al., 2018), and magnetic resonance imaging (Casey et al., 2018). For the current study, neurocognitive and activity data were obtained at the 2-year follow-up timepoint, and substance use measures were obtained during the 4-year follow-up timepoint. Sociodemographic information was collected from the parent participants (family income, highest parental education, child’s ethnicity and race, and child’s sex assigned at birth) (Garavan et al., 2018).\nADD IN THE SU GROUPINGS\nMeasures\nSubstance Use\nConfidentiality was reiterated to the youth before the substance use interview. At the baseline assessment the youth were asked about lifetime use, and each follow-up visit proceeding the youth were asked about substance use since the last follow up visit (Lisdahl et al., 2018). The substance use module consisted of each major drug category: alcohol, cannabis and cannabinoids (smoked cannabis, edible cannabis, cannabis concentrates, cannabis-infused alcohol, cannabis tinctures, synthetic cannabinoids), nicotine (tobacco cigarettes, electronic cigarettes, smokeless tobacco, cigars, hookah, tobacco pipe, nicotine replacement), caffeine, cocaine, cathinones, methamphetamine, 3,4-methylenedioxymethamphetamine (MDMA, ecstasy or molly), ketamine, gamma hydroxybutyrate, heroin, hallucinogens (including lysergic acid diethylamide, phencyclidine, peyote, mescaline, N-dimethyltryptamine, alpha-methyltryptamine, or 5-methoxy-N,N-diisopropyltryptamine), psilocybin, salvia, anabolic steroids, inhalants, prescription stimulants, prescription sedatives, prescription opioids, and OTC cough or cold medicine (Lisdahl et al., 2018).\nSubstance use experimentation was a measurement of less than one standard drink of alcohol and a puff or taste of cannabis or nicotine or any other occasion of other substance use (Lisdahl et al., 2018). The iSay Sipping Inventory, an 8-item instrument, was used to measure first experiences sipping alcohol (age of onset, type of alcohol, context in which the sipping occurred, who the drink belonged to, and if the drink was offered or not) (Jackson et al., 2015). Similar information was acquired for cannabis and nicotine (where they obtained the substance, when the experience occurred, and whether it led to further use); potency and subjective experience of feeling “high” were also assessed (Lisdahl et al., 2018). For youth who reported a full standard unit of a substance, the Timeline Follow-Back (TLFB) was administered (Lisdahl et al., 2018; Sobell and Sobell, 1992). The TLFB is a semi-structured interview that uses a calendar to retrospectively recall lifetime substance use and substance use between visits (Lisdahl et al., 2018; Robinson et al., 2014). The current study mimicked the characterization of substance use from a previous study, Sullivan et al., 2022, by using the following two categories: initiation: reported ≥1 standard alcohol drink, &gt;puff/taste cannabis or nicotine or any other occasion of other substance use; experimentation: low-level substance use (i.e., alcohol sipping, nicotine or cannabis puffing or trying) (Sullivan et al., 2022).\nActivity Measurement – ADD IN INFORMATION ABOUT PA\nPhysical activity was assessed through wearable technology (Fitbit Charge Series) for 21 days (Bagot et al., 2018). Days were included with more than 599 daily minutes of waking wear time and minimum of 1000 daily steps (Nagata et al., 2023). Physical activity was separated into three categories with cutoffs based on standardizing analytic methods of metabolic equivalents (METs) (light activity 1.5-3.0 METs, moderate activity 3.0-6.0 METs, and vigorous activity &gt;6.0 METs) (Welk et al., 2019). Using METs provides daily profiles of activity patterns, and the physical activity can be individualized relative to fitness level (Welk et al., 2019).\nAnalysis\nADD INFORMATION ABOUT ANALYSIS ORDINAL LOGISTIC REGRESSION"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects Overview",
+    "section": "",
+    "text": "Projects Overview\nWelcome to our projects page! Here you can find links to various project resources and presentations.\n\nEMP Presentation\ncuMotivation"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#key-contacts",
+    "href": "templates/presentation/EMP.html#key-contacts",
+    "title": "Emergency Medical Plan",
+    "section": "Key Contacts",
+    "text": "Key Contacts\nRefer to our On-Call Clinician Schedule in Outlook for immediate assistance."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#our-team",
+    "href": "templates/presentation/EMP.html#our-team",
+    "title": "Emergency Medical Plan",
+    "section": "Our Team",
+    "text": "Our Team\n\nRaul Gonzalez, PhD, Professor\n\n📧 raul.gonzalezjr@fiu.edu\n📱 305-501-xxxx\n\nSamuel Hawes, PhD, Associate Research Professor\n\n📧 shawes@fiu.edu\n📱 786-717-xxxx\n\nDr. Angela Laird, PhD, Professor\n\n📧 alaird@fiu.edu\n📱 210-355-xxxx\n\nNicole Schatz, PhD, Associate Research Professor\n\n📧 nschatz@fiu.edu\n📱 573-201-xxxx"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#emergency-contacts",
+    "href": "templates/presentation/EMP.html#emergency-contacts",
+    "title": "Emergency Medical Plan",
+    "section": "Emergency Contacts",
+    "text": "Emergency Contacts\n\nFlorida DCF Abuse Hotline & Adult Protective Services: 1-800-962-2873\nFIU Police: 305-348-5911\nEmergency: 911\nMiami Information & Referral, 24/7: Dial 211"
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#responsible-clinician",
+    "href": "templates/presentation/EMP.html#responsible-clinician",
+    "title": "Emergency Medical Plan",
+    "section": "Responsible Clinician",
+    "text": "Responsible Clinician\n\n\n\nClinician\nPsychiatric\nNeurological\nBP/Blood alerts\n\n\n\n\nRaul Gonzalez\nX\nX\nX\n\n\nSamuel Hawes\nX\n\n\n\n\nNicole Schatz\n\n\nX\n\n\n\n*Refer to the CCF On-Call Clinician calendar for more information."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#confidentiality-limitations",
+    "href": "templates/presentation/EMP.html#confidentiality-limitations",
+    "title": "Emergency Medical Plan",
+    "section": "Confidentiality Limitations",
+    "text": "Confidentiality Limitations\n“Most of what you say here is confidential. However, there are exceptions…”\n\nIf a child, elder, or dependent adult is being abused.\nIf you have plans to harm yourself or others.\nIf there is another kind of immediate danger."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#incident-response-procedure",
+    "href": "templates/presentation/EMP.html#incident-response-procedure",
+    "title": "Emergency Medical Plan",
+    "section": "Incident Response Procedure",
+    "text": "Incident Response Procedure\n\nAssessment: Identify and gather details on potential imminent risk situations.\nCommunication: Relay information to the responsible clinician for further evaluation.\nDetermination: The responsible clinician makes the final decision on the participant’s risk level and necessary actions.\nSupport: Provide immediate support and briefing."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
+    "href": "templates/presentation/EMP.html#abuse-of-child-elder-or-dependent",
+    "title": "Emergency Medical Plan",
+    "section": "Abuse of Child, Elder, or Dependent",
+    "text": "Abuse of Child, Elder, or Dependent\n\nTypes of Abuse: Physical, emotional, financial exploitation, sexual, or neglect.\nInitial Assessment & Reporting: Follow EMP and Site SOP.\nInformation to Collect: Details about the victim and the abuse.\nConsultation & Decision Making: Ensure safety in notifying others.\nReporting Process: Contact the Florida Abuse Hotline."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#suicidality-response-protocol",
+    "href": "templates/presentation/EMP.html#suicidality-response-protocol",
+    "title": "Emergency Medical Plan",
+    "section": "Suicidality Response Protocol",
+    "text": "Suicidality Response Protocol\n\nAlerts: Immediate action on alerts indicating suicidal ideation.\nIn-Person Disclosure: Assess plan, intent, means, and location.\nRemote Disclosure: Maintain contact and call 911 for immediate threats."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
+    "href": "templates/presentation/EMP.html#intent-to-harm-others-and-homicidal-ideation",
+    "title": "Emergency Medical Plan",
+    "section": "Intent to Harm Others and Homicidal Ideation",
+    "text": "Intent to Harm Others and Homicidal Ideation\n\nAlerts: Act on alerts suggesting harm to others.\nIn-Person Disclosure: Verify plan, intent, means, and gather information on potential victims.\nRemote Disclosure: Do not disconnect; use another device to contact emergency services for imminent threats."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#documentation-and-confidentiality",
+    "href": "templates/presentation/EMP.html#documentation-and-confidentiality",
+    "title": "Emergency Medical Plan",
+    "section": "Documentation and Confidentiality",
+    "text": "Documentation and Confidentiality\n\nDuty to Warn: Notify authorities and intended victims as required.\nIncident Reporting: Complete detailed documentation of the threat, response, and any advisories given."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
+    "href": "templates/presentation/EMP.html#abcd-neuroradiology-report-and-mri-findings",
+    "title": "Emergency Medical Plan",
+    "section": "ABCD Neuroradiology Report and MRI Findings",
+    "text": "ABCD Neuroradiology Report and MRI Findings\n\nRecipient: Dr. Raul Gonzalez\nConsultant: Dr. Leo Sugrue\nProcedure: Notify Dr. Gonzalez through ABCD DAIC for incidental findings.\nFollow-Up: Assess clinical significance and communicate with families."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
+    "href": "templates/presentation/EMP.html#blood-pressure-and-laboratory-incidental-findings",
+    "title": "Emergency Medical Plan",
+    "section": "Blood Pressure and Laboratory Incidental Findings",
+    "text": "Blood Pressure and Laboratory Incidental Findings\n\nAlert Recipient: Dr. Raul Gonzalez\nConsultation: Significant findings discussed with Dr. Suzie Noronha.\nFamily Communication: Discuss findings with families and recommend follow-up."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#medical-emergency-protocol",
+    "href": "templates/presentation/EMP.html#medical-emergency-protocol",
+    "title": "Emergency Medical Plan",
+    "section": "Medical Emergency Protocol",
+    "text": "Medical Emergency Protocol\n\nInitial Response: Evaluate the situation and contact the responsible clinician.\nParent/Guardian Notification: Inform immediately, depending on the severity.\nEmergency Services: Call 911 for serious injuries."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#other-imminent-risks",
+    "href": "templates/presentation/EMP.html#other-imminent-risks",
+    "title": "Emergency Medical Plan",
+    "section": "Other Imminent Risks",
+    "text": "Other Imminent Risks\n\nAssessment: Staff assessors gather detailed information on the risk.\nClinician Notification: Evaluate risk with Dr. Gonzalez or Dr. Hawes.\nConfidentiality: May be broken if necessary to prevent harm."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#remote-or-virtual-visits",
+    "href": "templates/presentation/EMP.html#remote-or-virtual-visits",
+    "title": "Emergency Medical Plan",
+    "section": "Remote or Virtual Visits",
+    "text": "Remote or Virtual Visits\n\nPreparation: Verify participant’s location and contact numbers.\nEmergency Protocol: Follow in-person visit procedures for any emergencies."
+  },
+  {
+    "objectID": "templates/presentation/EMP.html#additional-resources",
+    "href": "templates/presentation/EMP.html#additional-resources",
+    "title": "Emergency Medical Plan",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nManaging Difficult Situations Webinar\nQUICK REFERENCE GUIDE: INDICATORS OF ABUSE AND NEGLECT\nChild Abuse Prevention Sourcebook\n\nhttps://docs.google.com/spreadsheets/d/1WR5B_-5kJnYAKcHRwymZ-3sD0NbP-OitmyONupf-R-M/edit?usp=sharing\nhttps://github.com/opendevsci/LongDev-ABCD\nhttps://longitudinal.dev/"
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Lab Resources",
+    "section": "",
+    "text": "Add DEAP\nAdd LongDev-ABCD\nAdd SUNippets\nAdd Open-Source Guide\n\nHere is a compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nExplore these comprehensive guides and tutorials to master Markdown, a simple formatting syntax for authoring web content:\n\n\n\nCommonMark Help\n\n\nMarkdown Guide Cheat Sheet\n\n\nCommonMark Spec 0.30 Introduction\n\n\nToward a Better Markdown Tutorial\n\n\nCommonMark Tutorial\n\n\nInteractive Markdown Tutorial\n\n\nAGEA Markdown Tutorial\n\n\nLearn Markdown in Y Minutes\n\n\nCommonMark Help and Support\n\n\n\n\n\n\nExplore the essentials of Git and GitHub for version control and collaboration with these curated resources:\n\n\n\nHappy Git with R\n\n\nVisual Git Guide\n\n\nLearn Git Branching\n\n\nGitHub Skills\n\n\nOh Shit, Git!?\n\n\nGitHub Training\n\n\nGit & GitHub Learning Resources\n\n\n\n\n\n\nWhether you’re just getting started or looking to deepen your R programming knowledge, these resources cover everything from basic concepts to advanced techniques:\n\n\n\nAbout R - Learn about R and its history.\n\n\nAdvanced R - A guide to developing your R programming skills by Hadley Wickham.\n\n\nR for Data Science - Learn how to use R to turn raw data into understanding, insight, and knowledge.\n\n\nSwirl - Learn R in R with interactive lessons.\n\n\nDataCamp’s Introduction to R - Start your journey in R with an introductory course.\n\n\nR Manuals - Official manuals for learning R.\n\n\nHands-On Programming with R - Write your own functions and simulations.\n\n\n\n\n\n\nQuarto enables the creation of dynamic, reproducible research documents. Explore the following resources to master Quarto:\n\n\n\nQuarto Official Website - Start here to learn everything about Quarto.\n\n\nGetting Started with Quarto - A beginner’s guide to writing with Quarto.\n\n\nPublishing with Quarto - Learn how to publish your Quarto documents.\n\n\nQuarto Authoring Basics - Dive deeper into Quarto’s authoring capabilities.\n\n\nQuarto Visual Editor - Explore the visual editing features in Quarto.\n\n\n\n\n\n\nVisual Studio Code is a powerful and versatile code editor. Enhance your coding experience with these VSCode resources:\n\n\n\nVSCode Basics - Introduction to the basics of VSCode.\n\n\nTips and Tricks - Improve your efficiency with these VSCode tips and tricks.\n\n\nDebugging in VSCode - Master debugging to find and fix errors faster.\n\n\nVersion Control in VSCode - Utilize version control systems directly within VSCode.\n\n\nExtension Marketplace - Explore extensions to customize and enhance VSCode."
+  },
+  {
+    "objectID": "Resources.html#welcome-to-our-labs-resource-page",
+    "href": "Resources.html#welcome-to-our-labs-resource-page",
+    "title": "Lab Resources",
+    "section": "",
+    "text": "Add DEAP\nAdd LongDev-ABCD\nAdd SUNippets\nAdd Open-Source Guide\n\nHere is a compiled a list of resources to help you get started and comfortable with some of the tools we frequently use in our research. Dive in!\n\n\n\nExplore these comprehensive guides and tutorials to master Markdown, a simple formatting syntax for authoring web content:\n\n\n\nCommonMark Help\n\n\nMarkdown Guide Cheat Sheet\n\n\nCommonMark Spec 0.30 Introduction\n\n\nToward a Better Markdown Tutorial\n\n\nCommonMark Tutorial\n\n\nInteractive Markdown Tutorial\n\n\nAGEA Markdown Tutorial\n\n\nLearn Markdown in Y Minutes\n\n\nCommonMark Help and Support\n\n\n\n\n\n\nExplore the essentials of Git and GitHub for version control and collaboration with these curated resources:\n\n\n\nHappy Git with R\n\n\nVisual Git Guide\n\n\nLearn Git Branching\n\n\nGitHub Skills\n\n\nOh Shit, Git!?\n\n\nGitHub Training\n\n\nGit & GitHub Learning Resources\n\n\n\n\n\n\nWhether you’re just getting started or looking to deepen your R programming knowledge, these resources cover everything from basic concepts to advanced techniques:\n\n\n\nAbout R - Learn about R and its history.\n\n\nAdvanced R - A guide to developing your R programming skills by Hadley Wickham.\n\n\nR for Data Science - Learn how to use R to turn raw data into understanding, insight, and knowledge.\n\n\nSwirl - Learn R in R with interactive lessons.\n\n\nDataCamp’s Introduction to R - Start your journey in R with an introductory course.\n\n\nR Manuals - Official manuals for learning R.\n\n\nHands-On Programming with R - Write your own functions and simulations.\n\n\n\n\n\n\nQuarto enables the creation of dynamic, reproducible research documents. Explore the following resources to master Quarto:\n\n\n\nQuarto Official Website - Start here to learn everything about Quarto.\n\n\nGetting Started with Quarto - A beginner’s guide to writing with Quarto.\n\n\nPublishing with Quarto - Learn how to publish your Quarto documents.\n\n\nQuarto Authoring Basics - Dive deeper into Quarto’s authoring capabilities.\n\n\nQuarto Visual Editor - Explore the visual editing features in Quarto.\n\n\n\n\n\n\nVisual Studio Code is a powerful and versatile code editor. Enhance your coding experience with these VSCode resources:\n\n\n\nVSCode Basics - Introduction to the basics of VSCode.\n\n\nTips and Tricks - Improve your efficiency with these VSCode tips and tricks.\n\n\nDebugging in VSCode - Master debugging to find and fix errors faster.\n\n\nVersion Control in VSCode - Utilize version control systems directly within VSCode.\n\n\nExtension Marketplace - Explore extensions to customize and enhance VSCode."
   }
 ]
