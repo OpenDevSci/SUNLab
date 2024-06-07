@@ -1,0 +1,23 @@
+
+
+CS50 lectures
+
+What is it you want to accomplish with R?
+
+Visuals? Focus on learning how to use the ggplot2 package.
+
+Data wrangling? Tidyverse
+
+Data Exploration? DataExplorer and Correlationfunnel
+
+Querying DBs? DBplyr, DBI, or SQLdf packages
+
+Automating reports? The above plus a package for whatever medium you want to deliver the report.
+
+Excel and/or Outlook email? Readxl, RDCOMclient
+
+PDF, HTML, PP? RMarkdown
+
+Dashboard? Shiny
+
+IDE

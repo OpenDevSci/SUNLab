@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jane D. Doe">
+<meta name="author" content="John D. Doe">
+
+<title>SUNLab - Depression Trajectories in the ABCD Study</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/sun1.jpeg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- header-includes.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/sun_favicon.jpeg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">SUNLab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../dashboard.html"> 
+<span class="menu-text">Dashboard</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/OpenDevSci/SUNLab"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Table of Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">2</span> Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">3</span> Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">4</span> Discussion</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements"><span class="header-section-number">5</span> Acknowledgements</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6</span> References</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="main.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="main.pdf"><i class="bi bi-file-pdf"></i>Typst (ieee)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><p>Depression Trajectories in the ABCD Study</p></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Jane D. Doe <a href="mailto:janedoe@fiu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Florida International University
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">John D. Doe <a href="mailto:johndoe@fiu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Florida International University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>xxxxxxxxx Input abstract here.</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p><a href="https://abcdstudy.org/" id="abcdwebsite" title="Visit the ABCD Study website">The Adolescent Brain Cognitive Development (ABCD) Study®</a> is the largest longitudinal investigation of neurodevelopment and child health in the United States. Conceived and initiated by the National Institutes of Health (NIH), this landmark prospective longitudinal study aims to transform our understanding of the genetic and environmental factors impacting neurodevelopment and their roles in behavioral and health outcomes across ten years of adolescence <span class="citation" data-cites="volkow2018">Volkow et al. (<a href="#ref-volkow2018" role="doc-biblioref">2018</a>)</span>.</p>
+<p>“Studies investigating trajectories of depressive symptoms <span class="citation" data-cites="gao2021">Gao et al. (<a href="#ref-gao2021" role="doc-biblioref">2021</a>)</span>, <span class="citation" data-cites="kaup2016">Kaup et al. (<a href="#ref-kaup2016" role="doc-biblioref">2016</a>)</span>, <span class="citation" data-cites="lin2023">Lin et al. (<a href="#ref-lin2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="zhang2022">Zhang et al. (<a href="#ref-zhang2022" role="doc-biblioref">2022</a>)</span>. Musliner et al.&nbsp;(2016) <span class="citation" data-cites="musliner2016">Musliner et al. (<a href="#ref-musliner2016" role="doc-biblioref">2016</a>)</span> conducted a systematic review on the heterogeneity in long-term patterns of depressive symptoms and found that most of these studies identified three or four different symptom trajectories and sampled the general population.”</p>
+<p>“A valuable tool for investigating heterogeneity in symptom patterns is Latent Growth Curve Modelling (GCM), a statistical method that analyses inter-individual variability in intra-individual patterns over time <span class="citation" data-cites="curran2010">Curran, Obeidat, and Losardo (<a href="#ref-curran2010" role="doc-biblioref">2010</a>)</span>. One specific type of GCM is Latent Class Growth Analysis (LCGA), which considers unobserved heterogeneity (different groups) over time within a larger population <span class="citation" data-cites="jung2008">Jung and Wickrama (<a href="#ref-jung2008" role="doc-biblioref">2008</a>)</span>, <span class="citation" data-cites="nguena2020">Nguena Nguefack et al. (<a href="#ref-nguena2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="ram2009">Ram and Grimm (<a href="#ref-ram2009" role="doc-biblioref">2009</a>)</span>. In other words, LCGA can examine the growth and shape of the course of depressive symptoms over time and assess how individuals in the population group together based on their symptom patterns.”</p>
+<p>“The aim of the present study is to investigate the course of depressive symptoms over a period of xx years …. and to …. . To achieve this goal, LGCM will be performed on data from the xxxx ABCD cohort (add citation). The ABCD study was initiated in xxxxx. Based on previous literature <span class="citation" data-cites="musliner2016">Musliner et al. (<a href="#ref-musliner2016" role="doc-biblioref">2016</a>)</span>, we hypothesize that three or four trajectories of depression can be identified. Given that xxxxx, we additionally hypothesize that individuals following more xxxx trajectories will be more/less likely to experience xxxx and exhibit reduced levels of xxxxx”</p>
+</section>
+<section id="methods" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Methods</h1>
+<section id="design-and-participants" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="design-and-participants"><span class="header-section-number">2.1</span> Design and participants</h2>
+<p>Participants were enrolled in the ongoing, longitudinal ABCD Study. The ABCD Study recruited a cohort of n=11,880 participants born between 2006-2008 and aged approximately 9-10 years at baseline, each with a parent/guardian. The study sample was recruited from households in defined catchment areas for each of the 21 (originally 22) study sites across the United States. The present study examines data from the fifth public release of ABCD Study data (version 5.1, released xxxx 202x https://data-archive.nimh.nih.gov/abcd). Institutional review boards at participating universities approved all study procedures. Participants provided written assent, and their legal guardians written consent, for participation. Information regarding funding agencies, recruitment sites, investigators, and project organizations can be obtained at https://abcdstudy.org. The ABCD Study design is described in more detail in <span class="citation" data-cites="garavan2018">Garavan et al. (<a href="#ref-garavan2018" role="doc-biblioref">2018</a>)</span> and <span class="citation" data-cites="dick2021">Dick et al. (<a href="#ref-dick2021" role="doc-biblioref">2021</a>)</span>.</p>
+<p>[baseline (T0) measurement; follow-up measurements (T1) (T2)(T3)(T4)]</p>
+</section>
+<section id="measures" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="measures"><span class="header-section-number">2.2</span> Measures</h2>
+<section id="depression" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="depression"><span class="header-section-number">2.2.1</span> Depression</h3>
+<p>Depression was assessed using the Child Behavior Checklist (CBCL), a widely used parent-report questionnaire designed to identify problem behavior in children and adolescents aged 6 to 18 years <span class="citation" data-cites="achenbach2000">Achenbach, Ruffle, et al. (<a href="#ref-achenbach2000" role="doc-biblioref">2000</a>)</span>. The CBCL is comprised of various scales that measure different aspects of emotional and behavioral problems. Specifically, the Depressive Problems scale, which is part of the broader Internalizing Problems domain, was utilized to measure symptoms of depression. This scale includes items that assess a range of depressive symptoms such as persistent sadness, lack of interest in activities, and excessive guilt or feelings of worthlessness. Respondents (parents or primary caregivers) were asked to rate how true each item was for their child over the past six months on a 3-point Likert scale ranging from 0 (not true) to 2 (very true or often true). The scores from the relevant items were summed to create a composite score for depressive symptoms, with higher scores indicating greater severity of depressive symptoms <span class="citation" data-cites="goldstone2020">Goldstone et al. (<a href="#ref-goldstone2020" role="doc-biblioref">2020</a>)</span>. CBCL symptom scores below the 93rd percentile (T = 65) are considered normal, scores between the 93-97th percentile (T = 65–69) are borderline clinical, and any score above the 97th percentile (T = 69) are in the clinical range <span class="citation" data-cites="maruish2004">Maruish (<a href="#ref-maruish2004" role="doc-biblioref">2004</a>)</span>. Scores in the borderline range are high enough to be of concern <span class="citation" data-cites="maruish2004">Maruish (<a href="#ref-maruish2004" role="doc-biblioref">2004</a>)</span>. The CBCL has demonstrated strong psychometric properties <span class="citation" data-cites="achenbach2000">Achenbach, Ruffle, et al. (<a href="#ref-achenbach2000" role="doc-biblioref">2000</a>)</span> and its use in assessing depressive symptoms is supported by numerous studies, including those using ABCD Study data <span class="citation" data-cites="barch2018">Barch et al. (<a href="#ref-barch2018" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="goldstone2020">Goldstone et al. (<a href="#ref-goldstone2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="gorham2019">Gorham et al. (<a href="#ref-gorham2019" role="doc-biblioref">2019</a>)</span>, <span class="citation" data-cites="hoffman2019">Hoffman et al. (<a href="#ref-hoffman2019" role="doc-biblioref">2019</a>)</span></p>
+</section>
+<section id="add-other-measures" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="add-other-measures"><span class="header-section-number">2.2.2</span> Add other measures</h3>
+</section>
+<section id="potential-confounders" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="potential-confounders"><span class="header-section-number">2.2.3</span> Potential confounders</h3>
+<p>To account for the potentially confounding effects of attentional, cognitive, or emotional difficulties that are often comorbid with depression, all analyses included CBCL DSM-oriented xxx problems and xxx problems subscale scores as covariates. We also covaried for sex, age, race/ethnicity, and parental education.</p>
+</section>
+</section>
+<section id="analytic-plan" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="analytic-plan"><span class="header-section-number">2.3</span> Analytic Plan</h2>
+<section id="descriptive-statistics" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="descriptive-statistics"><span class="header-section-number">2.3.1</span> Descriptive Statistics</h3>
+<p>Participants with CBCL depression scores at one or more time point(s) were included in the trajectory analysis. Groups with and without any missing scores on the depression outcome at each time point were compared.</p>
+</section>
+<section id="trajectory-models" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="trajectory-models"><span class="header-section-number">2.3.2</span> Trajectory Models</h3>
+<p>Variability in depressive symptom trajectories was examined using latent class growth analysis (LCGA; <span class="citation" data-cites="jung2008">Jung and Wickrama (<a href="#ref-jung2008" role="doc-biblioref">2008</a>)</span>, <span class="citation" data-cites="andruff2009">Andruff et al. (<a href="#ref-andruff2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="berlin2014">Berlin, Williams, and Parra (<a href="#ref-berlin2014" role="doc-biblioref">2014</a>)</span>, <span class="citation" data-cites="wardenaar2020">Wardenaar (<a href="#ref-wardenaar2020" role="doc-biblioref">2020</a>)</span>). LCGA is a person-centered method that identifies latent classes of individuals sharing similar developmental patterns, thereby facilitating an examination of individual patterns of stability and change across time <span class="citation" data-cites="jung2008">Jung and Wickrama (<a href="#ref-jung2008" role="doc-biblioref">2008</a>)</span>, <span class="citation" data-cites="nguena2020">Nguena Nguefack et al. (<a href="#ref-nguena2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="ram2009">Ram and Grimm (<a href="#ref-ram2009" role="doc-biblioref">2009</a>)</span>. Prior research (<span class="citation" data-cites="musliner2016">Musliner et al. (<a href="#ref-musliner2016" role="doc-biblioref">2016</a>)</span>) suggests three to six distinct depressive trajectory subgroups, prompting the estimation of models ranging from one to seven classes. To capture changes in depressive symptomatology over time, both linear and quadratic terms were considered. Differentiation among trajectories regarding intercept, slope, and step was evaluated using Wald tests. An examination of the data revealed a skewed distribution, notably inflated at the scale’s lower end. Initial analyses resulted in LCGA model convergence issues due to this skewness. As such, a Box-Cox transformation was implemented (See Fig. xx) to improve the ability to examine patterns of heterogeneity in more detail. To evaluate the effect of covariates, we adhered to a commonly applied, three-step approach which accounts for classification errors of the model <span class="citation" data-cites="vermunt2010">Vermunt (<a href="#ref-vermunt2010" role="doc-biblioref">2010</a>)</span>. This method estimates an auxiliary model based on latent classification, assigning group-specific BCH weights to cases (<span class="citation" data-cites="bolck2004">Bolck, Croon, and Hagenaars (<a href="#ref-bolck2004" role="doc-biblioref">2004</a>)</span>).</p>
+<p>Next, an omnibus likelihood ratio test was examined to test for significant differences in trajectory patterns. For all omnibus likelihood ratio tests the p-values were corrected for multiple comparisons using the false discovery rate. If the omnibus test was still significant after correction, post hoc test results were obtained and likewise subjected to correction for multiple comparisons using the false discovery rate.ll analyses were performed using the programming language R (version 4.2.2, package for trajectory analysis: tidySEM, <span class="citation" data-cites="van2023">Van Lissa, Garnier-Villarreal, and Anadria (<a href="#ref-van2023" role="doc-biblioref">2023</a>)</span>) (with significance level set at p &lt; .05 (two-tailed)). All R code is made publicly available on GitHub at https://github.com/OpenDevSci/SUNLab.</p>
+<p>Identification of the best fitting model was based on a combination of interpretability, parsimony, and theoretical justification <span class="citation" data-cites="nagin2010">Nagin and Odgers (<a href="#ref-nagin2010" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="nguena2020">Nguena Nguefack et al. (<a href="#ref-nguena2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="ram2009">Ram and Grimm (<a href="#ref-ram2009" role="doc-biblioref">2009</a>)</span>. Key metrics for assessing model fit include Information Criteria (IC) such as the Bayesian Information Criteria (BIC), the sample-size-adjusted BIC (saBIC), and the Akaike Information Criteria (AIC), with a preference for models that register the lowest IC values <span class="citation" data-cites="nylund2007">Nylund, Asparouhov, and Muthén (<a href="#ref-nylund2007" role="doc-biblioref">2007</a>)</span>, <span class="citation" data-cites="van2020">Nest et al. (<a href="#ref-van2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="van2023">Van Lissa, Garnier-Villarreal, and Anadria (<a href="#ref-van2023" role="doc-biblioref">2023</a>)</span>. In cases of ambiguous and contradictory ICs, evaluation of a scree plot’s inflection point may assist in determining the point beyond which additional classes offer negligible improvement to IC reduction <span class="citation" data-cites="nylund2018">Nylund-Gibson and Choi (<a href="#ref-nylund2018" role="doc-biblioref">2018</a>)</span>. Model performance was appraised through a range of indicators including entropy, posterior classification probability (the likelihood of an individual’s correct class assignment), and class size. Solutions yielding distinct classes were prioritized to facilitate clear interpretation. High entropy values signify well-differentiated classes <span class="citation" data-cites="van2023">Van Lissa, Garnier-Villarreal, and Anadria (<a href="#ref-van2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="weller2020">Weller, Bowen, and Faubert (<a href="#ref-weller2020" role="doc-biblioref">2020</a>)</span>; thus, configurations with entropy below .90 were excluded. Moreover, when an individual’s posterior classification probability is distinctly high for one class compared to others, it denotes effective class differentiation by the model <span class="citation" data-cites="andruff2009">Andruff et al. (<a href="#ref-andruff2009" role="doc-biblioref">2009</a>)</span>. Criteria set for acceptable solutions included an average posterior classification probability exceeding .90 <span class="citation" data-cites="weller2020">Weller, Bowen, and Faubert (<a href="#ref-weller2020" role="doc-biblioref">2020</a>)</span>. Additionally, drawing on prior studies, a minimum class size of 50 individuals or 5% of the overall sample was deemed necessary to ensure representativeness <span class="citation" data-cites="muthen2000">Muthén and Muthén (<a href="#ref-muthen2000" role="doc-biblioref">2000</a>)</span>, <span class="citation" data-cites="weller2020">Weller, Bowen, and Faubert (<a href="#ref-weller2020" role="doc-biblioref">2020</a>)</span>, leading to the exclusion of classes not meeting this threshold.</p>
+<p>Data processing and analysis were executed using the tidySEM package in R <span class="citation" data-cites="van2023">Van Lissa, Garnier-Villarreal, and Anadria (<a href="#ref-van2023" role="doc-biblioref">2023</a>)</span>, employing [full information maximum likelihood estimation to accommodate standard errors and provide a chi-square statistic robust to non-normality(?)]. Complex sampling and recruitment procedures for the ABCD Study were accounted for using cluster correction (i.e., for sibling pairs) and stratification sampling (i.e.&nbsp;study site) procedures.</p>
+</section>
+</section>
+<section id="depression-symptoms-associations-with-the-gdt-substance-use" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="depression-symptoms-associations-with-the-gdt-substance-use"><span class="header-section-number">2.4</span> Depression symptoms associations with the GDT &amp; substance use</h2>
+<p>To get more insights in the trajectories and associated outcomes (e.g., GDT, substance use), we assessed xxxxx between the different classes. We used the same three-step approach with the omnibus likelihood test used for the covariates and the results were also corrected for multiple comparisons. All participants reported xxxx during xxxx.</p>
+</section>
+<section id="add-additional-analyses-section" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="add-additional-analyses-section"><span class="header-section-number">2.5</span> Add additional analyses section</h2>
+</section>
+</section>
+<section id="results" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Results</h1>
+<section id="descriptive-statistics-1" class="level3" data-number="3.0.1">
+<h3 data-number="3.0.1" class="anchored" data-anchor-id="descriptive-statistics-1"><span class="header-section-number">3.0.1</span> Descriptive Statistics</h3>
+<p>Descriptive statistics revealed that the study groups were equivalent on demographic variables, except for lower proportional representation of female and Hispanic children in the xxxx groups (see Table 1). This study included xxx participants (xxx [xx.xx%] women, xxx [xx.xx] men); mean (SD) XXX was xx.xx (x.xx). Table 1 provides other demographic characteristics, including race, family income, parental education attainment for each trajectory pattern. Moreover, there were no significant differences between participants missing any depression measurements and participants with complete depression scores at each time point.</p>
+</section>
+<section id="trajectory-models-1" class="level3" data-number="3.0.2">
+<h3 data-number="3.0.2" class="anchored" data-anchor-id="trajectory-models-1"><span class="header-section-number">3.0.2</span> Trajectory Models</h3>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<caption>Item descriptives</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">name</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">median</th>
+<th style="text-align: right;">sd</th>
+<th style="text-align: right;">min</th>
+<th style="text-align: right;">max</th>
+<th style="text-align: right;">skew_2se</th>
+<th style="text-align: right;">kurt_2se</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">depress.0</td>
+<td style="text-align: right;">53.60</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">5.73</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">43.26</td>
+<td style="text-align: right;">73.03</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">depress.1</td>
+<td style="text-align: right;">53.92</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">6.09</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">40.56</td>
+<td style="text-align: right;">67.51</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">depress.2</td>
+<td style="text-align: right;">53.75</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">5.88</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">34.90</td>
+<td style="text-align: right;">58.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">depress.3</td>
+<td style="text-align: right;">54.07</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">6.20</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">32.14</td>
+<td style="text-align: right;">53.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">depress.4</td>
+<td style="text-align: right;">53.99</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">6.39</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">27.30</td>
+<td style="text-align: right;">47.97</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>We can examine these distributions visually as well:</p>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As this type of skew can result in convergence problems in LCGA, we compared several transformations to reduce skew: The square and cube root, log, inverse, and Box-Cox transformations.</p>
+<p>We can plot these transformations:</p>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The Box-Cox transformation (maybe/slightly?) reduced skew the most. Consequently, we proceeded with the Box-Cox transformed scores for analysis.</p>
+<section id="model-selection" class="level4">
+<h4 class="anchored" data-anchor-id="model-selection">Model Selection</h4>
+<p>A complete table of model characteristics and fit statistics of the linear and quadratic models are shown in Supplementary Table S5. A selection of characteristics and fit statistics is presented in Table 2 for the linear models. All quadratic models, except the one-class quadratic model, encountered convergence problems and failed to find a final solution. This suggests that the quadratic models are too complex for our dataset <span class="citation" data-cites="van2023">Van Lissa, Garnier-Villarreal, and Anadria (<a href="#ref-van2023" role="doc-biblioref">2023</a>)</span>. While it is feasible to explore alternative non-linear patterns, the persisting issue lies in the apparent complexity associated with models incorporating many parameters. For the linear models, a reduction in BIC, saBIC and AIC was observed with increasing class number. The reduction in ICs flattened after three classes. In addition, the LoMendell-Rubin (LMR) likelihood ratio test was significant with every additional class and entropy was above.90 for all models. Posterior group probability was acceptable (above.90) up to the four-class model. Therefore, the models with five or more classes were not accepted. For all models with one to four classes, the class size was larger than 5% and consisted of at least 50 individuals. Altogether, most quadratic models did not converge, and both the three- and four-class model performed well and had acceptable classification performance. Therefore, we selected the linear three-class model as the final model.</p>
+</section>
+<section id="depression-trajectories" class="level4">
+<h4 class="anchored" data-anchor-id="depression-trajectories">Depression trajectories</h4>
+<p>The three classes identified were a xx class with xx participants (xx%), an xx class with xx participants (xx%), and a xx class with xx participants (xx%) (Fig. x). The xxx group showed low levels of depressive symptoms xxxx. The xxx and xxx group showed a significant increase in depressive symptoms. The xxxx group started xxxx, and showed a significant xxxxx. Results of the Wald tests (Supplementary Table S8) showed that the xxxxx scores for depressive symptoms (intercepts) and the increase from xxxx differed significantly between all classes (p &lt; .01). Furthermore, the trajectories differed significantly in slope (p &lt; .01). (See Supplement for pairwise comparisons with Bonferroni correction).</p>
+<p>Note that the first model showed convergence problems, throwing the error: The model does not satisfy the first-order optimality conditions to the required accuracy, and no improved point for the merit function could be found during the final linesearch. To address this problem, we performed additional iterations to find a better solution, using OpenMx::mxTryHardWideSearch(). This also illustrates that tidySEM mixture models inherit from OpenMx’s MxModel, and thus, different OpenMx functions can be used to act on models specified via tidySEM.</p>
+<p>The fifth model also evidenced convergence problems, but this (as we will see) is because the solution is overfitted.</p>
+<p>Class enumeration To determine the correct number of classes, we considered the following criteria:</p>
+<p>We do not consider classes with, on average, fewer than 5 participants per parameter in a class due to potential local underidentification Lower values for information criteria (AIC, BIC, saBIC) indicate better fit Significant Lo-Mendell-Rubin LRT test indicates better fit for 𝑘 vs 𝑘−1 classes We do not consider solutions with entropy &lt; .90 because poor class separability compromises interpretability of the results We do not consider solutions with minimum posterior classification probability &lt; .90 because poor class separability compromises interpretability of the results</p>
+<div class="cell" data-messages="false">
+<div class="cell-output cell-output-stdout">
+<pre><code>  Name Classes       LL Parameters        AIC        BIC      saBIC   Entropy
+1    1       1 3093.653          8  -6171.307  -6120.101  -6145.522 1.0000000
+2    2       2 8114.557         12 -16205.115 -16128.307 -16166.438 0.9391755
+3    3       3 9166.613         16 -18301.226 -18198.815 -18249.657 0.9076713
+   prob_min      n_min
+1 1.0000000 1.00000000
+2 0.9521787 0.20337079
+3 0.8918387 0.09775281</code></pre>
+</div>
+</div>
+<p>According to the Table, increasing the number of classes keeps improving model fit according to all ICs.</p>
+<p>The first two LMR tests are significant, indicating that a 2- and 3-class solution were a significant improvement over a 1- and 2-class solution, respectively. However, solutions with &gt;3 classes had entropy and minimum posterior classification probability below the pre-specified thresholds. Models with &gt;3 solutions also had fewer than five observations per parameter. This suggests that the preferred model should be selected from 1-3 classes.</p>
+<p>Scree plot A scree plot indicates that the largest decrease in ICs occurs from 1-2 classes, and the inflection point for all ICs is at 3 classes. Moreover, the BIC increased after 3 classes. A three-class solution thus appears to be the most parsimonious solution with good fit.</p>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Based on the aforementioned criteria, we selected a 3-class model for further analyses. First, to prevent label switching, we re-order these classes by the value of the intercept i. Then, we report the estimated parameters.</p>
+<div class="cell" data-messages="false">
+<div class="cell-output cell-output-stdout">
+<pre><code>    Category                             lhs   est   se pval        confint
+13     Means                               i  0.06 0.00 0.00   [0.06, 0.07]
+14     Means                            step -0.01 0.00 0.00 [-0.02, -0.01]
+15     Means                               s  0.00 0.00 0.06  [-0.00, 0.00]
+16 Variances    depressbaseline_year_1_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+17 Variances depress1_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+18 Variances depress2_year_follow_up_y_arm_1  0.01 0.00 0.00   [0.01, 0.02]
+19 Variances depress3_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+20 Variances depress4_year_follow_up_y_arm_1  0.03 0.00 0.00   [0.02, 0.03]
+33     Means                               i  0.22 0.01 0.00   [0.21, 0.23]
+34     Means                            step  0.06 0.01 0.00   [0.05, 0.08]
+35     Means                               s  0.01 0.00 0.02   [0.00, 0.01]
+36 Variances    depressbaseline_year_1_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+37 Variances depress1_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+38 Variances depress2_year_follow_up_y_arm_1  0.01 0.00 0.00   [0.01, 0.02]
+39 Variances depress3_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+40 Variances depress4_year_follow_up_y_arm_1  0.03 0.00 0.00   [0.02, 0.03]
+53     Means                               i  0.48 0.01 0.00   [0.46, 0.50]
+54     Means                            step  0.09 0.01 0.00   [0.07, 0.11]
+55     Means                               s -0.01 0.00 0.00 [-0.02, -0.00]
+56 Variances    depressbaseline_year_1_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+57 Variances depress1_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+58 Variances depress2_year_follow_up_y_arm_1  0.01 0.00 0.00   [0.01, 0.02]
+59 Variances depress3_year_follow_up_y_arm_1  0.02 0.00 0.00   [0.02, 0.02]
+60 Variances depress4_year_follow_up_y_arm_1  0.03 0.00 0.00   [0.02, 0.03]
+            name
+13 class1.M[1,6]
+14 class1.M[1,7]
+15 class1.M[1,8]
+16 class1.S[1,1]
+17 class1.S[2,2]
+18 class1.S[3,3]
+19 class1.S[4,4]
+20 class1.S[5,5]
+33 class2.M[1,6]
+34 class2.M[1,7]
+35 class2.M[1,8]
+36 class2.S[1,1]
+37 class2.S[2,2]
+38 class2.S[3,3]
+39 class2.S[4,4]
+40 class2.S[5,5]
+53 class3.M[1,6]
+54 class3.M[1,7]
+55 class3.M[1,8]
+56 class3.S[1,1]
+57 class3.S[2,2]
+58 class3.S[3,3]
+59 class3.S[4,4]
+60 class3.S[5,5]</code></pre>
+</div>
+</div>
+<p>As evident from these results, Class 1 started at a relatively lower level of depressive symptoms, experienced a decrease after deployment, followed by increase over time. Class 2 started at a moderate level of depressive symptoms, experienced an increase after deployment, followed by significant increase over time from T2-T6. Class 3 started at a relatively higher level, experienced an increase after deployment, followed by stability.</p>
+<p>Wald tests To test whether parameters are significantly different between classes, we can use Wald tests. Wald tests can be specified for all parameters in the model, using the hypothesis syntax from the bain package for informative hypothesis testing.</p>
+<p>To identify the names of parameters in the model, we can use the name column of the results table above. Alternatively, to see all parameters in the model, run:</p>
+<div class="cell" data-messages="false">
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "mix3.weights[1,2]"                "mix3.weights[1,3]"               
+ [3] "vdepressbaseline_year_1_arm_1"    "vdepress1_year_follow_up_y_arm_1"
+ [5] "vdepress2_year_follow_up_y_arm_1" "vdepress3_year_follow_up_y_arm_1"
+ [7] "vdepress4_year_follow_up_y_arm_1" "class1.M[1,6]"                   
+ [9] "class1.M[1,7]"                    "class1.M[1,8]"                   
+[11] "class2.M[1,6]"                    "class2.M[1,7]"                   
+[13] "class2.M[1,8]"                    "class3.M[1,6]"                   
+[15] "class3.M[1,7]"                    "class3.M[1,8]"                   </code></pre>
+</div>
+</div>
+<p>Next, specify equality constrained hypotheses. For example, a hypothesis that states that the mean intercept is equal across groups is specified as follows:</p>
+<p>“class1.M[1,7] = class2.M[1,7] &amp; class1.M[1,7] = class3.M[1,7]</p>
+<p>It is also possible to consider comparisons between two classes at a time. When conducting many significance tests, consider correcting for multiple comparisons however.</p>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<caption>Wald tests</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Hypothesis</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">chisq</th>
+<th style="text-align: right;">p</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mean i</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2543.57</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mean step</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">160.65</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mean slope</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">15.89</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>All Wald tests are significant, indicating that there are significant differences between the intercepts, step function, and slopes of the three classes.</p>
+<p>Trajectory plot Finally, we can plot the growth trajectories. This can help interpret the results better, as well as the residual heterogeneity around class trajectories.</p>
+<div class="cell" data-messages="false">
+<div class="cell-output cell-output-stderr">
+<pre><code>Scale for y is already present.
+Adding another scale for y, which will replace the existing scale.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using shapes for an ordinal variable is not advised</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="main_files/figure-html/unnamed-chunk-13-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Note that the observed individual trajectories show very high variability within classes.</p>
+</section>
+<section id="covariates" class="level4">
+<h4 class="anchored" data-anchor-id="covariates">Covariates</h4>
+<p>Assessment of covariates using the three-step approach revealed that the trajectories did not differ in any of the demogra phical variables, including sex (ΔLL(5) = 6.3 , p = .27, pcorr = .37), age (ΔLL(8) = 8.4 , p = .40, pcorr = .50), rank Journal of Affective Disorders 354 (2024) 702–711 707(ΔLL(11) = 13.5 , p = .26, pcorr = .37), educational level (ΔLL(9) = 7.1 , p = .63, pcorr = .66), function (ΔLL(8) = 8.1 , p = .43, pcorr = .51), year of deployment (ΔLL(5) = 3.6 , p = .61, pcorr = 66), or previous deployments (ΔLL(6) = 3.0 , p = .81, pcorr = .81). For early life traumas, the symptomatic-chronic group experienced more early life traumas compared to the other trajectories (p &lt; .01, pcorr &lt; .01) and both the resilient and late-onset-increasing group experienced significantly less early life traumas compared to the intermediate-stable group (ΔLL(2) = 21.6 , p &lt; .01, pcorr &lt; .01; ΔLL(2) = 8.1 , p &lt; .05, pcorr &lt; .05) (Supple- mentary Fig. S10). Significant disparities in the number of deployment stressors were observed, with the resilient group exhibiting lower counts of deploy- ment stressors compared to the intermediate-stable group (ΔLL(2) = 23.0 , p &lt; .01, pcorr &lt; .01), symptomic-chronic group (ΔLL(2) = 325.7 , p &lt; .01, pcorr &lt; .01), and late-onset-increasing group (ΔLL(2) = 9.5 , p &lt; .01, pcorr &lt; .05) (Supplementary Fig. S11). A detailed breakdown of percentages per stressor is provided in Supple- mentary Table S12</p>
+</section>
+<section id="depression-and-gdt" class="level4">
+<h4 class="anchored" data-anchor-id="depression-and-gdt">Depression and GDT</h4>
+</section>
+<section id="depression-and-substance-use" class="level4">
+<h4 class="anchored" data-anchor-id="depression-and-substance-use">Depression and substance use</h4>
+</section>
+</section>
+<section id="add-additional-analyses-section-1" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="add-additional-analyses-section-1"><span class="header-section-number">3.1</span> Add additional analyses section</h2>
+</section>
+</section>
+<section id="discussion" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Discussion</h1>
+<div class="cell" data-messages="false">
+<div class="cell-output-display">
+<p>Elit felis, libero eleifend augue ultricies habitant eget a. Mollis pulvinar magnis tempus integer mi ultrices – vehicula fusce pellentesque. Iaculis feugiat auctor himenaeos pretium cum quam velit molestie.</p>
+<p>Sit platea nisi proin aliquam eros, interdum sociosqu? Bibendum sagittis facilisi maecenas mi et, ornare platea semper ut conubia. Sodales volutpat et curabitur consequat nisl ultrices felis praesent habitasse.</p>
+<p>Ipsum venenatis class cubilia aenean torquent lobortis; dis fringilla. Quis rhoncus magna pharetra torquent dui justo sociis aptent. Erat egestas malesuada vivamus vestibulum placerat, faucibus dis magna habitant, in rhoncus varius.</p>
+<p>Ipsum sem himenaeos imperdiet euismod tellus commodo suscipit tincidunt aliquet. Tellus enim litora enim gravida magnis enim, orci urna non, fames tempus! Senectus et nisi tincidunt suscipit fringilla praesent nascetur est.</p>
+<p>Adipiscing lectus interdum euismod pretium urna nisi habitant condimentum. Parturient ultrices mus eros massa id, netus habitant quis. Urna dis pharetra neque; mollis curae natoque arcu; id a pellentesque, nascetur ac nam arcu faucibus ac!</p>
+</div>
+</div>
+</section>
+<section id="acknowledgements" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Acknowledgements</h1>
+<p>Data used in the preparation of this article were obtained from the Adolescent Brain Cognitive DevelopmentSM (ABCD) Study (https://abcdstudy.org), held in the NIMH Data Archive (NDA). This is a multisite, longitudinal study designed to recruit more than 10,000 children age 9-10 and follow them over 10 years into early adulthood. The ABCD Study® is supported by the National Institutes of Health and additional federal partners under award numbers U01DA041048, U01DA050989, U01DA051016, U01DA041022, U01DA051018, U01DA051037, U01DA050987, U01DA041174, U01DA041106, U01DA041117, U01DA041028, U01DA041134, U01DA050988, U01DA051039, U01DA041156, U01DA041025, U01DA041120, U01DA051038, U01DA041148, U01DA041093, U01DA041089, U24DA041123, U24DA041147. A full list of supporters is available at https://abcdstudy.org/federal-partners.html. A listing of participating sites and a complete listing of the study investigators can be found at https://abcdstudy.org/consortium_members/. ABCD consortium investigators designed and implemented the study and/or provided data but did not necessarily participate in the analysis or writing of this report. This manuscript reflects the views of the authors and may not reflect the opinions or views of the NIH or ABCD consortium investigators.</p>
+<p>The ABCD data repository grows and changes over time. The ABCD data used in this report came from DOI: 10.15154/z563-zd24. DOIs can be found at the following <a href="https://nda.nih.gov/study.html?id=2313">link</a>.</p>
+<p><br></p>
+</section>
+<section id="references" class="level1" data-number="6">
+
+
+
+<!-- -->
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">6 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-achenbach2000" class="csl-entry" role="listitem">
+Achenbach, Thomas M, Thomas M Ruffle, et al. 2000. <span>“The Child Behavior Checklist and Related Forms for Assessing Behavioral/Emotional Problems and Competencies.”</span> <em>Pediatrics in Review</em> 21 (8): 265–71.
+</div>
+<div id="ref-andruff2009" class="csl-entry" role="listitem">
+Andruff, Heather, Natasha Carraro, Amanda Thompson, Patrick Gaudreau, Benoı̂t Louvet, et al. 2009. <span>“Latent Class Growth Modelling: A Tutorial.”</span> <em>Tutorials in Quantitative Methods for Psychology</em> 5 (1): 11–24.
+</div>
+<div id="ref-barch2018" class="csl-entry" role="listitem">
+Barch, Deanna M, Matthew D Albaugh, Shelli Avenevoli, Linda Chang, Duncan B Clark, Meyer D Glantz, James J Hudziak, et al. 2018. <span>“Demographic, Physical and Mental Health Assessments in the Adolescent Brain and Cognitive Development Study: Rationale and Description.”</span> <em>Developmental Cognitive Neuroscience</em> 32: 55–66.
+</div>
+<div id="ref-berlin2014" class="csl-entry" role="listitem">
+Berlin, Kristoffer S, Natalie A Williams, and Gilbert R Parra. 2014. <span>“An Introduction to Latent Variable Mixture Modeling (Part 1): Overview and Cross-Sectional Latent Class and Latent Profile Analyses.”</span> <em>Journal of Pediatric Psychology</em> 39 (2): 174–87.
+</div>
+<div id="ref-bolck2004" class="csl-entry" role="listitem">
+Bolck, Annabel, Marcel Croon, and Jacques Hagenaars. 2004. <span>“Estimating Latent Structure Models with Categorical Variables: One-Step Versus Three-Step Estimators.”</span> <em>Political Analysis</em> 12 (1): 3–27.
+</div>
+<div id="ref-curran2010" class="csl-entry" role="listitem">
+Curran, Patrick J, Khawla Obeidat, and Diane Losardo. 2010. <span>“Twelve Frequently Asked Questions about Growth Curve Modeling.”</span> <em>Journal of Cognition and Development</em> 11 (2): 121–36.
+</div>
+<div id="ref-dick2021" class="csl-entry" role="listitem">
+Dick, Anthony Steven, Daniel A Lopez, Ashley L Watts, Steven Heeringa, Chase Reuter, Hauke Bartsch, Chun Chieh Fan, et al. 2021. <span>“Meaningful Associations in the Adolescent Brain Cognitive Development Study.”</span> <em>NeuroImage</em> 239: 118262.
+</div>
+<div id="ref-gao2021" class="csl-entry" role="listitem">
+Gao, Tingting, Zeying Qin, Yueyang Hu, Junsong Fei, Ruilin Cao, Leilei Liang, Chuanen Li, Songli Mei, and Xiangfei Meng. 2021. <span>“Trajectories of Depression and Anxiety in Chinese High School Freshmen: Associations with Internet Addiction.”</span> <em>Journal of Affective Disorders</em> 286: 180–86.
+</div>
+<div id="ref-garavan2018" class="csl-entry" role="listitem">
+Garavan, H, H Bartsch, K Conway, A Decastro, RZ Goldstein, S Heeringa, T Jernigan, A Potter, W Thompson, and D Zahs. 2018. <span>“Recruiting the ABCD Sample: Design Considerations and Procedures.”</span> <em>Developmental Cognitive Neuroscience</em> 32: 16–22.
+</div>
+<div id="ref-goldstone2020" class="csl-entry" role="listitem">
+Goldstone, Aimée, Harold S Javitz, Stephanie A Claudatos, Daniel J Buysse, Brant P Hasler, Massimiliano de Zambotti, Duncan B Clark, et al. 2020. <span>“Sleep Disturbance Predicts Depression Symptoms in Early Adolescence: Initial Findings from the Adolescent Brain Cognitive Development Study.”</span> <em>Journal of Adolescent Health</em> 66 (5): 567–74.
+</div>
+<div id="ref-gorham2019" class="csl-entry" role="listitem">
+Gorham, Lisa S, Terry Jernigan, Jim Hudziak, and Deanna M Barch. 2019. <span>“Involvement in Sports, Hippocampal Volume, and Depressive Symptoms in Children.”</span> <em>Biological Psychiatry: Cognitive Neuroscience and Neuroimaging</em> 4 (5): 484–92.
+</div>
+<div id="ref-hoffman2019" class="csl-entry" role="listitem">
+Hoffman, Elizabeth A, Duncan B Clark, Natalia Orendain, James Hudziak, Lindsay M Squeglia, and Gayathri J Dowling. 2019. <span>“Stress Exposures, Neurodevelopment and Health Measures in the ABCD Study.”</span> <em>Neurobiology of Stress</em> 10: 100157.
+</div>
+<div id="ref-jung2008" class="csl-entry" role="listitem">
+Jung, Tony, and Kandauda AS Wickrama. 2008. <span>“An Introduction to Latent Class Growth Analysis and Growth Mixture Modeling.”</span> <em>Social and Personality Psychology Compass</em> 2 (1): 302–17.
+</div>
+<div id="ref-kaup2016" class="csl-entry" role="listitem">
+Kaup, Allison R, Amy L Byers, Cherie Falvey, Eleanor M Simonsick, Suzanne Satterfield, Hilsa N Ayonayon, Stephen F Smagula, Susan M Rubin, and Kristine Yaffe. 2016. <span>“Trajectories of Depressive Symptoms in Older Adults and Risk of Dementia.”</span> <em>JAMA Psychiatry</em> 73 (5): 525–31.
+</div>
+<div id="ref-lin2023" class="csl-entry" role="listitem">
+Lin, Shaowu, Yafei Wu, Lingxiao He, and Ya Fang. 2023. <span>“Prediction of Depressive Symptoms Onset and Long-Term Trajectories in Home-Based Older Adults Using Machine Learning Techniques.”</span> <em>Aging &amp; Mental Health</em> 27 (1): 8–17.
+</div>
+<div id="ref-maruish2004" class="csl-entry" role="listitem">
+Maruish, Mark E. 2004. <em>The Use of Psychological Testing for Treatment Planning and Outcomes Assessment: Volume 3: Instruments for Adults</em>. Routledge.
+</div>
+<div id="ref-musliner2016" class="csl-entry" role="listitem">
+Musliner, Katherine L, Trine Munk-Olsen, William W Eaton, and Peter P Zandi. 2016. <span>“Heterogeneity in Long-Term Trajectories of Depressive Symptoms: Patterns, Predictors and Outcomes.”</span> <em>Journal of Affective Disorders</em> 192: 199–211.
+</div>
+<div id="ref-muthen2000" class="csl-entry" role="listitem">
+Muthén, Bengt, and Linda K Muthén. 2000. <span>“Integrating Person-Centered and Variable-Centered Analyses: Growth Mixture Modeling with Latent Trajectory Classes.”</span> <em>Alcoholism: Clinical and Experimental Research</em> 24 (6): 882–91.
+</div>
+<div id="ref-nagin2010" class="csl-entry" role="listitem">
+Nagin, Daniel S, and Candice L Odgers. 2010. <span>“Group-Based Trajectory Modeling in Clinical Research.”</span> <em>Annual Review of Clinical Psychology</em> 6: 109–38.
+</div>
+<div id="ref-van2020" class="csl-entry" role="listitem">
+Nest, Gavin van der, Valéria Lima Passos, Math JJM Candel, and Gerard JP van Breukelen. 2020. <span>“An Overview of Mixture Modelling for Latent Evolutions in Longitudinal Data: Modelling Approaches, Fit Statistics and Software.”</span> <em>Advances in Life Course Research</em> 43: 100323.
+</div>
+<div id="ref-nguena2020" class="csl-entry" role="listitem">
+Nguena Nguefack, Hermine Lore, M Gabrielle Pagé, Joel Katz, Manon Choinière, Alain Vanasse, Marc Dorais, Oumar Mallé Samb, and Anaı̈s Lacasse. 2020. <span>“Trajectory Modelling Techniques Useful to Epidemiological Research: A Comparative Narrative Review of Approaches.”</span> <em>Clinical Epidemiology</em>, 1205–22.
+</div>
+<div id="ref-nylund2007" class="csl-entry" role="listitem">
+Nylund, Karen L, Tihomir Asparouhov, and Bengt O Muthén. 2007. <span>“Deciding on the Number of Classes in Latent Class Analysis and Growth Mixture Modeling: A Monte Carlo Simulation Study.”</span> <em>Structural Equation Modeling: A Multidisciplinary Journal</em> 14 (4): 535–69.
+</div>
+<div id="ref-nylund2018" class="csl-entry" role="listitem">
+Nylund-Gibson, Karen, and Andrew Young Choi. 2018. <span>“Ten Frequently Asked Questions about Latent Class Analysis.”</span> <em>Translational Issues in Psychological Science</em> 4 (4): 440.
+</div>
+<div id="ref-ram2009" class="csl-entry" role="listitem">
+Ram, Nilam, and Kevin J Grimm. 2009. <span>“Methods and Measures: Growth Mixture Modeling: A Method for Identifying Differences in Longitudinal Change Among Unobserved Groups.”</span> <em>International Journal of Behavioral Development</em> 33 (6): 565–76.
+</div>
+<div id="ref-van2023" class="csl-entry" role="listitem">
+Van Lissa, Caspar J, Mauricio Garnier-Villarreal, and Daniel Anadria. 2023. <span>“Recommended Practices in Latent Class Analysis Using the Open-Source r-Package tidySEM.”</span> <em>Structural Equation Modeling: A Multidisciplinary Journal</em>, 1–9.
+</div>
+<div id="ref-vermunt2010" class="csl-entry" role="listitem">
+Vermunt, Jeroen K. 2010. <span>“Latent Class Modeling with Covariates: Two Improved Three-Step Approaches.”</span> <em>Political Analysis</em> 18 (4): 450–69.
+</div>
+<div id="ref-volkow2018" class="csl-entry" role="listitem">
+Volkow, Nora D, George F Koob, Robert T Croyle, Diana W Bianchi, Joshua A Gordon, Walter J Koroshetz, Eliseo J Pérez-Stable, et al. 2018. <span>“The Conception of the ABCD Study: From Substance Use to a Broad NIH Collaboration.”</span> <em>Developmental Cognitive Neuroscience</em> 32: 4–7.
+</div>
+<div id="ref-wardenaar2020" class="csl-entry" role="listitem">
+Wardenaar, Klaas. 2020. <span>“Latent Class Growth Analysis and Growth Mixture Modeling Using r: A Tutorial for Two r-Packages and a Comparison with Mplus.”</span>
+</div>
+<div id="ref-weller2020" class="csl-entry" role="listitem">
+Weller, Bridget E, Natasha K Bowen, and Sarah J Faubert. 2020. <span>“Latent Class Analysis: A Guide to Best Practice.”</span> <em>Journal of Black Psychology</em> 46 (4): 287–311.
+</div>
+<div id="ref-zhang2022" class="csl-entry" role="listitem">
+Zhang, Joyce, Richard Meiser-Stedman, Bobby Jones, Patrick Smith, Tim Dalgleish, Adrian Boyle, Andrea Edwards, et al. 2022. <span>“Trajectory of Post-Traumatic Stress and Depression Among Children and Adolescents Following Single-Incident Trauma.”</span> <em>European Journal of Psychotraumatology</em> 13 (1): 2037906.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> |</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">  Depression Trajectories in the ABCD Study</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="an">short-title:</span><span class="co"> Depression Trajectories</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="an">code-repo:</span><span class="co"> "Access the code, data, and analysis at &lt;https://github.com/OpenDevSci/SUNLab&gt;"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="an">number-sections:</span><span class="co"> true</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="an">number-depth:</span><span class="co"> 3</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="an">correspondence-prefix:</span><span class="co"> "Correspondence concerning this article should be addressed to"</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co">- name: Jane D. Doe</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co">  email: janedoe@fiu.edu</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co">  affiliations:</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">    name: Florida International University</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co">    department: Center for Children &amp; Families</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co">    city: Miami</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co">    region: FL</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co">    country: United States</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co">- name: John D. Doe</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co">  email: johndoe@fiu.edu</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="co">  affiliations:</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="co">    name: Florida International University</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="co">    department: Center for Children &amp; Families</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="co">    city: Miami</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="co">    region: FL</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="co">    country: United States</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="an">abstract:</span><span class="co"> |</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="co">  xxxxxxxxx Input abstract here.</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="an">index-terms:</span><span class="co"> </span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a><span class="co">  - depression</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="co">  - substance use</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="co">  - ABCD Study</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="co">  docx: default</span></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a><span class="co">  ieee-typst: default</span></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a><span class="co">    page-layout: article</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 1</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-expand: 2</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-title: Table of Contents</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools:</span></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="co">      source: true</span></span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a><span class="co">      toggle: false</span></span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a><span class="co">      caption: none</span></span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a><span class="co">    grid:</span></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a><span class="co">      sidebar-width: 350px</span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a><span class="co">      margin-width: 20px</span></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a><span class="an">bibliography:</span><span class="co"> references.bib</span></span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a><span class="an">execute:</span></span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a><span class="co">  freeze: auto  # re-render only when source changes</span></span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a><span class="co">  cache: true</span></span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: FALSE</span></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a><span class="co">#| cache: FALSE</span></span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-67"><a href="#cb6-67" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the necessary libraries</span></span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidySEM)</span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(easystats)</span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(report)</span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gridExtra)</span>
+<span id="cb6-76"><a href="#cb6-76" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lorem)</span>
+<span id="cb6-77"><a href="#cb6-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-78"><a href="#cb6-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the data paths</span></span>
+<span id="cb6-79"><a href="#cb6-79" aria-hidden="true" tabindex="-1"></a>data_path <span class="ot">&lt;-</span> <span class="st">"/Users/shawes/ABCD/data/rds/abcd_5.0_rds/core-rds-5.0/non-imaging_excluding_nt_5.0.rds"</span></span>
+<span id="cb6-80"><a href="#cb6-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-81"><a href="#cb6-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Read the data</span></span>
+<span id="cb6-82"><a href="#cb6-82" aria-hidden="true" tabindex="-1"></a>df_temp1 <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(data_path)</span>
+<span id="cb6-83"><a href="#cb6-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-84"><a href="#cb6-84" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating df_long</span></span>
+<span id="cb6-85"><a href="#cb6-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-86"><a href="#cb6-86" aria-hidden="true" tabindex="-1"></a><span class="do">## Subset the nonimaging data to include chosen variables</span></span>
+<span id="cb6-87"><a href="#cb6-87" aria-hidden="true" tabindex="-1"></a>selected_vars <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"src_subject_id"</span>, <span class="st">"eventname"</span>, <span class="st">"cbcl_scr_dsm5_depress_t"</span>)</span>
+<span id="cb6-88"><a href="#cb6-88" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> df_temp1[, selected_vars]</span>
+<span id="cb6-89"><a href="#cb6-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-90"><a href="#cb6-90" aria-hidden="true" tabindex="-1"></a><span class="do">## Define event names to be retained in the analysis and convert variables to appropriate data types</span></span>
+<span id="cb6-91"><a href="#cb6-91" aria-hidden="true" tabindex="-1"></a>eventnames_to_include <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a>    <span class="st">"baseline_year_1_arm_1"</span>,</span>
+<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a>    <span class="st">"1_year_follow_up_y_arm_1"</span>,</span>
+<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2_year_follow_up_y_arm_1"</span>,</span>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a>    <span class="st">"3_year_follow_up_y_arm_1"</span>,</span>
+<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a>    <span class="st">"4_year_follow_up_y_arm_1"</span></span>
+<span id="cb6-97"><a href="#cb6-97" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-98"><a href="#cb6-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-99"><a href="#cb6-99" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> df_long <span class="sc">%&gt;%</span></span>
+<span id="cb6-100"><a href="#cb6-100" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(eventname <span class="sc">%in%</span> eventnames_to_include) <span class="sc">%&gt;%</span></span>
+<span id="cb6-101"><a href="#cb6-101" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(</span>
+<span id="cb6-102"><a href="#cb6-102" aria-hidden="true" tabindex="-1"></a>        <span class="at">src_subject_id =</span> <span class="fu">as.factor</span>(src_subject_id),</span>
+<span id="cb6-103"><a href="#cb6-103" aria-hidden="true" tabindex="-1"></a>        <span class="at">eventname =</span> <span class="fu">factor</span>(eventname, <span class="at">levels =</span> eventnames_to_include, <span class="at">ordered =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-104"><a href="#cb6-104" aria-hidden="true" tabindex="-1"></a>        <span class="at">cbcl_scr_dsm5_depress_t =</span> <span class="fu">as.numeric</span>(cbcl_scr_dsm5_depress_t),</span>
+<span id="cb6-105"><a href="#cb6-105" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
+<span id="cb6-106"><a href="#cb6-106" aria-hidden="true" tabindex="-1"></a>    <span class="do">## Exclude cases from unused assessment waves</span></span>
+<span id="cb6-107"><a href="#cb6-107" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(eventname))</span>
+<span id="cb6-108"><a href="#cb6-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-109"><a href="#cb6-109" aria-hidden="true" tabindex="-1"></a>df_long <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(df_long)</span>
+<span id="cb6-110"><a href="#cb6-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-111"><a href="#cb6-111" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating df_wide</span></span>
+<span id="cb6-112"><a href="#cb6-112" aria-hidden="true" tabindex="-1"></a>df_wide <span class="ot">&lt;-</span> <span class="fu">pivot_wider</span>(</span>
+<span id="cb6-113"><a href="#cb6-113" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> df_long,</span>
+<span id="cb6-114"><a href="#cb6-114" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> eventname,</span>
+<span id="cb6-115"><a href="#cb6-115" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> cbcl_scr_dsm5_depress_t,</span>
+<span id="cb6-116"><a href="#cb6-116" aria-hidden="true" tabindex="-1"></a>    <span class="at">id_cols =</span> src_subject_id</span>
+<span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-118"><a href="#cb6-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-119"><a href="#cb6-119" aria-hidden="true" tabindex="-1"></a>df_wide <span class="ot">&lt;-</span> df_wide <span class="sc">%&gt;%</span></span>
+<span id="cb6-120"><a href="#cb6-120" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rename</span>(</span>
+<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a>        <span class="at">depress.0 =</span> baseline_year_1_arm_1,</span>
+<span id="cb6-122"><a href="#cb6-122" aria-hidden="true" tabindex="-1"></a>        <span class="at">depress.1 =</span> <span class="st">`</span><span class="at">1_year_follow_up_y_arm_1</span><span class="st">`</span>,</span>
+<span id="cb6-123"><a href="#cb6-123" aria-hidden="true" tabindex="-1"></a>        <span class="at">depress.2 =</span> <span class="st">`</span><span class="at">2_year_follow_up_y_arm_1</span><span class="st">`</span>,</span>
+<span id="cb6-124"><a href="#cb6-124" aria-hidden="true" tabindex="-1"></a>        <span class="at">depress.3 =</span> <span class="st">`</span><span class="at">3_year_follow_up_y_arm_1</span><span class="st">`</span>,</span>
+<span id="cb6-125"><a href="#cb6-125" aria-hidden="true" tabindex="-1"></a>        <span class="at">depress.4 =</span> <span class="st">`</span><span class="at">4_year_follow_up_y_arm_1</span><span class="st">`</span></span>
+<span id="cb6-126"><a href="#cb6-126" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb6-127"><a href="#cb6-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-128"><a href="#cb6-128" aria-hidden="true" tabindex="-1"></a><span class="do">## Subset the nonimaging data to include desired variables</span></span>
+<span id="cb6-129"><a href="#cb6-129" aria-hidden="true" tabindex="-1"></a>selected_vars_wide <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"depress.0"</span>, <span class="st">"depress.1"</span>, <span class="st">"depress.2"</span>, <span class="st">"depress.3"</span>, <span class="st">"depress.4"</span>)</span>
+<span id="cb6-130"><a href="#cb6-130" aria-hidden="true" tabindex="-1"></a>df_wide <span class="ot">&lt;-</span> df_wide[, selected_vars_wide]</span>
+<span id="cb6-131"><a href="#cb6-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-132"><a href="#cb6-132" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-133"><a href="#cb6-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-134"><a href="#cb6-134" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction</span></span>
+<span id="cb6-135"><a href="#cb6-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-136"><a href="#cb6-136" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">The Adolescent Brain Cognitive Development (ABCD) Study®</span><span class="co">](https://abcdstudy.org/ "Visit the ABCD Study website")</span>{#abcdwebsite} is the largest longitudinal investigation of neurodevelopment and child health in the United States. Conceived and initiated by the National Institutes of Health (NIH), this landmark prospective longitudinal study aims to transform our understanding of the genetic and environmental factors impacting neurodevelopment and their roles in behavioral and health outcomes across ten years of adolescence @volkow2018.</span>
+<span id="cb6-137"><a href="#cb6-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-138"><a href="#cb6-138" aria-hidden="true" tabindex="-1"></a>"Studies investigating trajectories of depressive symptoms @gao2021, @kaup2016, @lin2023, @zhang2022. Musliner et al. (2016) @musliner2016 conducted a systematic review on the heterogeneity in long-term patterns of depressive symptoms and found that most of these studies identified three or four different symptom trajectories and sampled the general population."</span>
+<span id="cb6-139"><a href="#cb6-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-140"><a href="#cb6-140" aria-hidden="true" tabindex="-1"></a>"A valuable tool for investigating heterogeneity in symptom patterns is Latent Growth Curve Modelling (GCM), a statistical method that analyses inter-individual variability in intra-individual patterns over time @curran2010. One specific type of GCM is Latent Class Growth Analysis (LCGA), which considers unobserved heterogeneity (different groups) over time within a larger population @jung2008, @nguena2020, @ram2009. In other words, LCGA can examine the growth and shape of the course of depressive symptoms over time and assess how individuals in the population group together based on their symptom patterns."</span>
+<span id="cb6-141"><a href="#cb6-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-142"><a href="#cb6-142" aria-hidden="true" tabindex="-1"></a>"The aim of the present study is to investigate the course of depressive symptoms over a period of xx years .... and to .... . To achieve this goal, LGCM will be performed on data from the xxxx ABCD cohort (add citation). The ABCD study was initiated in xxxxx. Based on previous literature @musliner2016, we hypothesize that three or four trajectories of depression can be identified. Given that xxxxx, we additionally hypothesize that individuals following more xxxx trajectories will be more/less likely to experience xxxx and exhibit reduced levels of xxxxx"</span>
+<span id="cb6-143"><a href="#cb6-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-144"><a href="#cb6-144" aria-hidden="true" tabindex="-1"></a><span class="fu"># Methods</span></span>
+<span id="cb6-145"><a href="#cb6-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-146"><a href="#cb6-146" aria-hidden="true" tabindex="-1"></a><span class="fu">## Design and participants</span></span>
+<span id="cb6-147"><a href="#cb6-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-148"><a href="#cb6-148" aria-hidden="true" tabindex="-1"></a>Participants were enrolled in the ongoing, longitudinal ABCD Study. The ABCD Study recruited a cohort of n=11,880 participants born between 2006-2008 and aged approximately 9-10 years at baseline, each with a parent/guardian. The study sample was recruited from households in defined catchment areas for each of the 21 (originally 22) study sites across the United States. The present study examines data from the fifth public release of ABCD Study data (version 5.1, released xxxx 202x https://data-archive.nimh.nih.gov/abcd). Institutional review boards at participating universities approved all study procedures. Participants provided written assent, and their legal guardians written consent, for participation. Information regarding funding agencies, recruitment sites, investigators, and project organizations can be obtained at https://abcdstudy.org. The ABCD Study design is described in more detail in @garavan2018 and @dick2021.</span>
+<span id="cb6-149"><a href="#cb6-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-150"><a href="#cb6-150" aria-hidden="true" tabindex="-1"></a><span class="sc">\[</span>baseline (T0) measurement; follow-up measurements (T1) (T2)(T3)(T4)<span class="sc">\]</span></span>
+<span id="cb6-151"><a href="#cb6-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-152"><a href="#cb6-152" aria-hidden="true" tabindex="-1"></a><span class="fu">## Measures</span></span>
+<span id="cb6-153"><a href="#cb6-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-154"><a href="#cb6-154" aria-hidden="true" tabindex="-1"></a><span class="fu">### Depression</span></span>
+<span id="cb6-155"><a href="#cb6-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-156"><a href="#cb6-156" aria-hidden="true" tabindex="-1"></a>Depression was assessed using the Child Behavior Checklist (CBCL), a widely used parent-report questionnaire designed to identify problem behavior in children and adolescents aged 6 to 18 years @achenbach2000. The CBCL is comprised of various scales that measure different aspects of emotional and behavioral problems. Specifically, the Depressive Problems scale, which is part of the broader Internalizing Problems domain, was utilized to measure symptoms of depression. This scale includes items that assess a range of depressive symptoms such as persistent sadness, lack of interest in activities, and excessive guilt or feelings of worthlessness. Respondents (parents or primary caregivers) were asked to rate how true each item was for their child over the past six months on a 3-point Likert scale ranging from 0 (not true) to 2 (very true or often true). The scores from the relevant items were summed to create a composite score for depressive symptoms, with higher scores indicating greater severity of depressive symptoms @goldstone2020. CBCL symptom scores below the 93rd percentile (T = 65) are considered normal, scores between the 93-97th percentile (T = 65--69) are borderline clinical, and any score above the 97th percentile (T = 69) are in the clinical range @maruish2004. Scores in the borderline range are high enough to be of concern @maruish2004. The CBCL has demonstrated strong psychometric properties @achenbach2000 and its use in assessing depressive symptoms is supported by numerous studies, including those using ABCD Study data @barch2018, @goldstone2020, @gorham2019, @hoffman2019</span>
+<span id="cb6-157"><a href="#cb6-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-158"><a href="#cb6-158" aria-hidden="true" tabindex="-1"></a><span class="fu">### Add other measures</span></span>
+<span id="cb6-159"><a href="#cb6-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-160"><a href="#cb6-160" aria-hidden="true" tabindex="-1"></a><span class="fu">### Potential confounders</span></span>
+<span id="cb6-161"><a href="#cb6-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-162"><a href="#cb6-162" aria-hidden="true" tabindex="-1"></a>To account for the potentially confounding effects of attentional, cognitive, or emotional difficulties that are often comorbid with depression, all analyses included CBCL DSM-oriented xxx problems and xxx problems subscale scores as covariates. We also covaried for sex, age, race/ethnicity, and parental education.</span>
+<span id="cb6-163"><a href="#cb6-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-164"><a href="#cb6-164" aria-hidden="true" tabindex="-1"></a><span class="fu">## Analytic Plan</span></span>
+<span id="cb6-165"><a href="#cb6-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-166"><a href="#cb6-166" aria-hidden="true" tabindex="-1"></a><span class="fu">### Descriptive Statistics</span></span>
+<span id="cb6-167"><a href="#cb6-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-168"><a href="#cb6-168" aria-hidden="true" tabindex="-1"></a>Participants with CBCL depression scores at one or more time point(s) were included in the trajectory analysis. Groups with and without any missing scores on the depression outcome at each time point were compared.</span>
+<span id="cb6-169"><a href="#cb6-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-170"><a href="#cb6-170" aria-hidden="true" tabindex="-1"></a><span class="fu">### Trajectory Models</span></span>
+<span id="cb6-171"><a href="#cb6-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-172"><a href="#cb6-172" aria-hidden="true" tabindex="-1"></a>Variability in depressive symptom trajectories was examined using latent class growth analysis (LCGA; @jung2008, @andruff2009, @berlin2014, @wardenaar2020). LCGA is a person-centered method that identifies latent classes of individuals sharing similar developmental patterns, thereby facilitating an examination of individual patterns of stability and change across time @jung2008, @nguena2020, @ram2009. Prior research (@musliner2016) suggests three to six distinct depressive trajectory subgroups, prompting the estimation of models ranging from one to seven classes. To capture changes in depressive symptomatology over time, both linear and quadratic terms were considered. Differentiation among trajectories regarding intercept, slope, and step was evaluated using Wald tests. An examination of the data revealed a skewed distribution, notably inflated at the scale's lower end. Initial analyses resulted in LCGA model convergence issues due to this skewness. As such, a Box-Cox transformation was implemented (See Fig. xx) to improve the ability to examine patterns of heterogeneity in more detail. To evaluate the effect of covariates, we adhered to a commonly applied, three-step approach which accounts for classification errors of the model @vermunt2010. This method estimates an auxiliary model based on latent classification, assigning group-specific BCH weights to cases (@bolck2004). </span>
+<span id="cb6-173"><a href="#cb6-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-174"><a href="#cb6-174" aria-hidden="true" tabindex="-1"></a>Next, an omnibus likelihood ratio test was examined to test for significant differences in trajectory patterns. For all omnibus likelihood ratio tests the p-values were corrected for multiple comparisons using the false discovery rate. If the omnibus test was still significant after correction, post hoc test results were obtained and likewise subjected to correction for multiple comparisons using the false discovery rate.ll analyses were performed using the programming language R (version 4.2.2, package for trajectory analysis: tidySEM, @van2023) (with significance level set at p <span class="sc">\&lt;</span> .05 (two-tailed)). All R code is made publicly available on GitHub at https://github.com/OpenDevSci/SUNLab.</span>
+<span id="cb6-175"><a href="#cb6-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-176"><a href="#cb6-176" aria-hidden="true" tabindex="-1"></a>Identification of the best fitting model was based on a combination of interpretability, parsimony, and theoretical justification @nagin2010, @nguena2020, @ram2009. Key metrics for assessing model fit include Information Criteria (IC) such as the Bayesian Information Criteria (BIC), the sample-size-adjusted BIC (saBIC), and the Akaike Information Criteria (AIC), with a preference for models that register the lowest IC values @nylund2007, @van2020, @van2023. In cases of ambiguous and contradictory ICs, evaluation of a scree plot's inflection point may assist in determining the point beyond which additional classes offer negligible improvement to IC reduction @nylund2018. Model performance was appraised through a range of indicators including entropy, posterior classification probability (the likelihood of an individual's correct class assignment), and class size. Solutions yielding distinct classes were prioritized to facilitate clear interpretation. High entropy values signify well-differentiated classes @van2023, @weller2020; thus, configurations with entropy below .90 were excluded. Moreover, when an individual’s posterior classification probability is distinctly high for one class compared to others, it denotes effective class differentiation by the model @andruff2009. Criteria set for acceptable solutions included an average posterior classification probability exceeding .90 @weller2020. Additionally, drawing on prior studies, a minimum class size of 50 individuals or 5% of the overall sample was deemed necessary to ensure representativeness @muthen2000, @weller2020, leading to the exclusion of classes not meeting this threshold.</span>
+<span id="cb6-177"><a href="#cb6-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-178"><a href="#cb6-178" aria-hidden="true" tabindex="-1"></a>Data processing and analysis were executed using the tidySEM package in R @van2023, employing <span class="co">[</span><span class="ot">full information maximum likelihood estimation to accommodate standard errors and provide a chi-square statistic robust to non-normality(?)</span><span class="co">]</span>. Complex sampling and recruitment procedures for the ABCD Study were accounted for using cluster correction (i.e., for sibling pairs) and stratification sampling (i.e. study site) procedures.</span>
+<span id="cb6-179"><a href="#cb6-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-180"><a href="#cb6-180" aria-hidden="true" tabindex="-1"></a><span class="fu">## Depression symptoms associations with the GDT &amp; substance use</span></span>
+<span id="cb6-181"><a href="#cb6-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-182"><a href="#cb6-182" aria-hidden="true" tabindex="-1"></a>To get more insights in the trajectories and associated outcomes (e.g., GDT, substance use), we assessed xxxxx between the different classes. We used the same three-step approach with the omnibus likelihood test used for the covariates and the results were also corrected for multiple comparisons. All participants reported xxxx during xxxx.</span>
+<span id="cb6-183"><a href="#cb6-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-184"><a href="#cb6-184" aria-hidden="true" tabindex="-1"></a><span class="fu">## Add additional analyses section</span></span>
+<span id="cb6-185"><a href="#cb6-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-186"><a href="#cb6-186" aria-hidden="true" tabindex="-1"></a><span class="fu"># Results</span></span>
+<span id="cb6-187"><a href="#cb6-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-188"><a href="#cb6-188" aria-hidden="true" tabindex="-1"></a><span class="fu">### Descriptive Statistics</span></span>
+<span id="cb6-189"><a href="#cb6-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-190"><a href="#cb6-190" aria-hidden="true" tabindex="-1"></a>Descriptive statistics revealed that the study groups were equivalent on demographic variables, except for lower proportional representation of female and Hispanic children in the xxxx groups (see Table 1). This study included xxx participants (xxx <span class="sc">\[</span>xx.xx%<span class="sc">\]</span> women, xxx <span class="sc">\[</span>xx.xx<span class="sc">\]</span> men); mean (SD) XXX was xx.xx (x.xx). Table 1 provides other demographic characteristics, including race, family income, parental education attainment for each trajectory pattern. Moreover, there were no significant differences between participants missing any depression measurements and participants with complete depression scores at each time point. </span>
+<span id="cb6-191"><a href="#cb6-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-192"><a href="#cb6-192" aria-hidden="true" tabindex="-1"></a><span class="fu">### Trajectory Models</span></span>
+<span id="cb6-193"><a href="#cb6-193" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-196"><a href="#cb6-196" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-197"><a href="#cb6-197" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-198"><a href="#cb6-198" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-199"><a href="#cb6-199" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-200"><a href="#cb6-200" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-201"><a href="#cb6-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-202"><a href="#cb6-202" aria-hidden="true" tabindex="-1"></a><span class="co"># Data preprocessing</span></span>
+<span id="cb6-203"><a href="#cb6-203" aria-hidden="true" tabindex="-1"></a><span class="co"># We first examined the descriptive statistics for the sum score scales:</span></span>
+<span id="cb6-204"><a href="#cb6-204" aria-hidden="true" tabindex="-1"></a><span class="co"># df_wide Descriptives</span></span>
+<span id="cb6-205"><a href="#cb6-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-206"><a href="#cb6-206" aria-hidden="true" tabindex="-1"></a>desc <span class="ot">&lt;-</span> <span class="fu">descriptives</span>(df_wide)</span>
+<span id="cb6-207"><a href="#cb6-207" aria-hidden="true" tabindex="-1"></a>desc <span class="ot">&lt;-</span> desc[, <span class="fu">c</span>(</span>
+<span id="cb6-208"><a href="#cb6-208" aria-hidden="true" tabindex="-1"></a>    <span class="st">"name"</span>, <span class="st">"mean"</span>, <span class="st">"median"</span>, <span class="st">"sd"</span>, <span class="st">"min"</span>, <span class="st">"max"</span>, <span class="st">"skew_2se"</span>, <span class="st">"kurt_2se"</span></span>
+<span id="cb6-209"><a href="#cb6-209" aria-hidden="true" tabindex="-1"></a>)]</span>
+<span id="cb6-210"><a href="#cb6-210" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(desc, <span class="at">caption =</span> <span class="st">"Item descriptives"</span>, <span class="at">digits =</span> <span class="dv">2</span>)</span>
+<span id="cb6-211"><a href="#cb6-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-212"><a href="#cb6-212" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-213"><a href="#cb6-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-214"><a href="#cb6-214" aria-hidden="true" tabindex="-1"></a>We can examine these distributions visually as well:</span>
+<span id="cb6-215"><a href="#cb6-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-218"><a href="#cb6-218" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-219"><a href="#cb6-219" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-220"><a href="#cb6-220" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-221"><a href="#cb6-221" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-222"><a href="#cb6-222" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-223"><a href="#cb6-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-224"><a href="#cb6-224" aria-hidden="true" tabindex="-1"></a><span class="co"># df_long Plots</span></span>
+<span id="cb6-225"><a href="#cb6-225" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_long, <span class="fu">aes</span>(<span class="at">x =</span> cbcl_scr_dsm5_depress_t)) <span class="sc">+</span></span>
+<span id="cb6-226"><a href="#cb6-226" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_density</span>() <span class="sc">+</span></span>
+<span id="cb6-227"><a href="#cb6-227" aria-hidden="true" tabindex="-1"></a>    <span class="fu">facet_wrap</span>(<span class="sc">~</span>eventname) <span class="sc">+</span></span>
+<span id="cb6-228"><a href="#cb6-228" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_bw</span>()</span>
+<span id="cb6-229"><a href="#cb6-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-230"><a href="#cb6-230" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-231"><a href="#cb6-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-232"><a href="#cb6-232" aria-hidden="true" tabindex="-1"></a>As this type of skew can result in convergence problems in LCGA, we compared several transformations to reduce skew: The square and cube root, log, inverse, and Box-Cox transformations.</span>
+<span id="cb6-233"><a href="#cb6-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-236"><a href="#cb6-236" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-237"><a href="#cb6-237" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-238"><a href="#cb6-238" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-239"><a href="#cb6-239" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-240"><a href="#cb6-240" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: FALSE</span></span>
+<span id="cb6-241"><a href="#cb6-241" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-242"><a href="#cb6-242" aria-hidden="true" tabindex="-1"></a>df_scores <span class="ot">&lt;-</span> df_long</span>
+<span id="cb6-243"><a href="#cb6-243" aria-hidden="true" tabindex="-1"></a><span class="co"># Store original range of cbcl_scr_dsm5_depress_t</span></span>
+<span id="cb6-244"><a href="#cb6-244" aria-hidden="true" tabindex="-1"></a>rng_depress <span class="ot">&lt;-</span> <span class="fu">range</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb6-245"><a href="#cb6-245" aria-hidden="true" tabindex="-1"></a><span class="co"># Log-transform</span></span>
+<span id="cb6-246"><a href="#cb6-246" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>log <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(<span class="fu">log</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t), <span class="at">to =</span> <span class="fu">c</span>(</span>
+<span id="cb6-247"><a href="#cb6-247" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-248"><a href="#cb6-248" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span></span>
+<span id="cb6-249"><a href="#cb6-249" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-250"><a href="#cb6-250" aria-hidden="true" tabindex="-1"></a><span class="co"># Square root transform</span></span>
+<span id="cb6-251"><a href="#cb6-251" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>sqrt <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(<span class="fu">sqrt</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t), <span class="at">to =</span> <span class="fu">c</span>(</span>
+<span id="cb6-252"><a href="#cb6-252" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-253"><a href="#cb6-253" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span></span>
+<span id="cb6-254"><a href="#cb6-254" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-255"><a href="#cb6-255" aria-hidden="true" tabindex="-1"></a><span class="co"># Cube root transform</span></span>
+<span id="cb6-256"><a href="#cb6-256" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>qrt <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t<span class="sc">^</span><span class="fl">0.33</span>, <span class="at">to =</span> <span class="fu">c</span>(</span>
+<span id="cb6-257"><a href="#cb6-257" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-258"><a href="#cb6-258" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span></span>
+<span id="cb6-259"><a href="#cb6-259" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-260"><a href="#cb6-260" aria-hidden="true" tabindex="-1"></a><span class="co"># Reciprocal transform</span></span>
+<span id="cb6-261"><a href="#cb6-261" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>reciprocal <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(<span class="dv">1</span> <span class="sc">/</span> df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t, <span class="at">to =</span> <span class="fu">c</span>(</span>
+<span id="cb6-262"><a href="#cb6-262" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-263"><a href="#cb6-263" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span></span>
+<span id="cb6-264"><a href="#cb6-264" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-265"><a href="#cb6-265" aria-hidden="true" tabindex="-1"></a><span class="co"># Define function for Box-Cox transformation</span></span>
+<span id="cb6-266"><a href="#cb6-266" aria-hidden="true" tabindex="-1"></a>bc <span class="ot">&lt;-</span> <span class="cf">function</span>(x, lambda) {</span>
+<span id="cb6-267"><a href="#cb6-267" aria-hidden="true" tabindex="-1"></a>    (((x<span class="sc">^</span>lambda) <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">/</span> lambda)</span>
+<span id="cb6-268"><a href="#cb6-268" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-269"><a href="#cb6-269" aria-hidden="true" tabindex="-1"></a><span class="co"># Inverse Box-Cox transformation</span></span>
+<span id="cb6-270"><a href="#cb6-270" aria-hidden="true" tabindex="-1"></a>invbc <span class="ot">&lt;-</span> <span class="cf">function</span>(x, lambda) {</span>
+<span id="cb6-271"><a href="#cb6-271" aria-hidden="true" tabindex="-1"></a>    ((x <span class="sc">*</span> lambda) <span class="sc">+</span> <span class="dv">1</span>)<span class="sc">^</span>(<span class="dv">1</span> <span class="sc">/</span> lambda)</span>
+<span id="cb6-272"><a href="#cb6-272" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-273"><a href="#cb6-273" aria-hidden="true" tabindex="-1"></a><span class="co"># Box-Cox transform</span></span>
+<span id="cb6-274"><a href="#cb6-274" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> MASS<span class="sc">::</span><span class="fu">boxcox</span>(<span class="fu">lm</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t <span class="sc">~</span> <span class="dv">1</span>), <span class="at">plotit =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb6-275"><a href="#cb6-275" aria-hidden="true" tabindex="-1"></a>lambda <span class="ot">&lt;-</span> b<span class="sc">$</span>x[<span class="fu">which.max</span>(b<span class="sc">$</span>y)]</span>
+<span id="cb6-276"><a href="#cb6-276" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>boxcox <span class="ot">&lt;-</span> <span class="fu">bc</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t, lambda)</span>
+<span id="cb6-277"><a href="#cb6-277" aria-hidden="true" tabindex="-1"></a><span class="co"># Store range of Box-Cox transformed data</span></span>
+<span id="cb6-278"><a href="#cb6-278" aria-hidden="true" tabindex="-1"></a>rng_bc <span class="ot">&lt;-</span> <span class="fu">range</span>(df_scores<span class="sc">$</span>boxcox)</span>
+<span id="cb6-279"><a href="#cb6-279" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>boxcox <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(df_scores<span class="sc">$</span>boxcox, <span class="at">to =</span> <span class="fu">c</span>(</span>
+<span id="cb6-280"><a href="#cb6-280" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-281"><a href="#cb6-281" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span></span>
+<span id="cb6-282"><a href="#cb6-282" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-283"><a href="#cb6-283" aria-hidden="true" tabindex="-1"></a><span class="co"># Rescale cbcl_scr_dsm5_depress_t</span></span>
+<span id="cb6-284"><a href="#cb6-284" aria-hidden="true" tabindex="-1"></a>df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t <span class="ot">&lt;-</span> scales<span class="sc">::</span><span class="fu">rescale</span>(df_scores<span class="sc">$</span>cbcl_scr_dsm5_depress_t, <span class="at">to =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>))</span>
+<span id="cb6-285"><a href="#cb6-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-286"><a href="#cb6-286" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-287"><a href="#cb6-287" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-288"><a href="#cb6-288" aria-hidden="true" tabindex="-1"></a>We can plot these transformations:</span>
+<span id="cb6-289"><a href="#cb6-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-292"><a href="#cb6-292" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-293"><a href="#cb6-293" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-294"><a href="#cb6-294" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-295"><a href="#cb6-295" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-296"><a href="#cb6-296" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-297"><a href="#cb6-297" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-298"><a href="#cb6-298" aria-hidden="true" tabindex="-1"></a><span class="co"># Make plot data</span></span>
+<span id="cb6-299"><a href="#cb6-299" aria-hidden="true" tabindex="-1"></a>df_plot <span class="ot">&lt;-</span> <span class="fu">do.call</span>(rbind, <span class="fu">lapply</span>(<span class="fu">c</span>(</span>
+<span id="cb6-300"><a href="#cb6-300" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cbcl_scr_dsm5_depress_t"</span>, <span class="st">"log"</span>, <span class="st">"sqrt"</span>, <span class="st">"qrt"</span>,</span>
+<span id="cb6-301"><a href="#cb6-301" aria-hidden="true" tabindex="-1"></a>    <span class="st">"boxcox"</span></span>
+<span id="cb6-302"><a href="#cb6-302" aria-hidden="true" tabindex="-1"></a>), <span class="cf">function</span>(n) {</span>
+<span id="cb6-303"><a href="#cb6-303" aria-hidden="true" tabindex="-1"></a>    <span class="fu">data.frame</span>(df_scores[<span class="fu">c</span>(<span class="st">"eventname"</span>, <span class="st">"src_subject_id"</span>)],</span>
+<span id="cb6-304"><a href="#cb6-304" aria-hidden="true" tabindex="-1"></a>        <span class="at">Value =</span> df_scores[[n]],</span>
+<span id="cb6-305"><a href="#cb6-305" aria-hidden="true" tabindex="-1"></a>        <span class="at">Transformation =</span> n</span>
+<span id="cb6-306"><a href="#cb6-306" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb6-307"><a href="#cb6-307" aria-hidden="true" tabindex="-1"></a>}))</span>
+<span id="cb6-308"><a href="#cb6-308" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb6-309"><a href="#cb6-309" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_plot, <span class="fu">aes</span>(<span class="at">x =</span> Value, <span class="at">colour =</span> Transformation)) <span class="sc">+</span></span>
+<span id="cb6-310"><a href="#cb6-310" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_density</span>() <span class="sc">+</span></span>
+<span id="cb6-311"><a href="#cb6-311" aria-hidden="true" tabindex="-1"></a>    <span class="fu">facet_wrap</span>(<span class="sc">~</span>eventname) <span class="sc">+</span></span>
+<span id="cb6-312"><a href="#cb6-312" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_sqrt</span>() <span class="sc">+</span></span>
+<span id="cb6-313"><a href="#cb6-313" aria-hidden="true" tabindex="-1"></a>    <span class="fu">xlab</span>(<span class="st">"Depression (rescaled to 0-1)"</span>) <span class="sc">+</span></span>
+<span id="cb6-314"><a href="#cb6-314" aria-hidden="true" tabindex="-1"></a>    <span class="fu">theme_bw</span>()</span>
+<span id="cb6-315"><a href="#cb6-315" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-316"><a href="#cb6-316" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-317"><a href="#cb6-317" aria-hidden="true" tabindex="-1"></a>The Box-Cox transformation (maybe/slightly?) reduced skew the most. Consequently, we proceeded with the Box-Cox transformed scores for analysis.</span>
+<span id="cb6-318"><a href="#cb6-318" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-321"><a href="#cb6-321" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-322"><a href="#cb6-322" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-323"><a href="#cb6-323" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-324"><a href="#cb6-324" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-325"><a href="#cb6-325" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: FALSE</span></span>
+<span id="cb6-326"><a href="#cb6-326" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-327"><a href="#cb6-327" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> df_scores[, <span class="fu">c</span>(<span class="st">"src_subject_id"</span>, <span class="st">"eventname"</span>, <span class="st">"boxcox"</span>)]</span>
+<span id="cb6-328"><a href="#cb6-328" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">reshape</span>(dat,</span>
+<span id="cb6-329"><a href="#cb6-329" aria-hidden="true" tabindex="-1"></a>    <span class="at">direction =</span> <span class="st">"wide"</span>, <span class="at">v.names =</span> <span class="st">"boxcox"</span>, <span class="at">timevar =</span> <span class="st">"eventname"</span>,</span>
+<span id="cb6-330"><a href="#cb6-330" aria-hidden="true" tabindex="-1"></a>    <span class="at">idvar =</span> <span class="st">"src_subject_id"</span></span>
+<span id="cb6-331"><a href="#cb6-331" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-332"><a href="#cb6-332" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-333"><a href="#cb6-333" aria-hidden="true" tabindex="-1"></a>dat <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(dat)</span>
+<span id="cb6-334"><a href="#cb6-334" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-335"><a href="#cb6-335" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(dat) <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"boxcox."</span>, <span class="st">"depress"</span>, <span class="fu">names</span>(dat))</span>
+<span id="cb6-336"><a href="#cb6-336" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-337"><a href="#cb6-337" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-338"><a href="#cb6-338" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Model Selection</span></span>
+<span id="cb6-339"><a href="#cb6-339" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-340"><a href="#cb6-340" aria-hidden="true" tabindex="-1"></a>A complete table of model characteristics and fit statistics of the linear and quadratic models are shown in Supplementary Table S5. A selection of characteristics and fit statistics is presented in Table 2 for the linear models. All quadratic models, except the one-class quadratic model, encountered convergence problems and failed to find a final solution. This suggests that the quadratic models are too complex for our dataset @van2023. While it is feasible to explore alternative non-linear patterns, the persisting issue lies in the apparent complexity associated with models incorporating many parameters. For the linear models, a reduction in BIC, saBIC and AIC was observed with increasing class number. The reduction in ICs flattened after three classes. In addition, the LoMendell-Rubin (LMR) likelihood ratio test was significant with every additional class and entropy was above.90 for all models. Posterior group probability was acceptable (above.90) up to the four-class model. Therefore, the models with five or more classes were not accepted. For all models with one to four classes, the class size was larger than 5% and consisted of at least 50 individuals. Altogether, most quadratic models did not converge, and both the three- and four-class model performed well and had acceptable classification performance. Therefore, we selected the linear three-class model as the final model.</span>
+<span id="cb6-341"><a href="#cb6-341" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-342"><a href="#cb6-342" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Depression trajectories</span></span>
+<span id="cb6-343"><a href="#cb6-343" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-344"><a href="#cb6-344" aria-hidden="true" tabindex="-1"></a>The three classes identified were a xx class with xx participants (xx%), an xx class with xx participants (xx%), and a xx class with xx participants (xx%) (Fig. x). The xxx group showed low levels of depressive symptoms xxxx. The xxx and xxx group showed a significant increase in depressive symptoms. The xxxx group started xxxx, and showed a significant xxxxx. Results of the Wald tests (Supplementary Table S8) showed that the xxxxx scores for depressive symptoms (intercepts) and the increase from xxxx differed significantly between all classes (p <span class="sc">\&lt;</span> .01). Furthermore, the trajectories differed significantly in slope (p <span class="sc">\&lt;</span> .01). (See Supplement for pairwise comparisons with Bonferroni correction).</span>
+<span id="cb6-345"><a href="#cb6-345" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-348"><a href="#cb6-348" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-349"><a href="#cb6-349" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-350"><a href="#cb6-350" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-351"><a href="#cb6-351" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-352"><a href="#cb6-352" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: FALSE</span></span>
+<span id="cb6-353"><a href="#cb6-353" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-354"><a href="#cb6-354" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">27796</span>)</span>
+<span id="cb6-355"><a href="#cb6-355" aria-hidden="true" tabindex="-1"></a>dat[[<span class="st">"src_subject_id"</span>]] <span class="ot">&lt;-</span> <span class="cn">NULL</span></span>
+<span id="cb6-356"><a href="#cb6-356" aria-hidden="true" tabindex="-1"></a>res_step <span class="ot">&lt;-</span> <span class="fu">mx_growth_mixture</span>(</span>
+<span id="cb6-357"><a href="#cb6-357" aria-hidden="true" tabindex="-1"></a>    <span class="at">model =</span> <span class="st">"</span></span>
+<span id="cb6-358"><a href="#cb6-358" aria-hidden="true" tabindex="-1"></a><span class="st">  i =~ 1*depressbaseline_year_1_arm_1 + 1*depress1_year_follow_up_y_arm_1 + 1*depress2_year_follow_up_y_arm_1 +1*depress3_year_follow_up_y_arm_1 +1*depress4_year_follow_up_y_arm_1</span></span>
+<span id="cb6-359"><a href="#cb6-359" aria-hidden="true" tabindex="-1"></a><span class="st">  step =~ 0*depressbaseline_year_1_arm_1 + 1*depress1_year_follow_up_y_arm_1 + 1*depress2_year_follow_up_y_arm_1 +1*depress3_year_follow_up_y_arm_1 +1*depress4_year_follow_up_y_arm_1</span></span>
+<span id="cb6-360"><a href="#cb6-360" aria-hidden="true" tabindex="-1"></a><span class="st">  s =~ 0*depressbaseline_year_1_arm_1 + 0*depress1_year_follow_up_y_arm_1 + 1*depress2_year_follow_up_y_arm_1 +2*depress3_year_follow_up_y_arm_1 +3*depress4_year_follow_up_y_arm_1</span></span>
+<span id="cb6-361"><a href="#cb6-361" aria-hidden="true" tabindex="-1"></a><span class="st">  depressbaseline_year_1_arm_1 ~~ vdepressbaseline_year_1_arm_1*depressbaseline_year_1_arm_1</span></span>
+<span id="cb6-362"><a href="#cb6-362" aria-hidden="true" tabindex="-1"></a><span class="st">  depress1_year_follow_up_y_arm_1 ~~ vdepress1_year_follow_up_y_arm_1*depress1_year_follow_up_y_arm_1</span></span>
+<span id="cb6-363"><a href="#cb6-363" aria-hidden="true" tabindex="-1"></a><span class="st">  depress2_year_follow_up_y_arm_1 ~~ vdepress2_year_follow_up_y_arm_1*depress2_year_follow_up_y_arm_1</span></span>
+<span id="cb6-364"><a href="#cb6-364" aria-hidden="true" tabindex="-1"></a><span class="st">  depress3_year_follow_up_y_arm_1 ~~ vdepress3_year_follow_up_y_arm_1*depress3_year_follow_up_y_arm_1</span></span>
+<span id="cb6-365"><a href="#cb6-365" aria-hidden="true" tabindex="-1"></a><span class="st">  depress4_year_follow_up_y_arm_1 ~~ vdepress4_year_follow_up_y_arm_1*depress4_year_follow_up_y_arm_1</span></span>
+<span id="cb6-366"><a href="#cb6-366" aria-hidden="true" tabindex="-1"></a><span class="st">  i ~~ 0*i</span></span>
+<span id="cb6-367"><a href="#cb6-367" aria-hidden="true" tabindex="-1"></a><span class="st">  step ~~ 0*step</span></span>
+<span id="cb6-368"><a href="#cb6-368" aria-hidden="true" tabindex="-1"></a><span class="st">  s ~~ 0*s</span></span>
+<span id="cb6-369"><a href="#cb6-369" aria-hidden="true" tabindex="-1"></a><span class="st">  i ~~ 0*s</span></span>
+<span id="cb6-370"><a href="#cb6-370" aria-hidden="true" tabindex="-1"></a><span class="st">  i ~~ 0*step</span></span>
+<span id="cb6-371"><a href="#cb6-371" aria-hidden="true" tabindex="-1"></a><span class="st">  s ~~ 0*step"</span>,</span>
+<span id="cb6-372"><a href="#cb6-372" aria-hidden="true" tabindex="-1"></a>    <span class="at">classes =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>, <span class="at">data =</span> dat</span>
+<span id="cb6-373"><a href="#cb6-373" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-374"><a href="#cb6-374" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional iterations because of convergence problems for</span></span>
+<span id="cb6-375"><a href="#cb6-375" aria-hidden="true" tabindex="-1"></a><span class="co"># model 1:</span></span>
+<span id="cb6-376"><a href="#cb6-376" aria-hidden="true" tabindex="-1"></a>res_step[[<span class="dv">1</span>]] <span class="ot">&lt;-</span> <span class="fu">mxTryHardWideSearch</span>(res_step[[<span class="dv">1</span>]], <span class="at">extraTries =</span> <span class="dv">50</span>)</span>
+<span id="cb6-377"><a href="#cb6-377" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-378"><a href="#cb6-378" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-379"><a href="#cb6-379" aria-hidden="true" tabindex="-1"></a>Note that the first model showed convergence problems, throwing the error: The model does not satisfy the first-order optimality conditions to the required accuracy, and no improved point for the merit function could be found during the final linesearch. To address this problem, we performed additional iterations to find a better solution, using OpenMx::mxTryHardWideSearch(). This also illustrates that tidySEM mixture models inherit from OpenMx's MxModel, and thus, different OpenMx functions can be used to act on models specified via tidySEM.</span>
+<span id="cb6-380"><a href="#cb6-380" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-381"><a href="#cb6-381" aria-hidden="true" tabindex="-1"></a>The fifth model also evidenced convergence problems, but this (as we will see) is because the solution is overfitted.</span>
+<span id="cb6-382"><a href="#cb6-382" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-383"><a href="#cb6-383" aria-hidden="true" tabindex="-1"></a>Class enumeration To determine the correct number of classes, we considered the following criteria:</span>
+<span id="cb6-384"><a href="#cb6-384" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-385"><a href="#cb6-385" aria-hidden="true" tabindex="-1"></a>We do not consider classes with, on average, fewer than 5 participants per parameter in a class due to potential local underidentification Lower values for information criteria (AIC, BIC, saBIC) indicate better fit Significant Lo-Mendell-Rubin LRT test indicates better fit for 𝑘 vs 𝑘−1 classes We do not consider solutions with entropy <span class="sc">\&lt;</span> .90 because poor class separability compromises interpretability of the results We do not consider solutions with minimum posterior classification probability <span class="sc">\&lt;</span> .90 because poor class separability compromises interpretability of the results</span>
+<span id="cb6-386"><a href="#cb6-386" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-389"><a href="#cb6-389" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-390"><a href="#cb6-390" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-391"><a href="#cb6-391" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-392"><a href="#cb6-392" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-393"><a href="#cb6-393" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-394"><a href="#cb6-394" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-395"><a href="#cb6-395" aria-hidden="true" tabindex="-1"></a><span class="co"># Get fit table fit</span></span>
+<span id="cb6-396"><a href="#cb6-396" aria-hidden="true" tabindex="-1"></a>tab_fit <span class="ot">&lt;-</span> <span class="fu">table_fit</span>(res_step)</span>
+<span id="cb6-397"><a href="#cb6-397" aria-hidden="true" tabindex="-1"></a><span class="co"># Select columns</span></span>
+<span id="cb6-398"><a href="#cb6-398" aria-hidden="true" tabindex="-1"></a>tab_fit[, <span class="fu">c</span>(<span class="st">"Name"</span>, <span class="st">"Classes"</span>, <span class="st">"LL"</span>, <span class="st">"Parameters"</span>, <span class="st">"AIC"</span>, <span class="st">"BIC"</span>, <span class="st">"saBIC"</span>, <span class="st">"Entropy"</span>, <span class="st">"prob_min"</span>, <span class="st">"n_min"</span>)]</span>
+<span id="cb6-399"><a href="#cb6-399" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-400"><a href="#cb6-400" aria-hidden="true" tabindex="-1"></a><span class="co"># , "warning", "lmr_p")]</span></span>
+<span id="cb6-401"><a href="#cb6-401" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-402"><a href="#cb6-402" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-403"><a href="#cb6-403" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-404"><a href="#cb6-404" aria-hidden="true" tabindex="-1"></a>According to the Table, increasing the number of classes keeps improving model fit according to all ICs.</span>
+<span id="cb6-405"><a href="#cb6-405" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-406"><a href="#cb6-406" aria-hidden="true" tabindex="-1"></a>The first two LMR tests are significant, indicating that a 2- and 3-class solution were a significant improvement over a 1- and 2-class solution, respectively. However, solutions with <span class="sc">\&gt;</span>3 classes had entropy and minimum posterior classification probability below the pre-specified thresholds. Models with <span class="sc">\&gt;</span>3 solutions also had fewer than five observations per parameter. This suggests that the preferred model should be selected from 1-3 classes.</span>
+<span id="cb6-407"><a href="#cb6-407" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-408"><a href="#cb6-408" aria-hidden="true" tabindex="-1"></a>Scree plot A scree plot indicates that the largest decrease in ICs occurs from 1-2 classes, and the inflection point for all ICs is at 3 classes. Moreover, the BIC increased after 3 classes. A three-class solution thus appears to be the most parsimonious solution with good fit.</span>
+<span id="cb6-409"><a href="#cb6-409" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-412"><a href="#cb6-412" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-413"><a href="#cb6-413" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-414"><a href="#cb6-414" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-415"><a href="#cb6-415" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-416"><a href="#cb6-416" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-417"><a href="#cb6-417" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-418"><a href="#cb6-418" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(tab_fit, <span class="at">statistics =</span> <span class="fu">c</span>(<span class="st">"AIC"</span>, <span class="st">"BIC"</span>, <span class="st">"saBIC"</span>))</span>
+<span id="cb6-419"><a href="#cb6-419" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-420"><a href="#cb6-420" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-421"><a href="#cb6-421" aria-hidden="true" tabindex="-1"></a>Based on the aforementioned criteria, we selected a 3-class model for further analyses. First, to prevent label switching, we re-order these classes by the value of the intercept i. Then, we report the estimated parameters.</span>
+<span id="cb6-422"><a href="#cb6-422" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-425"><a href="#cb6-425" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-426"><a href="#cb6-426" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-427"><a href="#cb6-427" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-428"><a href="#cb6-428" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-429"><a href="#cb6-429" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-430"><a href="#cb6-430" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-431"><a href="#cb6-431" aria-hidden="true" tabindex="-1"></a>res_final <span class="ot">&lt;-</span> <span class="fu">mx_switch_labels</span>(res_step[[<span class="dv">3</span>]],</span>
+<span id="cb6-432"><a href="#cb6-432" aria-hidden="true" tabindex="-1"></a>    <span class="at">param =</span> <span class="st">"M[1,7]"</span>,</span>
+<span id="cb6-433"><a href="#cb6-433" aria-hidden="true" tabindex="-1"></a>    <span class="at">decreasing =</span> <span class="cn">FALSE</span></span>
+<span id="cb6-434"><a href="#cb6-434" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-435"><a href="#cb6-435" aria-hidden="true" tabindex="-1"></a>tab_res <span class="ot">&lt;-</span> <span class="fu">table_results</span>(res_final, <span class="at">columns =</span> <span class="cn">NULL</span>)</span>
+<span id="cb6-436"><a href="#cb6-436" aria-hidden="true" tabindex="-1"></a><span class="co"># Select rows and columns</span></span>
+<span id="cb6-437"><a href="#cb6-437" aria-hidden="true" tabindex="-1"></a>tab_res <span class="ot">&lt;-</span> tab_res[</span>
+<span id="cb6-438"><a href="#cb6-438" aria-hidden="true" tabindex="-1"></a>    tab_res<span class="sc">$</span>Category <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Means"</span>, <span class="st">"Variances"</span>),</span>
+<span id="cb6-439"><a href="#cb6-439" aria-hidden="true" tabindex="-1"></a>    <span class="fu">c</span>(<span class="st">"Category"</span>, <span class="st">"lhs"</span>, <span class="st">"est"</span>, <span class="st">"se"</span>, <span class="st">"pval"</span>, <span class="st">"confint"</span>, <span class="st">"name"</span>)</span>
+<span id="cb6-440"><a href="#cb6-440" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb6-441"><a href="#cb6-441" aria-hidden="true" tabindex="-1"></a>tab_res</span>
+<span id="cb6-442"><a href="#cb6-442" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-443"><a href="#cb6-443" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-444"><a href="#cb6-444" aria-hidden="true" tabindex="-1"></a>As evident from these results, Class 1 started at a relatively lower level of depressive symptoms, experienced a decrease after deployment, followed by increase over time. Class 2 started at a moderate level of depressive symptoms, experienced an increase after deployment, followed by significant increase over time from T2-T6. Class 3 started at a relatively higher level, experienced an increase after deployment, followed by stability.</span>
+<span id="cb6-445"><a href="#cb6-445" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-446"><a href="#cb6-446" aria-hidden="true" tabindex="-1"></a>Wald tests To test whether parameters are significantly different between classes, we can use Wald tests. Wald tests can be specified for all parameters in the model, using the hypothesis syntax from the bain package for informative hypothesis testing.</span>
+<span id="cb6-447"><a href="#cb6-447" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-448"><a href="#cb6-448" aria-hidden="true" tabindex="-1"></a>To identify the names of parameters in the model, we can use the name column of the results table above. Alternatively, to see all parameters in the model, run:</span>
+<span id="cb6-449"><a href="#cb6-449" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-452"><a href="#cb6-452" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-453"><a href="#cb6-453" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-454"><a href="#cb6-454" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-455"><a href="#cb6-455" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-456"><a href="#cb6-456" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-457"><a href="#cb6-457" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-458"><a href="#cb6-458" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(<span class="fu">coef</span>(res_final))</span>
+<span id="cb6-459"><a href="#cb6-459" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-460"><a href="#cb6-460" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-461"><a href="#cb6-461" aria-hidden="true" tabindex="-1"></a>Next, specify equality constrained hypotheses. For example, a hypothesis that states that the mean intercept is equal across groups is specified as follows:</span>
+<span id="cb6-462"><a href="#cb6-462" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-463"><a href="#cb6-463" aria-hidden="true" tabindex="-1"></a>"class1.M<span class="sc">\[</span>1,7<span class="sc">\]</span> = class2.M<span class="sc">\[</span>1,7<span class="sc">\]</span> &amp; class1.M<span class="sc">\[</span>1,7<span class="sc">\]</span> = class3.M<span class="sc">\[</span>1,7<span class="sc">\]</span></span>
+<span id="cb6-464"><a href="#cb6-464" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-465"><a href="#cb6-465" aria-hidden="true" tabindex="-1"></a>It is also possible to consider comparisons between two classes at a time. When conducting many significance tests, consider correcting for multiple comparisons however.</span>
+<span id="cb6-466"><a href="#cb6-466" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-469"><a href="#cb6-469" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-470"><a href="#cb6-470" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-471"><a href="#cb6-471" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-472"><a href="#cb6-472" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-473"><a href="#cb6-473" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-474"><a href="#cb6-474" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-475"><a href="#cb6-475" aria-hidden="true" tabindex="-1"></a>wald_tests <span class="ot">&lt;-</span> <span class="fu">wald_test</span>(res_final, <span class="st">"</span></span>
+<span id="cb6-476"><a href="#cb6-476" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,6] = class2.M[1,6] &amp;</span></span>
+<span id="cb6-477"><a href="#cb6-477" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,6] = class3.M[1,6] ;</span></span>
+<span id="cb6-478"><a href="#cb6-478" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,7] = class2.M[1,7] &amp;</span></span>
+<span id="cb6-479"><a href="#cb6-479" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,7] = class3.M[1,7] ;</span></span>
+<span id="cb6-480"><a href="#cb6-480" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,8] = class2.M[1,8] &amp;</span></span>
+<span id="cb6-481"><a href="#cb6-481" aria-hidden="true" tabindex="-1"></a><span class="st">                   class1.M[1,8] = class3.M[1,8]"</span>)</span>
+<span id="cb6-482"><a href="#cb6-482" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-483"><a href="#cb6-483" aria-hidden="true" tabindex="-1"></a><span class="co"># Rename the hypothesis</span></span>
+<span id="cb6-484"><a href="#cb6-484" aria-hidden="true" tabindex="-1"></a>wald_tests<span class="sc">$</span>Hypothesis <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mean i"</span>, <span class="st">"Mean step"</span>, <span class="st">"Mean slope"</span>)</span>
+<span id="cb6-485"><a href="#cb6-485" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(wald_tests, <span class="at">digits =</span> <span class="dv">2</span>, <span class="at">caption =</span> <span class="st">"Wald tests"</span>)</span>
+<span id="cb6-486"><a href="#cb6-486" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-487"><a href="#cb6-487" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-488"><a href="#cb6-488" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-489"><a href="#cb6-489" aria-hidden="true" tabindex="-1"></a>All Wald tests are significant, indicating that there are significant differences between the intercepts, step function, and slopes of the three classes.</span>
+<span id="cb6-490"><a href="#cb6-490" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-491"><a href="#cb6-491" aria-hidden="true" tabindex="-1"></a>Trajectory plot Finally, we can plot the growth trajectories. This can help interpret the results better, as well as the residual heterogeneity around class trajectories.</span>
+<span id="cb6-492"><a href="#cb6-492" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-495"><a href="#cb6-495" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-496"><a href="#cb6-496" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-497"><a href="#cb6-497" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-498"><a href="#cb6-498" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-499"><a href="#cb6-499" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-500"><a href="#cb6-500" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-501"><a href="#cb6-501" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">plot_growth</span>(res_step[[<span class="dv">3</span>]], <span class="at">rawdata =</span> <span class="cn">TRUE</span>, <span class="at">alpha_range =</span> <span class="fu">c</span>(</span>
+<span id="cb6-502"><a href="#cb6-502" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>,</span>
+<span id="cb6-503"><a href="#cb6-503" aria-hidden="true" tabindex="-1"></a>    <span class="fl">0.05</span></span>
+<span id="cb6-504"><a href="#cb6-504" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-505"><a href="#cb6-505" aria-hidden="true" tabindex="-1"></a><span class="co"># Add Y-axis breaks in original scale</span></span>
+<span id="cb6-506"><a href="#cb6-506" aria-hidden="true" tabindex="-1"></a>brks <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">length.out =</span> <span class="dv">5</span>)</span>
+<span id="cb6-507"><a href="#cb6-507" aria-hidden="true" tabindex="-1"></a>labs <span class="ot">&lt;-</span> <span class="fu">round</span>(<span class="fu">invbc</span>(</span>
+<span id="cb6-508"><a href="#cb6-508" aria-hidden="true" tabindex="-1"></a>    scales<span class="sc">::</span><span class="fu">rescale</span>(brks, <span class="at">from =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>), <span class="at">to =</span> rng_bc),</span>
+<span id="cb6-509"><a href="#cb6-509" aria-hidden="true" tabindex="-1"></a>    lambda</span>
+<span id="cb6-510"><a href="#cb6-510" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb6-511"><a href="#cb6-511" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> p <span class="sc">+</span> <span class="fu">scale_y_continuous</span>(</span>
+<span id="cb6-512"><a href="#cb6-512" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="at">length.out =</span> <span class="dv">5</span>),</span>
+<span id="cb6-513"><a href="#cb6-513" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> labs</span>
+<span id="cb6-514"><a href="#cb6-514" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">"Depression (rescaled from Box-Cox)"</span>)</span>
+<span id="cb6-515"><a href="#cb6-515" aria-hidden="true" tabindex="-1"></a>p</span>
+<span id="cb6-516"><a href="#cb6-516" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-517"><a href="#cb6-517" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-518"><a href="#cb6-518" aria-hidden="true" tabindex="-1"></a>Note that the observed individual trajectories show very high variability within classes.</span>
+<span id="cb6-519"><a href="#cb6-519" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-520"><a href="#cb6-520" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Covariates</span></span>
+<span id="cb6-521"><a href="#cb6-521" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-522"><a href="#cb6-522" aria-hidden="true" tabindex="-1"></a>Assessment of covariates using the three-step approach revealed that the trajectories did not differ in any of the demogra phical variables, including sex (ΔLL(5) = 6.3 , p = .27, pcorr = .37), age (ΔLL(8) = 8.4 , p = .40, pcorr = .50), rank Journal of Affective Disorders 354 (2024) 702--711 707(ΔLL(11) = 13.5 , p = .26, pcorr = .37), educational level (ΔLL(9) = 7.1 , p = .63, pcorr = .66), function (ΔLL(8) = 8.1 , p = .43, pcorr = .51), year of deployment (ΔLL(5) = 3.6 , p = .61, pcorr = 66), or previous deployments (ΔLL(6) = 3.0 , p = .81, pcorr = .81). For early life traumas, the symptomatic-chronic group experienced more early life traumas compared to the other trajectories (p <span class="sc">\&lt;</span> .01, pcorr <span class="sc">\&lt;</span> .01) and both the resilient and late-onset-increasing group experienced significantly less early life traumas compared to the intermediate-stable group (ΔLL(2) = 21.6 , p <span class="sc">\&lt;</span> .01, pcorr <span class="sc">\&lt;</span> .01; ΔLL(2) = 8.1 , p <span class="sc">\&lt;</span> .05, pcorr <span class="sc">\&lt;</span> .05) (Supple- mentary Fig. S10). Significant disparities in the number of deployment stressors were observed, with the resilient group exhibiting lower counts of deploy- ment stressors compared to the intermediate-stable group (ΔLL(2) = 23.0 , p <span class="sc">\&lt;</span> .01, pcorr <span class="sc">\&lt;</span> .01), symptomic-chronic group (ΔLL(2) = 325.7 , p <span class="sc">\&lt;</span> .01, pcorr <span class="sc">\&lt;</span> .01), and late-onset-increasing group (ΔLL(2) = 9.5 , p <span class="sc">\&lt;</span> .01, pcorr <span class="sc">\&lt;</span> .05) (Supplementary Fig. S11). A detailed breakdown of percentages per stressor is provided in Supple- mentary Table S12</span>
+<span id="cb6-523"><a href="#cb6-523" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-524"><a href="#cb6-524" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Depression and GDT</span></span>
+<span id="cb6-525"><a href="#cb6-525" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-526"><a href="#cb6-526" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Depression and substance use</span></span>
+<span id="cb6-527"><a href="#cb6-527" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-528"><a href="#cb6-528" aria-hidden="true" tabindex="-1"></a><span class="fu">## Add additional analyses section</span></span>
+<span id="cb6-529"><a href="#cb6-529" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-530"><a href="#cb6-530" aria-hidden="true" tabindex="-1"></a><span class="fu"># Discussion</span></span>
+<span id="cb6-531"><a href="#cb6-531" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-534"><a href="#cb6-534" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb6-535"><a href="#cb6-535" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: FALSE</span></span>
+<span id="cb6-536"><a href="#cb6-536" aria-hidden="true" tabindex="-1"></a><span class="co">#| messages: FALSE</span></span>
+<span id="cb6-537"><a href="#cb6-537" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: FALSE</span></span>
+<span id="cb6-538"><a href="#cb6-538" aria-hidden="true" tabindex="-1"></a><span class="co">#| output: TRUE</span></span>
+<span id="cb6-539"><a href="#cb6-539" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-540"><a href="#cb6-540" aria-hidden="true" tabindex="-1"></a>lorem<span class="sc">::</span><span class="fu">ipsum</span>(<span class="dv">5</span>, <span class="at">sentences =</span> <span class="fu">c</span>(<span class="dv">3</span>))</span>
+<span id="cb6-541"><a href="#cb6-541" aria-hidden="true" tabindex="-1"></a><span class="co"># lorem::ipsum(2, avg_words_per_sentence = 4)</span></span>
+<span id="cb6-542"><a href="#cb6-542" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-543"><a href="#cb6-543" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-544"><a href="#cb6-544" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-545"><a href="#cb6-545" aria-hidden="true" tabindex="-1"></a><span class="fu"># Acknowledgements</span></span>
+<span id="cb6-546"><a href="#cb6-546" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-547"><a href="#cb6-547" aria-hidden="true" tabindex="-1"></a>Data used in the preparation of this article were obtained from the Adolescent Brain Cognitive DevelopmentSM (ABCD) Study (https://abcdstudy.org), held in the NIMH Data Archive (NDA). This is a multisite, longitudinal study designed to recruit more than 10,000 children age 9-10 and follow them over 10 years into early adulthood. The ABCD Study® is supported by the National Institutes of Health and additional federal partners under award numbers U01DA041048, U01DA050989, U01DA051016, U01DA041022, U01DA051018, U01DA051037, U01DA050987, U01DA041174, U01DA041106, U01DA041117, U01DA041028, U01DA041134, U01DA050988, U01DA051039, U01DA041156, U01DA041025, U01DA041120, U01DA051038, U01DA041148, U01DA041093, U01DA041089, U24DA041123, U24DA041147. A full list of supporters is available at https://abcdstudy.org/federal-partners.html. A listing of participating sites and a complete listing of the study investigators can be found at https://abcdstudy.org/consortium_members/. ABCD consortium investigators designed and implemented the study and/or provided data but did not necessarily participate in the analysis or writing of this report. This manuscript reflects the views of the authors and may not reflect the opinions or views of the NIH or ABCD consortium investigators.</span>
+<span id="cb6-548"><a href="#cb6-548" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-549"><a href="#cb6-549" aria-hidden="true" tabindex="-1"></a>The ABCD data repository grows and changes over time. The ABCD data used in this report came from DOI: 10.15154/z563-zd24. DOIs can be found at the following <span class="co">[</span><span class="ot">link</span><span class="co">](https://nda.nih.gov/study.html?id=2313)</span>.</span>
+<span id="cb6-550"><a href="#cb6-550" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-551"><a href="#cb6-551" aria-hidden="true" tabindex="-1"></a>&lt;br&gt;</span>
+<span id="cb6-552"><a href="#cb6-552" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-553"><a href="#cb6-553" aria-hidden="true" tabindex="-1"></a><span class="fu"># References</span></span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

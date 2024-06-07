@@ -1,0 +1,93 @@
+project:
+  type: website
+  #output-dir: docs
+  
+  render:
+    - index.qmd
+
+website:
+  title: "cuMotivation"
+  #favicon: "./img/lights.png"
+  site-url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+  page-navigation: true
+  open-graph: true
+  comments: 
+    hypothesis:
+      theme: clean
+      openSidebar: true
+      showHighlights: whenSidebarOpen
+      enableExperimentalNewNoteButton: true
+  navbar:
+    background: darkblue #slategray #primary #goldenrod
+    search: true
+    pinned: true
+    collapsed: true
+    left:
+      - text: "Home"
+        file: index.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Go to Project Repository
+            url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+          - text: Report a Bug
+            url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+
+  sidebar:
+    - title: "cuMotivation"
+      #logo: "./img/lights.png"
+      pinned: true
+      tools:
+        - icon: github
+          menu:
+            - text: Go to project repository
+              url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+            - text: Source Code
+              url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+            - text: Report a Bug
+              url: https://github.com/OpenDevSci/SUNLab/tree/main/projects/cuMotivation
+      style: "docked"
+      search: true
+      background: light
+      collapse-level: 1
+
+format:
+  html:
+    toc: true
+    toc-depth: 1
+    toc-expand: 3
+    toc-title: Table of Contents
+    anchor-sections: true
+    smooth-scroll: true
+    linestretch: 1.5
+    link-external-icon: true
+    link-external-newwindow: true
+    code-copy: true
+    code-fold: true
+    code-summary: "Code"
+    code-overflow: scroll
+    code-line-numbers: TRUE
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    html-math-method: katex
+    df-print: paged
+    options: max.print=75000
+    grid:
+      sidebar-width: 425px
+
+execute:
+  echo: true
+  message: false
+  warning: false
+  error: false
+  cache: true
+  cold-folding: true
+  R.options: list(width=220)
+  fig.align: "center"
+  out.width: "75%"
+  fig.asp: .75
+  dev: "cairo_pdf"
+  freeze: auto # re-render only when source changes
+
+#bibliography: manuscript/references.bib

@@ -3,3 +3,4 @@
 *.rds
 
 /.quarto/
+.Rproj.user

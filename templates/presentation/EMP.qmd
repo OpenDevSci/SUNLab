@@ -158,6 +158,11 @@ Refer to our **[On-Call Clinician Schedule](#)** in Outlook for immediate assist
 
 - [Child Abuse Prevention Sourcebook](child-abuse-prevention.pdf)
 
+https://docs.google.com/spreadsheets/d/1WR5B_-5kJnYAKcHRwymZ-3sD0NbP-OitmyONupf-R-M/edit?usp=sharing
+
+https://github.com/opendevsci/LongDev-ABCD
+
+https://longitudinal.dev/
 
 {{< video https://www.youtube.com/embed/JG6wK_Ef45Y?si=2lzQSW1Pu1fXTmEJ >}}
 
